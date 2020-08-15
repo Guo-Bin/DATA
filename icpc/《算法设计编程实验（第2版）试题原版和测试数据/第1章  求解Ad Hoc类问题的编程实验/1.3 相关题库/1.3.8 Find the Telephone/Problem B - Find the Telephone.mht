@@ -1,0 +1,84 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem B - Find the Telephone
+Date: Sat, 25 Feb 2012 23:36:48 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX25.718\10921.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Problem B - Find the Telephone</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY>
+<H1 align=3Dcenter>Problem B - Find the Telephone</H1>
+<H3 align=3Dcenter>Time Limit: 1 second</H3>
+<DIV></DIV>
+<P></P>
+<P>In some places is common to remember a phone number associating its =
+digits to=20
+letters. In this way the expression <B>MY LOVE</B> means <B>69 5683</B>. =
+Of=20
+course there are some problems, because some phone numbers can not form =
+a word=20
+or a phrase and the digits <B>1</B> and <B>0</B> are not associated to =
+any=20
+letter. </P>
+<P>Your task is to read an expression and find the corresponding phone =
+number=20
+based on the table below. An expression is composed by the capital =
+letters=20
+(<B>A-Z</B>), hyphens (<B>-</B>) and the numbers <B>1</B> and <B>0</B>. =
+</P>
+<P>
+<TABLE border=3D1>
+  <TBODY>
+  <TR>
+    <TD>Letters</TD>
+    <TD>Number</TD></TR>
+  <TR>
+    <TD>ABC</TD>
+    <TD>2</TD></TR>
+  <TR>
+    <TD>DEF</TD>
+    <TD>3</TD></TR>
+  <TR>
+    <TD>GHI</TD>
+    <TD>4</TD></TR>
+  <TR>
+    <TD>JKL</TD>
+    <TD>5</TD></TR>
+  <TR>
+    <TD>MNO</TD>
+    <TD>6</TD></TR>
+  <TR>
+    <TD>PQRS</TD>
+    <TD>7</TD></TR>
+  <TR>
+    <TD>TUV</TD>
+    <TD>8</TD></TR>
+  <TR>
+    <TD>WXYZ</TD>
+    <TD>9</TD></TR></TBODY></TABLE>
+<TABLE>
+  <P></P>
+  <H2>Input</H2>
+  <P>The input consists of a set of expressions. Each expression is in a =
+line by=20
+  itself and has <B>C</B> characters, where <B>1 =A1=DC C =A1=DC 30</B>. =
+The input is=20
+  terminated by enf of file (EOF). </P>
+  <H2>Output</H2>
+  <P>For each expression you should print the corresponding phone =
+number. </P>
+  <H2>Sample Input</H2><PRE>1-HOME-SWEET-HOME
+MY-MISERABLE-JOB
+</PRE>
+  <H2>Sample Output</H2><PRE>1-4663-79338-4663
+69-647372253-562
+</PRE>
+  <HR>
+  <B>Problem setter: S=E9rgio Queiroz de Medeiros</B>=20
+  <TBODY></TBODY></P></BODY></HTML>

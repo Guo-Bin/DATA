@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7601.17744"></HEAD>
+<BODY><IMG align=right src="10903_files/p10903.jpg">
+<H2>Problem D: Rock-Paper-Scissors Tournament</H2>Rock-Paper-Scissors is game 
+for two players, A and B, who each choose, independently of the other, one of 
+<I>rock, paper,</I> or <I>scissors</I>. A player chosing <I>paper</I> wins over 
+a player chosing <I>rock</I>; a player chosing <I>scissors</I> wins over a 
+player chosing <I>paper</I>; a player chosing <I>rock</I> wins over a player 
+chosing <I>scissors</I>. A player chosing the same thing as the other player 
+neither wins nor loses. 
+<P>A tournament has been organized in which each of <I>n</I> players plays 
+<I>k</I> rock-scissors-paper games with each of the other players - 
+<I>k*n*(n-1)/2</I> games in total. Your job is to compute the <I>win average</I> 
+for each player, defined as <I>w / (w + l)</I> where <I>w</I> is the number of 
+games won, and <I>l</I> is the number of games lost, by the player. 
+<P>Input consists of several test cases. The first line of input for each case 
+contains <I>1 ≤ n ≤ 100</I> <I>1 ≤ k ≤ 100</I> as defined above. For each game, 
+a line follows containing p<SUB>1</SUB>, m<SUB>1</SUB>, p<SUB>2</SUB>, 
+m<SUB>2</SUB>. 1 ≤ p<SUB>1</SUB> ≤ <I>n</I> and 1 ≤ p<SUB>2</SUB> ≤ <I>n</I> are 
+distinct integers identifying two players; m<SUB>1</SUB> and m<SUB>2</SUB> are 
+their respective moves ("rock", "scissors", or "paper"). A line containing 0 
+follows the last test case. 
+<P>Output one line each for player 1, player 2, and so on, through player 
+<I>n</I>, giving the player's win average rounded to three decimal places. If 
+the win average is undefined, output "-". Output an empty line between cases. 
+<H3>Sample Input</H3><PRE>2 4
+1 rock 2 paper
+1 scissors 2 paper
+1 rock 2 rock
+2 rock 1 scissors
+2 1
+1 rock 2 paper
+0
+</PRE>
+<H3>Output for Sample Input</H3><PRE>0.333
+0.667
+
+0.000
+1.000
+</PRE>
+<HR>
+Gordon V. Cormack </BODY></HTML>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN" ""><!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others --><HTML><HEAD><META 
+content="IE=5.0000" http-equiv="X-UA-Compatible">
+ <TITLE>Addition Chains</TITLE> 
+<META name="description" content="Addition Chains"> 
+<META name="keywords" content="htmlatex"> 
+<META name="resource-type" content="document"> 
+<META name="distribution" content="global"> 
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> <LINK 
+href="htmlatex.css" rel="STYLESHEET"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18315"></HEAD> 
+<BODY lang="EN" bgcolor="#ffffff">
+<H1><BR clear="ALL">
+<CENTER>
+<TABLE bgcolor="#0060f0">
+  <TBODY>
+  <TR>
+    <TD><B><FONT color="#c0ffff" size="5">&nbsp;<A name="SECTION0001000000000000000000">
+      Addition Chains</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>An addition chain for <I>n</I> is an integer sequence  <!-- MATH: $<a_0, a_1, a_2, \dots, a_m>$ --> 
+<IMG width="168" height="30" align="MIDDLE" alt="$<a_0, a_1, a_2, \dots, a_m>$" 
+src="Addition%20Chains&#65288;UVA%20529&#65289;_files/529img1.gif" border="0"> with the 
+following four properties: 
+<P>
+<UL>
+  <LI><I>a</I><SUB>0</SUB> = 1 
+  <LI><I>a</I><SUB><I>m</I></SUB> = <I>n</I> 
+  <LI>a<SUB>0</SUB>&lt;a<SUB>1</SUB>&lt;a<SUB>2</SUB>&lt;...&lt;a<SUB>m-1</SUB>&lt;a<SUB>m</SUB> 
+  <LI>For each <I>k</I> ( <!-- MATH: $1 \le k \le m$ --> <IMG width="85" height="32" 
+  align="MIDDLE" alt="$1 \le k \le m$" src="Addition%20Chains&#65288;UVA%20529&#65289;_files/529img3.gif" 
+  border="0">) there exist two (not neccessarily different) integers <I>i</I> 
+  and <I>j</I> ( <!-- MATH: $0 \le i, j \le k-1$ --> <IMG width="121" height="32" 
+  align="MIDDLE" alt="$0 \le i, j \le k-1$" src="Addition%20Chains&#65288;UVA%20529&#65289;_files/529img4.gif" 
+  border="0">) with  <!-- MATH: $a_k =a_i +a_j$ --> <I>a</I><SUB><I>k</I></SUB> 
+  =<I>a</I><SUB><I>i</I></SUB> +<I>a</I><SUB><I>j</I></SUB></LI></UL>
+<P>You are given an integer <I>n</I>. Your job is to construct an addition chain 
+for <I>n</I> with minimal length. If there is more than one such sequence, any 
+one is acceptable. 
+<P>For example, &lt;1,2,3,5&gt; and &lt;1,2,4,5&gt; are both valid solutions 
+when you are asked for an addition chain for 5. 
+<P>
+<H2><FONT color="#0070e8"><A name="SECTION0001001000000000000000">Input 
+Specification</A>&nbsp;</FONT> </H2>The input file will contain one or more test 
+cases. Each test case consists of one line containing one integer <I>n</I> ( <!-- MATH: $1 \le n \le 100$ --> 
+<IMG width="96" height="30" align="MIDDLE" alt="$1 \le n \le 100$" src="Addition%20Chains&#65288;UVA%20529&#65289;_files/529img6.gif" 
+border="0">). Input is terminated by a value of zero (0) for <I>n</I>. 
+<P>
+<H2><FONT color="#0070e8"><A name="SECTION0001002000000000000000">Output 
+Specification</A>&nbsp;</FONT> </H2>For each test case, print one line 
+containing the required integer sequence. Separate the numbers by one blank. 
+<P>
+<P><BR><B>Hint:</B> The problem is a little time-critical, so use proper break 
+conditions where necessary to reduce the search space. 
+<P>
+<H2><FONT color="#0070e8"><A name="SECTION0001003000000000000000">Sample 
+Input</A>&nbsp;</FONT> </H2>
+<PRE>5
+7
+12
+15
+77
+0
+</PRE>
+<P>
+<H2><FONT color="#0070e8"><A name="SECTION0001004000000000000000">Sample 
+Output</A>&nbsp;</FONT> </H2>
+<PRE>1 2 4 5
+1 2 4 6 7
+1 2 4 8 12
+1 2 4 5 10 15
+1 2 4 8 9 17 34 68 77
+</PRE>
+<P>
+<P></P></BODY></HTML>

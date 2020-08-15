@@ -1,0 +1,230 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Getting in Line
+Date: Wed, 29 Feb 2012 20:33:15 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCF721.5D49A270"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCF721.5D49A270
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.366\216.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Getting in Line</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Getting in Line">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Getting in=20
+  Line</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>Computer networking requires that the computers in the network be =
+linked.=20
+<P>
+<P>This problem considers a ``linear" network in which the computers are =
+chained=20
+together so that each is connected to exactly two others except for the =
+two=20
+computers on the ends of the chain which are connected to only one other =
+
+computer. A picture is shown below. Here the computers are the black =
+dots and=20
+their locations in the network are identified by planar coordinates =
+(relative to=20
+a coordinate system not shown in the picture).=20
+<P>Distances between linked computers in the network are shown in feet.=20
+<P>
+<CENTER><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.366/216i=
+mg1.gif"></CENTER>
+<P>For various reasons it is desirable to minimize the length of cable =
+used.=20
+<P>
+<P>Your problem is to determine how the computers should be connected =
+into such=20
+a chain to minimize the total amount of cable needed. In the =
+installation being=20
+constructed, the cabling will run beneath the floor, so the amount of =
+cable used=20
+to join 2 adjacent computers on the network will be equal to the =
+distance=20
+between the computers plus 16 additional feet of cable to connect from =
+the floor=20
+to the computers and provide some slack for ease of installation.=20
+<P>
+<P>The picture below shows the optimal way of connecting the computers =
+shown=20
+above, and the total length of cable required for this configuration is =
+(4+16)+=20
+(5+16) + (5.83+16) + (11.18+16) =3D 90.01 feet.=20
+<P>
+<CENTER><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.366/216i=
+mg2.gif"></CENTER>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input file will consist of a series of data sets. Each data set =
+will=20
+begin with a line consisting of a single number indicating the number of =
+
+computers in a network. Each network has at least 2 and at most 8 =
+computers. A=20
+value of 0 for the number of computers indicates the end of input.=20
+<P>After the initial line in a data set specifying the number of =
+computers in a=20
+network, each additional line in the data set will give the coordinates =
+of a=20
+computer in the network. These coordinates will be integers in the range =
+0 to=20
+150. No two computers are at identical locations and each computer will =
+be=20
+listed once.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>The output for each network should include a line which tells the =
+number of=20
+the network (as determined by its position in the input data), and one =
+line for=20
+each length of cable to be cut to connect each adjacent pair of =
+computers in the=20
+network. The final line should be a sentence indicating the total amount =
+of=20
+cable used.=20
+<P>
+<P><B>In listing the lengths of cable to be cut, traverse the network =
+from one=20
+end to the other</B>. (It makes no difference at which end you start.) =
+Use a=20
+format similar to the one shown in the sample output, with a line of =
+asterisks=20
+separating output for different networks and with distances in feet =
+printed to 2=20
+decimal places.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>6
+5 19
+55 28
+38 101
+28 62
+111 84
+43 116
+5
+11 27
+84 99
+142 81
+88 30
+95 38
+3
+132 73
+49 86
+72 111
+0</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>**********************************************************
+Network #1
+Cable requirement to connect (5,19) to (55,28) is 66.80 feet.
+Cable requirement to connect (55,28) to (28,62) is 59.42 feet.
+Cable requirement to connect (28,62) to (38,101) is 56.26 feet.
+Cable requirement to connect (38,101) to (43,116) is 31.81 feet.
+Cable requirement to connect (43,116) to (111,84) is 91.15 feet.
+Number of feet of cable required is 305.45.
+**********************************************************
+Network #2
+Cable requirement to connect (11,27) to (88,30) is 93.06 feet.
+Cable requirement to connect (88,30) to (95,38) is 26.63 feet.
+Cable requirement to connect (95,38) to (84,99) is 77.98 feet.
+Cable requirement to connect (84,99) to (142,81) is 76.73 feet.
+Number of feet of cable required is 274.40.
+**********************************************************
+Network #3
+Cable requirement to connect (132,73) to (72,111) is 87.02 feet.
+Cable requirement to connect (72,111) to (49,86) is 49.97 feet.
+Number of feet of cable required is 136.99.</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CCF721.5D49A270
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.366/216img1.gif
+
+R0lGODlhHAGEAIAAAAAAAP///ywAAAAAHAGEAAAC+4yPqcvtD6OctNqLs968+w+G4kiW5omm6sq2
+7gvH8kzX9o3nOgwYvf9LBAG/4O6ITIaKRZ+wGYAqp1QH8fq6Eh9GY1TB7FbH5Kh2yzqjGeKD1/mN
+y8v0S2+NGEojaqyqjyeUNwgGN1SHWHEH5wa1ZwUYSBIpySj3ZsiImcgpGPcWRghJuflBWtmmpdko
+2unqabbg6AZxWuphy1a7+9pL+Pi5ynV6kqurceuLOOsplWxGWkysTF2iR6vZNkopHV39LYL5/AwU
+mWIMnt5BDssH+GcOpD6f1PdXrvpEv59zdt/oRxY7fgRNDMSFoVLBhcXSbFDIMCKIgw9xUZSI+5HP
+P1MXM3osdG4ExI8kG3S0cFLCyJIsLU06l7Ilv5gaV6yUiZEmlyw6cVLraTLGTZ8zrdEYSlQdUJA1
+kCattrSVDadPe0V1iYNqVU5X5+zQupXO1a6TyIZtOrEM2LNKlppFsZapQiayzgbEthNhorjygul7
+BAynOKztkL3i6yXxnC7+kt6F9rhwQmVrtWXCGrglYMJS7XzTqhggGlCcBTfLm+Ft04HMToNUfdhl
+ZryT5w29ZunOY7peWUriPTg1Qb5sbQpfSLx4Q89gNvGWjCS5cpHMXedZ5HW2DunTTVW/Tho743xV
+uHevqOhYKr/YYL88LzS9evB+Qrsv/As/C4VbgcVbr2NefirtNwxtupEWS2/l3Scga2wFKOAxvBQH
+YYSd1XVehRaOE6GG+XG4IYNbJSPiTCUSxZ+FAqlYG4YsNvcigS7GCCONqEFnY185MnXhjqz4SFtp
+QOq4Y2hDFlgkjkfWGKM/J4blYU5qLGnHk5+9QyVKVvriTZaKbNkJOl7uB+Yy04yp5YNnopnmiGuy
+2aZjb8IZp2Bz0lmnZtzguU6Z0WHJp0V2NhboRM4RSg+ihRr6xJSLsjhaPI+qKOakH1ZqaXe2+Jmp
+K5t2muGmnAqCyi+gwlQfpjL4d92PCp6KjKL47IkWewb2CKtK5A1Da60JtmNZrvu8RqYroFNd1kqw
+wtLnlj39IHtrkLA6KpKsvq5xSLSgWptRcFZYSi2KKBXK7bJVhTuGbpLhNuqQ5abLXiCjQWvusFHy
+cBqCztTLxq5Qmdpba+1S+O5Pv/grsLAFKyWtvsJMim5O+AD8CR4De7SwxDdKSLC/E0TsGHrKGbvN
+xfzyRPKsJp8sVDQZh3Mhbkqy/JCqacj842av0pyazQ5J69d4xPKckM/GAY0zvUTHemcLygb939JM
+dxkf0vRqJzWZvVb9cNIVC5l1LZKGPejLZEsE8tlqr812226/zbYzoGANd2wJ7tFa3f8GuR7Yei+T
+LJM7/72XVH0PTjiAABofvnLihuGFLZGNO37ctzxSbreMmG/OedgFAAAh/uVUaGlzIGZpbGUgd2Fz
+IGNyZWF0ZWQgYnkgICAgDQ1HcmFwaGljIFdvcmtzaG9wIGZvciBXaW5kb3dzIDEuMW0NDWZyb20g
+QWxjaGVteSBNaW5kd29ya3MgSW5jLg1QLk8uIEJveCA1MDANQmVldG9uLCBPbnRhcmlvDUwwRyAx
+QTAgQ0FOQURBDQ1UaGlzIGltYWdlIG1heSBoYXZlIGJlZW4gY3JlYXRlZCBieQ1hIHBhcnR5IG90
+aGVyIHRoYW4gQWxjaGVteSBNaW5kd29ya3MgSW5jLg0NVXNlIG5vIGhvb2tzADs=
+
+------=_NextPart_000_0000_01CCF721.5D49A270
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.366/216img2.gif
+
+R0lGODlhqwGNAIAAAAAAAP///ywAAAAAqwGNAAAC+4yPqcvtD6OctNqLs968+w+G4kiW5omm6sq2
+7gvH8kzX9o3n+s73/g8MCofEYg+gQBqXzKbzmVQelFKo9YrNupBVgPerDYvHZAs1cS6r12zx14tI
+t+f0erEakNv3/D4NT6XnN0hYaHiImKi4yNjoiGYgBZc0Jfh4iQkVGMkZl2aZGXr5hqdC+tAFqQo2
+Jeo6Slp6Eivbatu5ilv7yvvDJSsJ2kA7mUK8m3ob1ynZ6yzEhRv5Ke1wXGxyXZucx0Bd/RyO872c
+h71bqT2rDVz+pltZLj5/E7xAjj7Nvs/ff3oPIV83egRrkLMlR+C+deq8bRBYMOIsZpQGNkPF+47h
+NYkctdiDN03esIzZSHY8qQkgqggLSzZECbMJRFUsN6J4GTNnomMreOr8uTNWC1pAiyL6N/Sd0aWF
+ZjJ9CtMp1KkSpVK9Os8q1q29tHL9Gsor2LGOxJI9uxOtWmdm17rl0/at3Dlx59otU/euXo97+zb1
+C7hP3sCEiQwujNhX4sVkDjN+bMMx5MkxgGEDRzmzjHYVJWv+XKEUq3SjQZs21TnXWKTWRE6YCdu1
+BmQ146HhJnsPbXdoOdMcKEHY75XKHg4LyEnPJ9GY6TAHTvGsPTDvkk0aLbR0SHOAAsFhtcnTR3Pp
+tnMXb90i72pCBd97fh0sNUDQo3U7/IM/enT69dXbT5/ffckNCJ1DAvYHHHyDeDbVfOWlUh2B/0lz
+UIHUDagURdVdeB+HXWjn4XoFqucHg1A56N8yAEpIoX4asmhfLrgF6KKBEyJUHInuJfbRdxwy8x2Q
+v+honmje/bJceuctCd51l3njXSulwSccXqfN1tyVxmmJwZNccmDil2KGNmaZlZmJ5lBprmkMm26W
+EOaba8YpJ5p01lnmnXiKqeeeXPbp55WABmraoIR+ZuihmSWq6GSMNsoYa5A2StSklBJj6aE4ZSpn
+S5x2atKnbnoqKpuklprmqajauemqrFbqpat8tpejrLNqZ15N3dk2XE602tplbPsyspdlVZUCm4FC
+lymHXqwR2YRssK1ZiFuNHYUarRn5KEnsiMZimy2ZqeEoSJX08BPubEYiNB67xXbVj6nkVWQtCM5e
+9Q+6qRI5b790PrrIr6RBm6e1M67DlKQjEVxwrspUS8K95yocnE/78ovgu/Z+KzEFmMqL8cE9AWyF
+wPZS3LC/D+eGcCYop3scvTG/QLIPJsPssRkzdMzGyzjTVfMWPh/RLzg9/jxtYxnKpOOy3wRtJs/Q
+DH3HsKpdhDSUTFDthJIKJpg1cb5wfYV1S5OIddha50C2Gzl+nbbaa8Nws276cBtlrXLLfNPZRyEn
+9t4YRYHra23P7G27eqGPs6XgFQ8sNXeRP+7wvOVq7LhzkqNc9wcQo90s1JlHZtPhHXyuOMajw6Uq
+C6jXaO7qbbTuem4Vxi77GrT3JA/WT4Yneu5JtSr8XrsXbxfxyBv/8fKFHev8835HT3311l+Pffba
+/5Xgut5uf+J2zKoO/lLV4l0+VSJ7wnL6P50vYvDu240jgnHPDxQ3xYSHOf7XAt4r/+VPZwIsoAEP
+aIgCAAAh/uVUaGlzIGZpbGUgd2FzIGNyZWF0ZWQgYnkgICAgDQ1HcmFwaGljIFdvcmtzaG9wIGZv
+ciBXaW5kb3dzIDEuMW0NDWZyb20gQWxjaGVteSBNaW5kd29ya3MgSW5jLg1QLk8uIEJveCA1MDAN
+QmVldG9uLCBPbnRhcmlvDUwwRyAxQTAgQ0FOQURBDQ1UaGlzIGltYWdlIG1heSBoYXZlIGJlZW4g
+Y3JlYXRlZCBieQ1hIHBhcnR5IG90aGVyIHRoYW4gQWxjaGVteSBNaW5kd29ya3MgSW5jLg0NVXNl
+IG5vIGhvb2tzADs=
+
+------=_NextPart_000_0000_01CCF721.5D49A270--

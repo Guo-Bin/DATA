@@ -1,0 +1,112 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: ID Codes
+Date: Mon, 13 Feb 2012 10:48:02 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.751\146.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>ID Codes</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"ID Codes">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>ID=20
+Codes</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>It is 2084 and the year of Big Brother has finally arrived, albeit a =
+century=20
+late. In order to exercise greater control over its citizens and thereby =
+to=20
+counter a chronic breakdown in law and order, the Government decides on =
+a=20
+radical measure--all citizens are to have a tiny microcomputer =
+surgically=20
+implanted in their left wrists. This computer will contains all sorts of =
+
+personal information as well as a transmitter which will allow people's=20
+movements to be logged and monitored by a central computer. (A desirable =
+side=20
+effect of this process is that it will shorten the dole queue for =
+plastic=20
+surgeons.)=20
+<P>
+<P>An essential component of each computer will be a unique =
+identification code,=20
+consisting of up to 50 characters drawn from the 26 lower case letters. =
+The set=20
+of characters for any given code is chosen somewhat haphazardly. The =
+complicated=20
+way in which the code is imprinted into the chip makes it much easier =
+for the=20
+manufacturer to produce codes which are rearrangements of other codes =
+than to=20
+produce new codes with a different selection of letters. Thus, once a =
+set of=20
+letters has been chosen all possible codes derivable from it are used =
+before=20
+changing the set.=20
+<P>
+<P>For example, suppose it is decided that a code will contain exactly 3 =
+
+occurrences of `<TT>a</TT>', 2 of `<TT>b</TT>' and 1 of `<TT>c</TT>', =
+then three=20
+of the allowable 60 codes under these conditions are:=20
+<P><PRE>      abaabc
+      abaacb
+      ababac</PRE>
+<P>These three codes are listed from top to bottom in alphabetic order. =
+Among=20
+all codes generated with this set of characters, these codes appear=20
+consecutively in this order.=20
+<P>
+<P>Write a program to assist in the issuing of these identification =
+codes. Your=20
+program will accept a sequence of no more than 50 lower case letters =
+(which may=20
+contain repeated characters) and print the successor code if one exists =
+or the=20
+message `No Successor' if the given code is the last in the sequence for =
+that=20
+set of characters.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001001000000000000000>Input =
+and=20
+Output</A></FONT></H2>
+<P>Input will consist of a series of lines each containing a string =
+representing=20
+a code. The entire file will be terminated by a line consisting of a =
+single=20
+<TT>#</TT>.=20
+<P>
+<P>Output will consist of one line for each code read containing the =
+successor=20
+code or the words `<TT>No Successor</TT>'.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>Sample =
+
+input</A></FONT></H2>
+<P><PRE>abaacb
+cbbaa
+#</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+output</A></FONT></H2>
+<P><PRE>ababac
+No Successor</PRE>
+<P></P></BODY></HTML>

@@ -1,0 +1,151 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Fractions Again?! - Return of the Newbies 2005
+Date: Sat, 25 Feb 2012 23:32:53 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCF415.CBA60F10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCF415.CBA60F10
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.533\10976.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Fractions Again?! - Return of the Newbies =
+2005</TITLE>
+<META name=3Ddescription content=3D"Fractions Again?!">
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY>
+<TABLE style=3D"PAGE-BREAK-INSIDE: avoid" border=3D0 cellSpacing=3D3 =
+cellPadding=3D4=20
+width=3D"100%">
+  <COLGROUP>
+  <COL width=3D256>
+  <COL width=3D256>
+  <THEAD>
+  <TR vAlign=3Dbottom>
+    <TD bgColor=3D#006666 width=3D"100%">
+      <P><FONT color=3D#ffffff><FONT size=3D6 face=3D"Arial =
+Black">Problem A:=20
+      Fractions Again?!</FONT></P></FONT></TD></TR>
+  <TR vAlign=3Dbottom>
+    <TD bgColor=3D#006666 width=3D"100%">
+      <P align=3Dright><FONT color=3D#ffffff><FONT size=3D3 =
+face=3D"Arial Black">Time=20
+      limit: 1 second</FONT></P></FONT></TD></TR></THEAD>
+  <TBODY></TBODY></TABLE>
+<P><!--img align=3Dright src=3D'p10976c.jpg'--><FONT size=3D6>I</FONT>t =
+is easy to see=20
+that for every fraction in the form <IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.533/p109=
+76a.gif">=20
+(<B><I>k</I></B> &gt; 0), we can always find two positive integers=20
+<B><I>x</I></B> and <B><I>y</I></B>, <B><I>x</I></B> =E2=89=A5 =
+<B><I>y</I></B>, such=20
+that: <BR>
+<BLOCKQUOTE><IMG=20
+  =
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.533/p109=
+76b.gif">.</BLOCKQUOTE>
+<P>Now our question is: can you write a program that counts how many =
+such pairs=20
+of <B><I>x</I></B> and <B><I>y</I></B> there are for any given =
+<B><I>k</I></B>?=20
+<P>
+<H2><A name=3DSECTION00001000000000000000><FONT=20
+color=3D#006666>Input</FONT></A></H2>
+<P>Input contains no more than 100 lines, each giving a value of =
+<B><I>k</I></B>=20
+(0 &lt; <B><I>k</I></B> =E2=89=A4 10000).=20
+<P>
+<H2><A name=3DSECTION00002000000000000000><FONT=20
+color=3D#006666>Output</FONT></A></H2>
+<P>For each <B><I>k</I></B>, output the number of corresponding=20
+(<B><I>x</I></B>, <B><I>y</I></B>) pairs, followed by a sorted list of =
+the=20
+values of <B><I>x</I></B> and <B><I>y</I></B>, as shown in the sample =
+output.=20
+<P>
+<H2><A name=3DSECTION00003000000000000000><FONT color=3D#006666>Sample=20
+Input</FONT></A></H2><PRE>2
+12
+</PRE>
+<P>
+<H2><A name=3DSECTION00004000000000000000><FONT color=3D#006666>Sample=20
+Output</FONT></A></H2><PRE>2
+1/2 =3D 1/6 + 1/3
+1/2 =3D 1/4 + 1/4
+8
+1/12 =3D 1/156 + 1/13
+1/12 =3D 1/84 + 1/14
+1/12 =3D 1/60 + 1/15
+1/12 =3D 1/48 + 1/16
+1/12 =3D 1/36 + 1/18
+1/12 =3D 1/30 + 1/20
+1/12 =3D 1/28 + 1/21
+1/12 =3D 1/24 + 1/24
+</PRE>
+<P>
+<HR>
+
+<ADDRESS><I>Problemsetter: Mak Yan Kei</I></ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCF415.CBA60F10
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.533/p10976a.gif
+
+R0lGODlhHgAiAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBm
+AABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/
+MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNm
+ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/
+mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm
+zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/
+/5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ
+AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA
+M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ
+ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A
+mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z
+zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAAHgAiAAAIlAAfCBxI
+sKDBgwgT+guQIlbChwX9aQIAIMY2iBgH2gOAI6NHYgAaecS4kMDFkQ83dkT5EKRIlghLnoRp8B4T
+izQPusxZcBlFijh5Ch1KtCjLn0iTKl2K1KjTp1CjSuUJMqRRmUZtrizqU8xVTSlgTbTK06ZFYkF5
+dtX0UqjEn1t5ltSmiYA2VUJVPgDZUOjOjV4xBgQAOw==
+
+------=_NextPart_000_0000_01CCF415.CBA60F10
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.533/p10976b.gif
+
+R0lGODlhgQAgAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBm
+AABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/
+MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNm
+ZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/
+mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZm
+zGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb/
+/5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZ
+AJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwA
+M8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZ
+ZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8A
+mf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+Z
+zP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAAgQAgAAAI/wAfCBxI
+kKC/ACliFVzIsKHDhw8OJoRIsWJDiQotPvSnCQCAGNs0iqzI0SPIkSgZlvwYMiVDewBwuJy5EKZM
+mjRt4ixIDECjnTh7/gSaUijRiAEItDw68qBSpiKdLt2pE+rIqlYrYgVqNKvGrl4hgt0pNSzJpFPN
+LixL9B6Tk2ofuoUbd+HctDTH1l2od6/Avi6XeTSJt67gwXRREhsq8jBhv5CDMo5MOfLiyllhDh78
+lPLlvZtDix49eibp06g9FtQceuLA1LBFY5794DNtoqw3d7Y8+bZvprZ/C+fae3ZPn8OT02Sr3O8y
+pW7FAHV7s/nengk5VqcpWDpmzTKZX3RHbq84So4pYHVEHlkiLE7Sdu8V3MifqulvtxFLDFmwa8ow
+NcJMRjh1p4l5ft31HQBTeIfTSjHR5tZ/kW21XFLaaEKANvdBRgwO/uTR3T2GAMjfTDphR2BdJSl1
+EEvOKdVMYS4ZBZOD1nl1GII59ujjj34FBAA7
+
+------=_NextPart_000_0000_01CCF415.CBA60F10--

@@ -1,0 +1,32 @@
+Program Paper;
+
+Var A, B, C, D, E, F: Integer;
+	Res: Integer;
+
+Procedure TrySolution (X, Y: Integer);
+Var R: Integer;
+Begin
+	If (X <= E) and (Y <= F) then
+	Begin
+		R := 2;
+		If (X = E) then Dec (R);
+		If (Y = F) then Dec (R);
+		If (R < Res) then Res := R;
+	End;
+End;
+
+Begin
+	ReadLn (A, B, C, D, E, F);
+	While (A > 0) do
+	Begin
+		Res := 3;
+		TrySolution (A*C, B*D);
+		TrySolution (A*D, B*C);
+		TrySolution (B*C, A*D);
+		TrySolution (B*D, A*C);
+		If (Res = 3) then WriteLn ('The paper is too small.')
+		else WriteLn ('The minimum number of cuts is ', A*B+Res-1, '.');
+		ReadLn (A, B, C, D, E, F);
+	End;
+End.
+

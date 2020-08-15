@@ -1,0 +1,486 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem G: Connect the Cable Wires
+Date: Sun, 12 Feb 2012 21:28:50 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE9CD.5011C0D0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE9CD.5011C0D0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.755\10862.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem G: Connect =
+the Cable Wires</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./p6_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./p6_files/editdata.mso"><!--[if !mso]>
+<STYLE>.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Shahriar Manzoor</o:Author>=0A=
+  <o:LastAuthor>Shahriar Manzoor</o:LastAuthor>=0A=
+  <o:Revision>3</o:Revision>=0A=
+  <o:TotalTime>22</o:TotalTime>=0A=
+  <o:Created>2005-05-25T16:28:00Z</o:Created>=0A=
+  <o:LastSaved>2005-05-26T00:54:00Z</o:LastSaved>=0A=
+  <o:Pages>1</o:Pages>=0A=
+  <o:Words>278</o:Words>=0A=
+  <o:Characters>1590</o:Characters>=0A=
+  <o:Company>ACM/ICPC</o:Company>=0A=
+  <o:Lines>13</o:Lines>=0A=
+  <o:Paragraphs>3</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>1952</o:CharactersWithSpaces>=0A=
+  <o:Version>9.2720</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Courier;
+}
+@font-face {
+	font-family: Tahoma;
+}
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+P.inout {
+	FONT-FAMILY: Courier; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-style-name: inout; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-bidi-font-family: "Times New Roman"
+}
+LI.inout {
+	FONT-FAMILY: Courier; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-style-name: inout; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-bidi-font-family: "Times New Roman"
+}
+DIV.inout {
+	FONT-FAMILY: Courier; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: =
+0in; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-style-name: inout; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-bidi-font-family: "Times New Roman"
+}
+P.cbfont {
+	TEXT-ALIGN: center; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: cbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.cbfont {
+	TEXT-ALIGN: center; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: cbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.cbfont {
+	TEXT-ALIGN: center; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: cbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+P.psetter {
+	FONT-FAMILY: Tahoma; MARGIN-LEFT: 0in; FONT-SIZE: 10pt; FONT-WEIGHT: =
+bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: psetter; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.psetter {
+	FONT-FAMILY: Tahoma; MARGIN-LEFT: 0in; FONT-SIZE: 10pt; FONT-WEIGHT: =
+bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: psetter; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.psetter {
+	FONT-FAMILY: Tahoma; MARGIN-LEFT: 0in; FONT-SIZE: 10pt; FONT-WEIGHT: =
+bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: psetter; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+P.jbfont {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: jbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.jbfont {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: jbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.jbfont {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 13pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: jbfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+P.bigfont {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 18pt; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: bigfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.bigfont {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 18pt; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: bigfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.bigfont {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 18pt; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-name: bigfont; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+P.cname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+16pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: cname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+LI.cname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+16pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: cname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+DIV.cname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+16pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: cname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+P.pno {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+14pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pno; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+LI.pno {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+14pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pno; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+DIV.pno {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+14pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pno; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+P.pname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+24pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+LI.pname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+24pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+DIV.pname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial; MARGIN-LEFT: 0in; FONT-SIZE: =
+24pt; FONT-WEIGHT: bold; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-style-name: pname; mso-margin-top-alt: auto; mso-margin-bottom-alt: =
+auto
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+</HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US>
+<DIV class=3DSection1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: 1.5pt outset; BORDER-LEFT: 1.5pt outset; WIDTH: =
+100%; BORDER-TOP: 1.5pt outset; BORDER-RIGHT: 1.5pt outset; =
+mso-cellspacing: 0in; mso-padding-alt: 0in 0in 0in 0in"=20
+border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: 0.75pt inset; BORDER-LEFT: 0.75pt inset; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+0.75pt inset; BORDER-RIGHT: 0.75pt inset; PADDING-TOP: 0in">
+      <TABLE=20
+      style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+WIDTH: 100%; BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+mso-cellspacing: 0in; mso-padding-alt: 0in 0in 0in 0in"=20
+      border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD=20
+          style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; WIDTH: 20%; PADDING-RIGHT: 0in; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in"=20
+          rowSpan=3D3 width=3D"20%">
+            <P class=3Dcbfont>Input: Standard In<BR>Output: Standard =
+Out</P></TD><!--contest name-->
+          <TD=20
+          style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; WIDTH: 60%; PADDING-RIGHT: 0in; =
+BACKGROUND: silver; BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+PADDING-TOP: 0in"=20
+          width=3D"60%">
+            <P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+            style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt">Next =
+Generation Contest=20
+            1&nbsp;<o:p></o:p></SPAN></B></P></TD>
+          <TD=20
+          style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; WIDTH: 20%; PADDING-RIGHT: 0in; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in"=20
+          rowSpan=3D3 width=3D"20%">
+            <P class=3Dcbfont><B>Time Limit: 1 second</B></P></TD></TR>
+        <TR><!--problem no-->
+          <TD=20
+          style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; WIDTH: 60%; PADDING-RIGHT: 0in; =
+BACKGROUND: silver; BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+PADDING-TOP: 0in"=20
+          width=3D"60%">
+            <P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+            style=3D"FONT-FAMILY: Arial; FONT-SIZE: 14pt">Problem=20
+            G<o:p></o:p></SPAN></B></P></TD></TR>
+        <TR><!--problem name-->
+          <TD=20
+          style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; WIDTH: 60%; PADDING-RIGHT: 0in; =
+BACKGROUND: silver; BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+PADDING-TOP: 0in"=20
+          width=3D"60%">
+            <P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+            style=3D"FONT-FAMILY: Arial; FONT-SIZE: 24pt">Connect the =
+Cable=20
+            =
+Wires&nbsp;<o:p></o:p></SPAN></B></P></TD></TR></TBODY></TABLE>
+      <P class=3DMsoNormal><o:p></o:p></P></TD></TR></TBODY></TABLE>
+<P class=3Djbfont>Asif is a student of East West University and he is =
+currently=20
+working for the EWUISP to meet his relatively high tuition fees. One =
+day, as a=20
+part of his job, he was instructed to connect cable wires to <B>N</B> =
+houses.=20
+All the houses lie in a straight line. He wants to use only the minimum =
+number=20
+of cable wires required to complete his task such that all the houses =
+receive=20
+the cable service. A house can either get the connection from the main=20
+transmission center or it can get it from a house to its immediate left =
+or right=20
+provided the latter house is already getting the service.</P>
+<P class=3Djbfont>You are to write a program that determines the number =
+of=20
+different combinations of the cable wires that is possible so that every =
+house=20
+receives the service. </P>
+<P class=3Djbfont><B>Example:</B> If there are two houses then <B>3</B>=20
+combinations are possible as shown in the=20
+figure.<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;=20
+<IMG id=3D_x0000_i1025 border=3D0 =
+alt=3DcableServicetoHouse1,cableServicetoHouse2=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p108=
+62a.gif"=20
+width=3D180=20
+height=3D140>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;=20
+<IMG id=3D_x0000_i1026 border=3D0 =
+alt=3DcableServicetoHouse1,House1toHouse2=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p108=
+62b.gif"=20
+width=3D180=20
+height=3D140>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;=20
+<IMG id=3D_x0000_i1027 border=3D0 alt=3D"cableServicetoHouse2, =
+House2toHouse1"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p108=
+62c.gif"=20
+width=3D180 height=3D140><BR><B>Figure: circles represent the =
+transmission center=20
+and the small rectangles represent the houses.</B></P>
+<P class=3Dbigfont>Input</P>
+<P class=3Djbfont>Each line of input contains a positive integer <B>N=20
+(N&lt;=3D2000)</B>. The meaning of <B>N</B> is described in the above =
+paragraph. A=20
+value of <B>0</B> for <B>N</B> indicates the end of input which should =
+not be=20
+processed.</P>
+<P class=3Dbigfont>Output</P>
+<P class=3Djbfont>For each line of input you have to output, on a single =
+line, the=20
+number of possible arrangements. You can safely assume that this number =
+will=20
+have less than <B>1000</B> digits.</P>
+<P class=3Dbigfont>Sample Input</P>
+<TABLE=20
+style=3D"WIDTH: 100%; mso-cellspacing: 0in; mso-padding-alt: 0in 0in 0in =
+0in"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; =
+PADDING-TOP: 0in">
+      <P class=3DMsoNormal><SPAN=20
+      style=3D"FONT-FAMILY: =
+Courier">1<BR>2<BR>3<BR>0<o:p></o:p></SPAN></P></TD></TR></TBODY></TABLE>=
+
+<P class=3Dbigfont>Sample Output</P>
+<TABLE=20
+style=3D"WIDTH: 100%; mso-cellspacing: 0in; mso-padding-alt: 0in 0in 0in =
+0in"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; =
+PADDING-TOP: 0in">
+      <P class=3DMsoNormal><SPAN=20
+      style=3D"FONT-FAMILY: =
+Courier">1<BR>3<BR>8<o:p></o:p></SPAN></P></TD></TR></TBODY></TABLE>
+<DIV style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</DIV>
+<P class=3Dpsetter>Problem Setter: Sohel Hafiz</P></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE9CD.5011C0D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p10862a.gif
+
+R0lGODlhtACMAKIGAP///8zMzJmZmWZmZjMzMwAAAP///wAAACH5BAEAAAYALAAAAAC0AIwAAAP/
+aLrc/jDKSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bUNFru987//AoHBILBqPyN8myWw6n9BocVkA
+WK/YrHbL7Xq/4LB4TC5fdVSzes1uu99dtCYHr9vveLY8Q8/7twIDBAQ6gwMCf4lfexh9inkChEME
+iI+WAIwXjpdvkYUCAgEBAKKgkgWUnImZFpuqagGSqWCeqKOvd6wVrrhjAjqVvsC9dboUvMRfvwUD
+bAM5wclrxhPI0oDQbsvR12TUEtbdV9tw5OLeOWnnWwE5zXXLt+tg3xHh4oTvds8E82H1OKr4G4fK
+DyFuA7MAfHDv2kE/v/ol5LLQQcNkERM9nKil/2KDi8Q2QizIUWG6OQL9tUv5J4e8kphO8mG5LqMi
+kTA9MgCJ6xlCPL/05ZTZiOY5Qi/9tJMIM2YBdf6QPlra1IrOBTxfZW2zVdpVBV0vdQVlJiyxrwbM
+Puo6qKzRiWjV3iyQ1Muzl2S9UK0a9203qWHaCQVwVy/Jpn0T+hQDGEvbLkGrOoU6z+aXdj8Fd8FZ
+MvHAlWEeY/sZsy5copr8/i1AmqDpK40JMkWMupXqa5bZHeay1zFryZNRcuSMpbAyZlhy034qfKLy
+K5rDGAdAvHPtXbdXD7YiOrRAfsCtXj+W/drKwb9a66bkMnzwmTDNcZ8tZtlv955LmpsuDLn79/9F
+VbXMANGR8UwO9EmWX3w7vMaFfaH4F96CMMWCoHrjyHJLeviNV0158xByyiGiQBdAIJ9kEdtylDE4
+Si1CzNJRgtYxB19VvZESyCCFEECiYdtxRCFH/L2xGF8eggNiNwXaseJpNgbYVHd25ChkkvYsKQ2H
+I2EozpADUYlHkQOBOQ+ZeIjpj5nnNPmHm2tiGVBJT3Z5ZZSpcYSZKmh+KSdDWuKi5k00+omnbc7R
+hQuchrbY5m6qcDkPm9L0aUmdXv1pUaCXMKoKpN1QGlKhqnh6lqYfcfqIpJUqeo6ogpIqqKotoboT
+rX9Yuiiopx6K3TqmEsNqMrBygmmrDnJSrCX/eyY06Ke2YoVrmrKaJ2GvjvbyS7LdDKtVtGBNW4eV
+irnay7KJ6LoOr2KBm5a4bwQ7j7y1+kqeQ9X6c+S39n645X2CDiDwwAQXXLA7BiesMMH5nuHuPT4u
+LPHEAyMsccNmBBkYu2VovAWlHhtpbhchO8NGZG6UjAXIb15Lsh8q2zWyGjGL16+Sdv1xbHEwu0FI
+ymOwnEezYNTcsRvkGhj0w7cZTcazWjg9htSjmSyG0HdsO3XPInP78tVM53xH0l+PWQfUYv8Tdtl1
+qJsF1dKN67IYRmMNB71vc10OwFuDfXOWacOB9hZwF33HzoQv/fecbGvDN916F4PxFXWvzUXh/1sM
+nngemPM2d+CLWL551zRH3vbMoHthNxt4j35H55tpWfnigKauBuKNt60Ux3n7nS3l8T6uNOd/eOt6
+6LRvansZmucOB+wyez3771bArrXVZmuU7/TNXd4G2X1n33LJ3N/ovTOoH028IoF8Ub6U58Pyufri
+V6o49YSx0bz7phPzfp7Oo5uX4ra+a/wPUQF8BfSO57/7dY+BvVhg1MRxwF8lkE/9i6ADzQfBnmTQ
+g7574AS7IcHeGXCD8OugAj+4whBycIQnLKD9XJhCGM6wfsmo4L0uyIkS8oyEKARg/G54OIoZ8YgL
+mxylIobEJiJxcv9BR/JSFcUqugFdVsziynNEp8UuIg9/XgwjgIQoxjJucYq3MqMaHYZGaa1xjVh8
+o4KYJoU62vGOeIwCFfLIxz760Y97/KMgB0nII9zgkIhMpCIXychGOvKRkIykJCdJyUpa8pKYzKQm
+N8nJTnryk6AMpShHScpSmvKUqEylKlcZgwQAADs=
+
+------=_NextPart_000_0000_01CCE9CD.5011C0D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p10862b.gif
+
+R0lGODlhtACMAKIGAP///8zMzJmZmWZmZjMzMwAAAP///wAAACH5BAEAAAYALAAAAAC0AIwAAAP/
+aLrc/jDKSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bUNFru987//AoHBILBqPyN8myWw6n9BocVkA
+WK/YrHbL7Xq/4LB4TC5fdVSzes1uu99dtCYHr9vveLY8Q8/7twIDBAQ6gwMCf4lfexh9inkChEME
+iI+WAIwXjpdvkYUCAgEBAKKgkgWUnImZFpuqagGSqWCeqKOvd6wVrrhjAjqVvsC9dboUvMRfvwUD
+bAM5wclrxhPI0oDQbsvR12TUEtbdV9tw5OLeOWnnWwE5zXXLt+tg3xHh4oTvds8E82H1OKr4G4fK
+DyFuA7MAfHDv2kE/v/ol5LLQQcNkERM9nKil/2KDi8Q2QizIUWG6OQL9tUv5J4e8kphO8mG5LqMi
+kTA9MgCJ6xlCPL/05ZTZiOY5Qi/9tJMIM2YBdf6QPlra1IrOBTxfZW2zVdpVBV0vdQVlJiyxrwbM
+Puo6qKzRiWjV3iyQ1Muzul+oVo37tpvUMO2EitHblG9Cn2L+kgla1SnUeTbzFvgJBmdJwwNXhmmr
+xmVjzAMta/mFlxbJvUQ19e0Wmd3pMqI5gg49uctdNa0Lp261mvVrLIHXxJa9e1dvv8y2cDbDr/GZ
+4seOX1sp+BdlZZ6dO0YJ05yV5Yuzad8+s6m522W8a5/NcdmA4GWe1R5vFXo16eeWZRej/7rup//c
+NRZLDrMoI0tpn9kHDn7rEHLKIaJcUYp8qPiXIIDlNUYaALUIUSB9JmFYlICvBRDIIIUQACGIcSho
+D4PdoMeiG+xNBN+MNLoYUFXg4aiHjgzBiNF8PnIFpEVChsRUkT+KqBpMMjI5zZEfJfnKjVJO6SRv
+JSmWZWdU7mQlJ+1Y+OUiYWI15iU9nllGjfnR5WaTj61D2JxubWncYXLiCaae0WWWnJ9/1onPkoSi
+A+h9/liXaKEBNojoo2LAmUyUlFaaJlhr5oFlppouumCDfYI6hqW4lGnqm5um1ekdba6KpqgvirOh
+rKe2Klcdd+JKj66vwoGpr16gesmnxBYLrEP/kybbIq07DmmmQQNUa+212Gar7bbcWtssRct2oWK3
+5JbrDrnfuiEYMes+aygW7dYxrBbxqitOvR2FywW+bSC7Bb9rAGyJwPVBG6Rdf3hpmx8EK9KwsQ2T
+oWoYEY9RMcO5GowkwnnEui/GMWb87hUXm4YgvSBf87C+/+LR6xclgxHzHStrXCXH+5RKccrS1Dyy
+FTO7VnHQC4cc6s8AEJ2FxzjTfK/IkbYMD5EW83wp1Bl+XAfTTe/z9NFRoyyszlXnofQbPoedxdn+
+7mz21/+wLLYbCpeNx9n2gp211P1SHZ/V7GI9YtFtcC0z4L2kvffca9waMOI9Cf4k4bD8xhzk/68o
+PrjWAZN9+dtGx22zmF1LPGgbeK/Nqyisk6H55JybYbgYArNueymg5J77uNkO4vvvRkwLtORcUh5f
+KLjrnju3wAMvRQ+/R8+t8rpHSDvxexrP3BHR+87MttTnfrvt8ML96+hqlm7G+Cfz7XTo5yOdujOY
+q/J68bFfDbrK2AeqfeL148T9spe/wO2vZ/1j1P8id0D9iU5+5vMa/GYFwQnKK4LKQh+n1MdAPPCu
+XCAMYe8SOCpxifCEKEyXqYzlLH+wsIXreCEMxSHDGV6jhjZMBg5z2Isd8lArcvthDIH1vCIa8YhI
+ZAIVksjEJjrxiEt8ohSnSMUh3OCKWMyiFjG3yMUuevGLYAyjGMdIxjKa8YxoTKMa18jGNrrxjXCM
+oxznSMc62vGOeMyjHvcYgwQAADs=
+
+------=_NextPart_000_0000_01CCE9CD.5011C0D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.755/p10862c.gif
+
+R0lGODlhtACMAKIGAP///8zMzJmZmWZmZjMzMwAAAP///wAAACH5BAEAAAYALAAAAAC0AIwAAAP/
+aLrc/jDKSau9OOvNu/9gKI5kaZ5oqq5s675wLM90bUNFru987//AoHBILBqPyN8myWw6n9BocVkA
+WK/YrHbL7Xq/4LB4TC5fdVSzes1uu99dtCYHr9vveLY8Q8/7twIDBAQ6gwMCf4lfexh9inkChEME
+iI+WAIwXjpdvkYUCAgEBAKKgkgWUnImZFpuqagGSqWCeqKOvd6wVrrhjAjqVvsC9dboUvMRfvwUD
+bAM5wclrxhPI0oDQbsvR12TUEtbdV9tw5OLeOWnnWwE5zXXLt+tg3xHh4oTvds8E82H1OKr4G4fK
+DyFuA7MAfHDv2kE/v/ol5LLQQcNkERM9nKil/2KDi8Q2QizIUWG6OQL9tUv5J4e8kphO8mG5LqMi
+kTA9MgCJ6xlCPL/05ZTZiOY5Qi/9tJMIM2YBdf6QPlra1IrOBTxfZW2zVdpVBV0vhVUzttdXA2UV
+pUVX1SnUeVLZgPpCterZtX/irnmWNEvdpneNivPpZpCXoG0DJ7TJpp3QLDhLKh64slOBnzH7Tpw8
+MLIavQSZAiaqSbA4xo1JYvHMkXPny5aFoh79FCXH2XsLyGPdmnQr00eZwSFkhV/bM753ARe38jEs
+VPGOW01+bPnpbNqGSXdrG6Y5ue62T689s+oy52Oe5RB93HXJZbDJwA8lfLv7krHWY85Si8CtX//7
+bUZdNdYNVAszochTinrQQaabdPeZd0oQs3TE3lDkFSXeFQEEMkghBByiGYf12TUgOAVuKAZhJmZY
+mop1gNabi7/BCMdfkp1oT4o20hJfjjQq1yMcfGH41pBsGAbkkUg+h946ETZZBoAzMimlGUUmFOWV
+ZCg50JZciuGYljoGFGZ2ARID5plhyNjNmmzSc+E1cMbpxZhQlskQj3ZykaU4dfbZBXHnBCooO6rR
+qadFfB6qBZVvLvpRo45m8WcyhlaqhZeYSroTpZqS+CQnmYaKBaRqeooVqKYW92CqQVbX6jRziqUq
+WKzOiicupc56BYta3YpWrkOGOMCxyCarbLL/7izr7LPJ1roFmMZCa+212Ebrx6h0JerMGGByy4m4
+e4FHLhjnjmflr4Nt28alaqTLXXldyJuIvekVRmxx4Ap7D77u5gGwX96WIW+47QpsWZpeHOzvcgPj
+EfEXE2MBb75iINxNxfXGKC3F/cZKYMMJS1zHrmQ4LDKKJG8ccDk/YvzPwy1fw7Gfd7gJcsY0d+yy
+wrl8vIXK6/L7s8l3oIxuyEUDcPMbT2sRtcWvhkF0dzgffcfUq/F5Nb1Z2/xy0gWHTU/PZifDNbsj
+Mew001gPXfLW91bt88wr71izNGsbnZfQb/Oct5l38z12HkpLDTfYcmu9zyOB7Ix3031jeXhj/6Jk
+nvLiGhaudhiZh14KKKSTXq2yg6SuuhFu+3324HvuDcvopZMO7eqrS9GD6rxDW3vposj8OuVuMEgE
+76kz8+zvpIseusVzL4J24204P6LndVRuMOcvYt9L5dpvLjjxjmcfvRcaiw20+pPHrXj5RJ4fx/Tv
+s083/BTRb6n8UPM/rf7Qw1/x/NcRALLNfnY4XbYWyMBjAQ45sGOUFxTYwApa64GC6pWvFBXBSW0Q
+Qgb8IJk6+CkRJiaEJpyHBlMYLBKuioVGch8M/REY3dnwhjjMIROooMMe+vCHOOQhEIdIxCIO4QZI
+TKISl8jEJjrxiVCMohSnSMUqWvGKWMyiFhy3yMUuevGLYAyjGMdIxjKa8YxoTKMa18jGGCQAADs=
+
+------=_NextPart_000_0000_01CCE9CD.5011C0D0--

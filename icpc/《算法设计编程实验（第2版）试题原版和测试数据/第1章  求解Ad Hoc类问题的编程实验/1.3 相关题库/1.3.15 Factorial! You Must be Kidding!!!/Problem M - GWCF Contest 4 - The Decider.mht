@@ -1,0 +1,485 @@
+From: =?Windows-1252?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem M - GWCF Contest 4 - The Decider
+Date: Sun, 26 Feb 2012 19:06:01 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\??\?????????????\Algorithmist\Ad Hoc\UVA\UVa 10323\Problem M - GWCF Contest 4 - The Decider.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0035)http://acm.uva.es/p/v103/10323.html --><HTML =
+
+xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word" xmlns:st1 =3D=20
+"urn:schemas-microsoft-com:office:smarttags"><HEAD><TITLE>Problem M - =
+GWCF Contest 4 - The Decider</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744">
+<META name=3DOriginator content=3D"Microsoft Word 10"><LINK =
+rel=3DFile-List=20
+href=3D"p12_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"p12_files/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><o:SmartTagType=20
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"=20
+name=3D"place"></o:SmartTagType><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Shahriar Manzoor</o:Author>=0A=
+  <o:LastAuthor>Shahriar Manzoor</o:LastAuthor>=0A=
+  <o:Revision>178</o:Revision>=0A=
+  <o:TotalTime>1563</o:TotalTime>=0A=
+  <o:LastPrinted>2002-06-17T05:30:00Z</o:LastPrinted>=0A=
+  <o:Created>2000-12-04T12:45:00Z</o:Created>=0A=
+  <o:LastSaved>2002-06-28T09:33:00Z</o:LastSaved>=0A=
+  <o:Pages>1</o:Pages>=0A=
+  <o:Words>259</o:Words>=0A=
+  <o:Characters>1478</o:Characters>=0A=
+  <o:Company>CSE, BUET</o:Company>=0A=
+  <o:Lines>12</o:Lines>=0A=
+  <o:Paragraphs>3</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>1734</o:CharactersWithSpaces>=0A=
+  <o:Version>10.2625</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <w:WordDocument>=0A=
+  <w:View>Print</w:View>=0A=
+  <w:Zoom>90</w:Zoom>=0A=
+  <w:GrammarState>Clean</w:GrammarState>=0A=
+  =
+<w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEve=
+ry>=0A=
+  =
+<w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>=0A=
+  <w:UseMarginsForDrawingGridOrigin/>=0A=
+  <w:Compatibility>=0A=
+   <w:FootnoteLayoutLikeWW8/>=0A=
+   <w:ShapeLayoutLikeWW8/>=0A=
+   <w:AlignTablesRowByRow/>=0A=
+   <w:ForgetLastTabAlignment/>=0A=
+   <w:LayoutRawTableWidth/>=0A=
+   <w:LayoutTableRowsApart/>=0A=
+  </w:Compatibility>=0A=
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>=0A=
+ </w:WordDocument>=0A=
+</xml><![endif]--><!--[if !mso]>
+<OBJECT id=3Dieooui =
+classid=3Dclsid:38481807-CA0E-42D2-BF39-B33AF135CC4D></OBJECT>
+<STYLE>st1\:* {
+	BEHAVIOR: url(#ieooui)
+}
+</STYLE>
+<![endif]-->
+<STYLE>@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.0in 1.0in =
+1.0in; mso-header-margin: .5in; mso-footer-margin: .5in; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+H1 {
+	TEXT-ALIGN: justify; FONT-STYLE: italic; MARGIN: 0in 0in 0pt; =
+FONT-FAMILY: "Times New Roman"; COLOR: black; FONT-SIZE: 12pt; =
+FONT-WEIGHT: normal; mso-pagination: widow-orphan; mso-bidi-font-size: =
+10.0pt; mso-style-next: Normal; mso-outline-level: 1; mso-font-kerning: =
+0pt
+}
+P.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+P.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"
+}
+EM {
+	mso-bidi-font-style: normal
+}
+P {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; =
+MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+PRE {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt =
+366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt
+}
+TT {
+	FONT-FAMILY: "Courier New"; mso-fareast-font-family: "Times New Roman"; =
+mso-ascii-font-family: "Courier New"; mso-hansi-font-family: "Courier =
+New"; mso-bidi-font-family: "Courier New"
+}
+P.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-style-name: Preformatted
+}
+LI.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-style-name: Preformatted
+}
+DIV.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-style-name: Preformatted
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+<!--[if gte mso 10]>=0A=
+<style>=0A=
+ /* Style Definitions */=0A=
+ table.MsoNormalTable=0A=
+	{mso-style-name:"Table Normal";=0A=
+	mso-tstyle-rowband-size:0;=0A=
+	mso-tstyle-colband-size:0;=0A=
+	mso-style-noshow:yes;=0A=
+	mso-style-parent:"";=0A=
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;=0A=
+	mso-para-margin:0in;=0A=
+	mso-para-margin-bottom:.0001pt;=0A=
+	mso-pagination:widow-orphan;=0A=
+	font-size:10.0pt;=0A=
+	font-family:"Times New Roman";}=0A=
+table.MsoTableGrid=0A=
+	{mso-style-name:"Table Grid";=0A=
+	mso-tstyle-rowband-size:0;=0A=
+	mso-tstyle-colband-size:0;=0A=
+	border:solid windowtext 1.0pt;=0A=
+	mso-border-alt:solid windowtext .5pt;=0A=
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;=0A=
+	mso-border-insideh:.5pt solid windowtext;=0A=
+	mso-border-insidev:.5pt solid windowtext;=0A=
+	mso-para-margin:0in;=0A=
+	mso-para-margin-bottom:.0001pt;=0A=
+	mso-pagination:widow-orphan;=0A=
+	font-size:10.0pt;=0A=
+	font-family:"Times New Roman";}=0A=
+</style>=0A=
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"27650"/>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapelayout v:ext=3D"edit">=0A=
+  <o:idmap v:ext=3D"edit" data=3D"1"/>=0A=
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-SIZE: =
+18pt">Problem=20
+M<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-SIZE: =
+24pt">Factorial!=20
+You Must be Kidding!!! </SPAN><o:p></o:p></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">Input: </SPAN></B><SPAN=20
+style=3D"mso-bidi-font-weight: bold; mso-bidi-font-size: =
+12.0pt">standard=20
+input<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">Output: </SPAN></B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">standard =
+output<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">Time Limit:</SPAN></B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt"> 1 second<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">Memory Limit: </SPAN></B><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt">32 MB<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">Arif=20
+has bought a super computer from Bongobazar. Bongobazar is a place in=20
+</SPAN><st1:place><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">Dhaka</SPAN></st1:place><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"> where second =
+hand goods=20
+are found in plenty. So the super computer bought by him is also second =
+hand and=20
+has some bugs. One of the bugs is that the range of unsigned long =
+integer of=20
+this computer for <B style=3D"mso-bidi-font-weight: normal">C/C++</B> =
+compiler has=20
+changed. Now its new lower limit is <B=20
+style=3D"mso-bidi-font-weight: normal">10000</B> and upper limit is <B=20
+style=3D"mso-bidi-font-weight: normal">6227020800</B>. Arif writes a =
+program in <B=20
+style=3D"mso-bidi-font-weight: normal">C/C++</B> which determines the =
+factorial of=20
+an integer. Factorial of an integer is defined recursively=20
+as:<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><B style=3D"mso-bidi-font-weight: normal">Factorial (0) =3D=20
+1<o:p></o:p></B></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><B style=3D"mso-bidi-font-weight: normal">Factorial (n) =3D =
+n*factorial=20
+(n-1).<o:p></o:p></B></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none" =
+class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">Of=20
+course one can manipulate these expressions. For example, it can be =
+written=20
+as<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><B style=3D"mso-bidi-font-weight: normal">Factorial (n) =
+=3Dn*(n-1)*factorial=20
+(n-2)<o:p></o:p></B></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none" =
+class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">This=20
+definition can also be converted to an iterative =
+one.<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">But=20
+Arif knows that his program will not behave rightly in the super =
+computer. You=20
+are to write program which will simulate that changed behavior in a =
+Normal=20
+Computer.<SPAN style=3D"mso-spacerun: yes">&nbsp; =
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"mso-layout-grid-align: none" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; FONT-SIZE: =
+18pt">Input<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">The=20
+input file contains several lines of input. Each line contains a single =
+integer=20
+<B style=3D"mso-bidi-font-weight: normal">n</B>. No integer has more =
+than six=20
+digits. Input is terminated by end of file.<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"mso-layout-grid-align: none" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; FONT-SIZE: =
+18pt">Output<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt">For=20
+each line of input you should output a single line. This line will =
+contain a=20
+single integer <B style=3D"mso-bidi-font-weight: normal">n!</B> if the =
+value of <B=20
+style=3D"mso-bidi-font-weight: normal">n!</B> fits within the unsigned =
+long=20
+integer of Arif=92s computer. Otherwise the line will contain one of the =
+following=20
+two words<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><B=20
+style=3D"mso-bidi-font-weight: normal">Overflow! //</B>(When n! &gt; =
+6227020800)<B=20
+style=3D"mso-bidi-font-weight: normal"><o:p></o:p></B></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none" =
+class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN>Underflow! //</SPAN></B><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt">(When n! &lt; =
+10000)<B=20
+style=3D"mso-bidi-font-weight: normal"><o:p></o:p></B></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; mso-layout-grid-align: none" =
+class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p>&nbsp;</o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-SIZE: =
+18pt">Sample=20
+Input</SPAN><o:p></o:p></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-weight: bold">2<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-weight: bold">10<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-weight: bold">100<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-weight: bold"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><B><SPAN style=3D"FONT-SIZE: 18pt">Sample=20
+Output</SPAN><o:p></o:p></B></P>
+<P=20
+style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: windowtext; FONT-SIZE: =
+11pt">Underflow!<o:p></o:p></SPAN></P>
+<P=20
+style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: windowtext; FONT-SIZE: =
+11pt">3628800<o:p></o:p></SPAN></P>
+<P=20
+style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: windowtext; FONT-SIZE: =
+11pt">Overflow!<o:p></o:p></SPAN></P>
+<DIV=20
+style=3D"TEXT-ALIGN: center; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal align=3Dcenter><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt">
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</SPAN></DIV>
+<P=20
+style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: 12.0pt">(The Decider =
+Contest,=20
+Problem setter: Shahriar Manzoor)</SPAN></B><SPAN=20
+style=3D"COLOR: windowtext; mso-bidi-font-size: =
+12.0pt"><o:p></o:p></SPAN></P></DIV></BODY></HTML>

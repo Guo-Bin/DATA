@@ -1,0 +1,305 @@
+From: =?iso-8859-1?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem C - Nails
+Date: Sat, 28 Jan 2012 20:44:27 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.160\11096.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem C - =
+Nails</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DEdit-Time-Data=20
+href=3D"http://acm.uva.es/p/v106/d_files/editdata.mso">
+<STYLE>@font-face {
+	font-family: Arial Unicode MS;
+}
+@font-face {
+	font-family: @Arial Unicode MS;
+}
+@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.0in 1.0in 1.0in; =
+mso-header-margin: 35.3pt; mso-footer-margin: 35.3pt; mso-paper-source: =
+0; }
+SPAN.GRAME {
+	mso-gram-e: yes
+}
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+H1 {
+	PAGE-BREAK-AFTER: avoid; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 16pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-style-next: Normal; mso-outline-level: 1; tab-stops: =
+45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt =
+458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; =
+mso-bidi-font-size: 18.0pt; mso-font-kerning: 0pt
+}
+P.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+LI.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+DIV.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+P.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+LI.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+DIV.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+P.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+LI.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+DIV.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+P {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; =
+MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+PRE {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Courier New"; =
+tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt =
+412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt
+}
+SPAN.StyleArial16pt {
+	FONT-WEIGHT: bold; mso-style-name: "Style Arial 16 pt"; =
+mso-ansi-font-size: 16.0pt; mso-ascii-font-family: Arial; =
+mso-hansi-font-family: Arial; mso-bidi-font-family: Arial
+}
+DIV.Section1 {
+	page: Section1
+}
+.style1 {
+	FONT-SIZE: 20pt; FONT-WEIGHT: bold
+}
+</STYLE>
+
+<META name=3Ddescription content=3DExponentiation>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal></HEAD>
+<BODY lang=3DEN-US link=3Dblue bgColor=3Dwhite vLink=3Dblue>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 28pt">Problem C</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: Arial"><BR><SPAN =
+class=3Dstyle1>Nails</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 20pt"><BR></SPAN><B><SPAN=20
+style=3D"FONT-FAMILY: Arial">Time Limit: </SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: Arial">1</SPAN><SPAN style=3D"FONT-FAMILY: Arial"> =
+
+Second</SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal =
+align=3Dcenter>&nbsp;</P>
+<P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr"=20
+class=3DMsoNormal>Arash is tired of hard working, so he wants to =
+surround some=20
+nails on the wall of his room by a rubber ribbon to make fun of it! Now, =
+he=20
+wants to know what will be the final length of the rubber ribbon after=20
+surrounding the nails. You must assume that the radius of nails and =
+rubber=20
+ribbon is negligible.</P>
+<H1>&nbsp;</H1>
+<H1><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial">Input</SPAN></SPAN></H1>
+<P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr"=20
+class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Arial; FONT-SIZE: =
+10pt"><BR>The first=20
+line of input gives the number of cases, <STRONG>N</STRONG>. <B>N</B> =
+test cases=20
+will follow. Each test case starts with a line containing two integers, =
+the=20
+initial length of rubber ribbon and the number of nails=20
+<B>0&lt;</B><STRONG>n</STRONG><B>&lt;=3D100,</B> respectively. Each of =
+next=20
+<STRONG>n </STRONG>lines contains two integers denoting the location of =
+a nail.=20
+There will be a blank line after each test-case. </SPAN></P>
+<P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr"=20
+class=3DMsoNormal>&nbsp;</P>
+<H1><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial">Output<o:p></o:p></SPAN></SPAN></H1>
+<P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr"=20
+class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Arial; FONT-SIZE: =
+10pt"><BR>Your=20
+program must </SPAN>output the final length of rubber ribbon precise to =
+5=20
+decimal digits. </P>
+<H1><SPAN style=3D"FONT-FAMILY: Arial; COLOR: black"><BR>Sample=20
+Input<SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Output for Sample Input<o:p></o:p></SPAN></H1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: =
+6.7in; BORDER-COLLAPSE: collapse; BACKGROUND: rgb(204,204,204) 0% 50%; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+-moz-background-clip: initial; -moz-background-origin: initial; =
+-moz-background-inline-policy: initial"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D643 =
+bgColor=3D#cccccc>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: =
+windowtext 0.5pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: =
+239.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; =
+BORDER-RIGHT: windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D319>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN=20
+      style=3D"FONT-FAMILY: Courier New; FONT-WEIGHT: 700">2</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">2=20
+      4</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">0=20
+      0</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">0=20
+      1</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">1=20
+      0</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">1=20
+      1</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal>&nbsp;</P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">5=20
+      4</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">0=20
+      0</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">0=20
+      1</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">1=20
+      0</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal><SPAN style=3D"FONT-FAMILY: Courier New; =
+FONT-WEIGHT: 700">1=20
+      1</SPAN></P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal>&nbsp;</P>
+      <P style=3D"TEXT-ALIGN: left; unicode-bidi: embed; DIRECTION: ltr" =
+
+      class=3DMsoNormal></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 243pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: =
+windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D324><FONT=20
+      face=3D"Courier =
+New"><B>4.00000<BR>5.00000</B></FONT></TD></TR></TBODY></TABLE>
+<DIV style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</DIV><FONT face=3D"Arial, Times New Roman"><B>Problem setter: =
+</B></FONT><B><FONT=20
+face=3D"Arial, Times New Roman">Ali Sharifrazavian<BR>Alternate =
+Solution: Hossein=20
+Azizpour</FONT></B></DIV>
+<P><B><FONT style=3D"FONT-SIZE: 10pt" face=3D"Arial, Times New =
+Roman">1st Amirkabir=20
+UT Annual Programming Contest&nbsp; Qualification=20
+Roun</FONT>d</B></P></BODY></HTML>

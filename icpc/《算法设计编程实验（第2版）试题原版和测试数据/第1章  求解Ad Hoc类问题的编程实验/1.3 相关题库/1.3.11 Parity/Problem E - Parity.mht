@@ -1,0 +1,52 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem E - Parity
+Date: Sat, 25 Feb 2012 23:35:58 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX20.928\10931.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Problem E - Parity</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY>
+<H1 align=3Dcenter>Problem E - Parity</H1>
+<H3 align=3Dcenter>Time Limit: 1 second</H3>
+<DIV></DIV>
+<P></P>
+<P>We define the parity of an integer <B>n</B> as the sum of the bits in =
+binary=20
+representation computed modulo two. As an example, the number <I>21 =3D=20
+10101<SUB>2</SUB></I> has three <I>1s</I> in its binary representation =
+so it has=20
+parity <I>3 (mod 2)</I>, or <I>1</I>. </P>
+<P>In this problem you have to calculate the parity of an integer <B>1 =
+=A1=DC I =A1=DC=20
+2147483647</B>. </P>
+<H2>Input</H2>
+<P>Each line of the input has an integer <B>I</B> and the end of the =
+input is=20
+indicated by a line where <B>I =3D 0</B> that should not be processed. =
+</P>
+<H2>Output</H2>
+<P>For each integer <B>I</B> in the inputt you should print a line =
+<B>The parity=20
+of B is P (mod 2).</B>, where <B>B</B> is the binary representation of =
+<B>I</B>.=20
+</P>
+<H2>Sample Input</H2><PRE>1
+2
+10
+21
+0
+</PRE>
+<H2>Sample Output</H2><PRE>The parity of 1 is 1 (mod 2).
+The parity of 10 is 1 (mod 2).
+The parity of 1010 is 2 (mod 2).
+The parity of 10101 is 3 (mod 2).
+</PRE>
+<HR>
+<B>Problem setter: S=E9rgio Queiroz de Medeiros</B> </BODY></HTML>

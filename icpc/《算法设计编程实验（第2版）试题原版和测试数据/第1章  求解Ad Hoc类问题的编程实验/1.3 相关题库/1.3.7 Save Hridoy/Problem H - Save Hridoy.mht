@@ -1,0 +1,704 @@
+From: =?Windows-1252?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem H - Count the Numbers
+Date: Sat, 25 Feb 2012 23:20:49 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\??\?????????????\Algorithmist\Ad Hoc\UVA\UVa 10894\Problem H - Count the Numbers.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0035)http://acm.uva.es/p/v108/10894.html --><HTML =
+
+xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem H - Count =
+the Numbers</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./h_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./h_files/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Shahriar Manzoor</o:Author>=0A=
+  <o:LastAuthor>Shahriar Manzoor</o:LastAuthor>=0A=
+  <o:Revision>39</o:Revision>=0A=
+  <o:TotalTime>492</o:TotalTime>=0A=
+  <o:Created>2004-07-21T15:52:00Z</o:Created>=0A=
+  <o:LastSaved>2005-08-03T13:18:00Z</o:LastSaved>=0A=
+  <o:Pages>3</o:Pages>=0A=
+  <o:Words>744</o:Words>=0A=
+  <o:Characters>4245</o:Characters>=0A=
+  <o:Company>ACM/ICPC</o:Company>=0A=
+  <o:Lines>35</o:Lines>=0A=
+  <o:Paragraphs>8</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>5213</o:CharactersWithSpaces>=0A=
+  <o:Version>9.2720</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <w:WordDocument>=0A=
+  <w:View>Print</w:View>=0A=
+  <w:Zoom>BestFit</w:Zoom>=0A=
+ </w:WordDocument>=0A=
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Trebuchet MS;
+}
+@font-face {
+	font-family: Arial Unicode MS;
+}
+@page Section1 {size: 595.45pt 841.7pt; margin: 1.0in .8in 1.0in .8in; =
+mso-header-margin: .5in; mso-footer-margin: .5in; mso-page-numbers: 0; =
+mso-title-page: yes; mso-even-footer: url("./h_files/header.htm") ef1; =
+mso-footer: url("./h_files/header.htm") f1; mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+H1 {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 18pt; =
+FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; mso-pagination: =
+widow-orphan; mso-style-next: Normal; mso-outline-level: 1; =
+mso-layout-grid-align: none; mso-font-kerning: 0pt
+}
+H4 {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; FONT-WEIGHT: normal; mso-bidi-font-size: 10.0pt; =
+mso-pagination: widow-orphan; mso-style-next: Normal; mso-outline-level: =
+4
+}
+H5 {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; FONT-WEIGHT: normal; mso-bidi-font-size: 10.0pt; =
+mso-pagination: widow-orphan; mso-style-next: Normal; mso-outline-level: =
+5
+}
+P.MsoFooter {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: center 3.0in right 6.0in
+}
+LI.MsoFooter {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: center 3.0in right 6.0in
+}
+DIV.MsoFooter {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: center 3.0in right 6.0in
+}
+P.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: Arial; FONT-SIZE: 12pt; FONT-WEIGHT: =
+bold; mso-bidi-font-size: 1.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+LI.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: Arial; FONT-SIZE: 12pt; FONT-WEIGHT: =
+bold; mso-bidi-font-size: 1.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+DIV.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: Arial; FONT-SIZE: 12pt; FONT-WEIGHT: =
+bold; mso-bidi-font-size: 1.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+P.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+LI.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+DIV.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+P.MsoBodyText {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-bidi-font-size: 1.0pt; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-layout-grid-align: none
+}
+LI.MsoBodyText {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-bidi-font-size: 1.0pt; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-layout-grid-align: none
+}
+DIV.MsoBodyText {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-bidi-font-size: 1.0pt; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-layout-grid-align: none
+}
+P.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 24pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+LI.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 24pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+DIV.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 24pt; FONT-WEIGHT: bold; mso-bidi-font-size: 1.0pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; mso-layout-grid-align: none
+}
+P.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+P {
+	FONT-FAMILY: "Arial Unicode MS"; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; =
+MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto; mso-bidi-font-family: "Times New Roman"
+}
+PRE {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Courier New"; =
+tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt =
+412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt
+}
+SPAN.StyleArial16pt {
+	FONT-WEIGHT: bold; mso-bidi-font-family: Arial; mso-style-name: "Style =
+Arial 16 pt"; mso-ansi-font-size: 16.0pt; mso-ascii-font-family: Arial; =
+mso-hansi-font-family: Arial
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+<!--[if gte mso 9]><xml>=0A=
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027"/>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapelayout v:ext=3D"edit">=0A=
+  <o:idmap v:ext=3D"edit" data=3D"1"/>=0A=
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 28pt; mso-bidi-font-size: =
+12.0pt">Problem=20
+H</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial"><BR></SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 20pt; mso-bidi-font-size: =
+24.0pt">Save=20
+Hridoy</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial"><BR><B=20
+style=3D"mso-bidi-font-weight: normal">Input: </B><SPAN=20
+style=3D"mso-bidi-font-weight: bold">Standard =
+Input<o:p></o:p></SPAN></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Output:=20
+</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; mso-bidi-font-weight: =
+bold">Standard=20
+Output <o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>&nbsp;</P>
+<P style=3D"tab-stops: 143.25pt" class=3DMsoBodyText2><SPAN=20
+style=3D"mso-bidi-font-weight: normal">It would have been great if all =
+the banners=20
+with good words could inspire us all. Then we could only make large =
+banners with=20
+good words on them to make this world beautiful. With all the good =
+wishes of our=20
+heart, we will make such a banner today -- a banner to save a =
+life<SUP>1</SUP> ,=20
+a banner to save humanity.<o:p></o:p></SPAN></P>
+<P style=3D"tab-stops: 143.25pt" class=3DMsoBodyText2><SPAN=20
+style=3D"mso-bidi-font-weight: normal"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></P>
+<P style=3D"tab-stops: 143.25pt" class=3DMsoBodyText2><SPAN=20
+style=3D"mso-bidi-font-weight: normal">In this problem the program =
+generated=20
+banners will contain the text =93SAVE HRIDOY=94. We will make this =
+banner with=20
+different text size and two possible types of orientations: horizontal =
+and=20
+vertical. As we will make banners of different size in plain monochrome =
+text, we=20
+will use two different ASCII characters to denote black and white =
+pixels. In=20
+this process the smallest possible banner (font size 1) for us in =
+horizontal=20
+orientation is:<o:p></o:p></SPAN></P>
+<P style=3D"tab-stops: 143.25pt" class=3DMsoBodyText2><SPAN=20
+style=3D"mso-bidi-font-weight: normal"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 143.25pt" =
+class=3DMsoBodyText2=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: =
+10pt">*****..***..*...*.*****...*...*.*****.*****.***...*****.*...*<o:p><=
+/o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 143.25pt" =
+class=3DMsoBodyText2=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: =
+10pt">*.....*...*.*...*.*.......*...*.*...*...*...*..*..*...*..*.*.<o:p><=
+/o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 143.25pt" =
+class=3DMsoBodyText2=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: =
+10pt">*****.*****.*...*.***.....*****.*****...*...*...*.*...*...*..<o:p><=
+/o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 143.25pt" =
+class=3DMsoBodyText2=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: =
+10pt">....*.*...*..*.*..*.......*...*.*.*.....*...*..*..*...*...*..<o:p><=
+/o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 143.25pt" =
+class=3DMsoBodyText2=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: =
+10pt">*****.*...*...*...*****...*...*.*..**.*****.***...*****...*..</SPAN=
+></B><SPAN=20
+style=3D"mso-bidi-font-weight: normal"><o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; tab-stops: 143.25pt" =
+class=3DMsoNormal>You can see=20
+that here black pixels are formed with the <SPAN=20
+style=3D"FONT-SIZE: 18pt; mso-bidi-font-size: 12.0pt">=91*=92</SPAN> =
+character and=20
+white pixels are marked with the <SPAN=20
+style=3D"FONT-SIZE: 18pt; mso-bidi-font-size: 12.0pt">=91.=92 =
+</SPAN>character. In=20
+this banner, each character is represented in a <B>(5 x 5)</B> grid, two =
+
+consecutive characters in a single word are separated by single vertical =
+dotted=20
+line and the two words are separated by three vertical dotted lines. In =
+case of=20
+vertical banners (of font size 1) two consecutive letters in a single =
+word are=20
+separated by a horizontal dotted line and two words are separated three=20
+horizontal dotted lines. Look at the second output for sample input to =
+know how=20
+vertical banners are formed. In case of a banner of font size <B>2</B>, =
+each=20
+pixel is represented by <B>(2*2)</B> grid of pixels. So actually a =
+banner of=20
+font size two has double the width and double the height of a banner of =
+font=20
+size <B>1</B>.<SPAN style=3D"mso-spacerun: yes">&nbsp; </SPAN></P>
+<P style=3D"TEXT-ALIGN: justify; tab-stops: 143.25pt" =
+class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<H5><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'; mso-ansi-font-size: =
+12.0pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: =
+'Times New Roman'">Input</SPAN></SPAN><SPAN=20
+class=3DStyleArial16pt><SPAN=20
+style=3D"mso-fareast-font-family: 'Arial Unicode MS'; =
+mso-bidi-font-family: 'Times New Roman'; mso-ansi-font-size: 12.0pt; =
+mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times =
+New Roman'"><o:p></o:p></SPAN></SPAN></H5>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><SPAN =
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'">The=20
+input file contains at most </SPAN></SPAN><SPAN =
+class=3DStyleArial16pt><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'; mso-ansi-font-size: =
+12.0pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: =
+'Times New Roman'">30</SPAN></SPAN><SPAN=20
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'">=20
+lines of inputs. Each line contains an integer </SPAN></SPAN><SPAN=20
+class=3DStyleArial16pt><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'; mso-ansi-font-size: =
+12.0pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: =
+'Times New Roman'">N=20
+(0&lt;N&lt;51)</SPAN></SPAN><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'">.=20
+This value of </SPAN></SPAN><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'; mso-ansi-font-size: =
+12.0pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: =
+'Times New Roman'">N</SPAN></SPAN><SPAN=20
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'">=20
+denotes the font size and orientation of a banner. =
+<o:p></o:p></SPAN></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><SPAN =
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><SPAN =
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-WEIGHT: normal; mso-bidi-font-family: 'Times New Roman'; =
+mso-ansi-font-size: 12.0pt; mso-ascii-font-family: 'Times New Roman'; =
+mso-hansi-font-family: 'Times New Roman'">Input=20
+is terminated by a line containing a single zero. This line should not =
+be=20
+processed. </SPAN></SPAN></P>
+<P class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<H4><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt">Output=20
+<o:p></o:p></SPAN></SPAN></H4>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>If <B>N</B> is =
+positive then you=20
+have to draw a banner of horizontal orientation and if <B>N</B> is =
+negative then=20
+you have to draw a banner of vertical orientation. The detailed =
+description of=20
+output for these two types of cases is given below:</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>If <B>N</B> is =
+positive then=20
+produce <B>5N </B>lines of output. These lines actually draw the =
+horizontal=20
+banner. Two consecutive letters in a word are separated by <B>N =
+</B>vertical=20
+dotted lines. Two words are separated by <B>3N </B>vertical dotted =
+lines.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>If <B>N</B> is =
+negative then=20
+produce <B>5L*10+ 11L</B> lines of output, where <B>L</B> is the =
+absolute value=20
+of <B>N</B>. Two consecutive characters in a word are separated by =
+<B>L</B>=20
+horizontal dotted lines, and two words are separated by <B>3L</B> =
+horizontal=20
+dotted lines.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>After the output of =
+each test=20
+case print two blank lines.</P>
+<H1><I><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; FONT-WEIGHT: normal; =
+mso-bidi-font-size: 1.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></I></H1>
+<H1><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+1.0pt">Sample=20
+Input<SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></H1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-COLLAPSE: collapse; BACKGROUND: #cccccc; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; mso-border-alt: solid windowtext .5pt; =
+mso-padding-alt: 0in 5.4pt 0in 5.4pt"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 bgColor=3D#cccccc>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: =
+windowtext 0.5pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: =
+486.9pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; =
+BORDER-RIGHT: windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D649><PRE><B><SPAN style=3D"FONT-SIZE: 11pt; =
+mso-bidi-font-size: 12.0pt">-1<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 11pt; mso-bidi-font-size: =
+12.0pt">2<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: =
+11pt; mso-bidi-font-size: =
+12.0pt">0<o:p></o:p></SPAN></B></PRE></TD></TR></TBODY></TABLE>
+<H1><I><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; FONT-WEIGHT: normal; =
+mso-bidi-font-size: 1.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></I></H1>
+<H1><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+1.0pt">Output=20
+for Sample Input<SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></H1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-COLLAPSE: collapse; BACKGROUND: #cccccc; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; mso-border-alt: solid windowtext .5pt; =
+mso-padding-alt: 0in 5.4pt 0in 5.4pt"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 bgColor=3D#cccccc>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: =
+windowtext 0.5pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: =
+486.9pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; =
+BORDER-RIGHT: windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D649><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; =
+mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">....*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.***.<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.*.*.<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">***..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*.*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*..**<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">***..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*..*.<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*..*.<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">***..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*****<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.....<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">*...*<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">.*.*.<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">..*..<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: 12.0pt"><![if =
+!supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></SPAN></B></PRE><PRE><B><=
+SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: 12.0pt"><![if =
+!supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></SPAN></B></PRE><PRE><B><=
+SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********....******....**......**..**********......**......**..*=
+*********..**********..******......**********..**......**<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********....******....**......**..**********......**......**..*=
+*********..**********..******......**********..**......**<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**..........**......**..**......**..**..............**......**..*=
+*......**......**......**....**....**......**....**..**..<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**..........**......**..**......**..**..............**......**..*=
+*......**......**......**....**....**......**....**..**..<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********..**********..**......**..******..........**********..*=
+*********......**......**......**..**......**......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********..**********..**......**..******..........**********..*=
+*********......**......**......**..**......**......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">........**..**......**....**..**....**..............**......**..*=
+*..**..........**......**....**....**......**......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">........**..**......**....**..**....**..............**......**..*=
+*..**..........**......**....**....**......**......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********..**......**......**......**********......**......**..*=
+*....****..**********..******......**********......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt">**********..**......**......**......**********......**......**..*=
+*....****..**********..******......**********......**....<o:p></o:p></SPA=
+N></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 6pt; mso-bidi-font-size: =
+12.0pt"><![if =
+!supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></SPAN></B></PRE><PRE><![i=
+f !supportEmptyParas]>&nbsp;<![endif]><B><SPAN style=3D"FONT-SIZE: 6pt; =
+mso-bidi-font-size: =
+12.0pt"><o:p></o:p></SPAN></B></PRE></TD></TR></TBODY></TABLE>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SUP><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-size: =
+12.0pt">1</SPAN></SUP><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-size: =
+12.0pt"> Hridoy,=20
+who is a student of the Computer Science and Engineering Department of=20
+Bangladesh UET, is suffering from Leukemia. His friends, relatives and=20
+well-wishers have are collecting the fund required to bear his treatment =
+
+expenses and he is now in Singapore for treatment. So now let us make =
+this=20
+(=93SAVE HRIDOY=94) big banner in our heart and pray. =
+<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal><SUP><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-size: =
+12.0pt">2</SPAN></SUP><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-bidi-font-size: =
+12.0pt"> The=20
+font size of output is kept small to make it fit into page. </SPAN></P>
+<DIV=20
+style=3D"TEXT-ALIGN: center; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal align=3Dcenter>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</DIV>
+<P style=3D"MARGIN: 0in 0in 0pt"><SPAN style=3D"FONT-FAMILY: 'Trebuchet =
+MS'">Problem=20
+setter: Shahriar Manzoor <o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Trebuchet MS'">Special Thanks: Monirul=20
+Hasan<o:p></o:p></SPAN></P>
+<P=20
+class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P></DIV></BODY></HTML>

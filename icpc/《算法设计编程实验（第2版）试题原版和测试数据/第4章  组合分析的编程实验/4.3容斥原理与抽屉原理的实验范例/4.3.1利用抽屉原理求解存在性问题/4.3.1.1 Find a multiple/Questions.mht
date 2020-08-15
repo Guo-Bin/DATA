@@ -1,0 +1,69 @@
+From: =?windows-1251?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Questions
+Date: Mon, 13 Feb 2012 10:42:13 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\??\ACM????\???\1999\Urals 1999 E.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0042)http://contest.ur.ru/ural99/problems/e.htm =
+--><HTML><HEAD><TITLE>Questions</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1251" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY aLink=3D#ff0000 link=3D#2c29ff bgColor=3D#ffffff text=3D#000000=20
+vLink=3D#001b9b><B><FONT size=3D4 face=3DTahoma>
+<P align=3Djustify>Problem E. Find a multiple.</P></B></FONT><I>
+<P align=3Djustify>Time limit: 5 sec per test.</P></I>
+<P align=3Djustify>The input file contains N natural (i.e. positive =
+integer)=20
+numbers ( N &lt;=3D 10^6 ). Each of that numbers in not greater than =
+15000. This=20
+numbers are not necessarily different (so it may happen that two or more =
+of them=20
+will be equal). Your task is to choose a few of given numbers ( 1 =
+&lt;=3D few=20
+&lt;=3D N ) so that the sum of chosen numbers is multiple for N (i.e. N =
+=3D k*(sum=20
+of chosen numbers) for some natural number k).</P>
+<P align=3Djustify>The input file contains N natural (i.e. positive =
+integer)=20
+numbers ( N &lt;=3D 10^6 ). Each of that numbers in not greater than =
+15000. This=20
+numbers are not necessarily different (so it may happen that two or more =
+of them=20
+will be equal). Your task is to choose a few of given numbers ( 1 =
+&lt;=3D few=20
+&lt;=3D N ) so that the sum of chosen numbers is multiple for N (i.e.=20
+N&nbsp;*&nbsp;k&nbsp;=3D&nbsp;(sum of chosen numbers) for some natural =
+number=20
+k).</P>
+<P align=3Djustify>The first line of the input file contains the single =
+number N.=20
+Each of next N lines contains one number from the given set. </P>
+<P align=3Djustify>In case your program decides that the target set of =
+numbers can=20
+not be found it should print to the output file the single number 0. =
+Otherwise=20
+it should print the number of the chosen numbers in the first line =
+followed by=20
+the chosen numbers themselves (on a separate line each) in arbitrary =
+order.</P>
+<P align=3Djustify>If there are more than one set of numbers with =
+required=20
+properties you should print to the output file only one (preferably your =
+
+favorite) of them.</P></FONT><B>
+<P>Input sample.</P></B><FONT size=3D3 face=3D"Courier New">
+<P>5<BR>1<BR>2<BR>3<BR>4<BR>1</P></FONT><B>
+<P>Output sample.</P></B><FONT size=3D3 face=3D"Courier New">
+<P>2<BR>2<BR>3</P></FONT>
+<CENTER><FONT size=3D-3><A =
+href=3D"http://contest.ur.ru/ural99/problems.html"=20
+target=3D_self>[=C7=E0=E4=E0=F7=E8]</A> <A=20
+href=3D"http://contest.ur.ru/ural99/eng/problems.html" =
+target=3D_self>[Other=20
+problems]</A> </FONT></CENTER></BODY></HTML>

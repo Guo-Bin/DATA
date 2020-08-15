@@ -1,0 +1,83 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Not That Kind of Graph
+Date: Sun, 26 Feb 2012 19:08:09 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: =?gb2312?B?ZmlsZTovL0M6XMziv+Jc1NrP38bAsuLPtc2z18rBz7yw09C52Mzi?=
+	=?gb2312?B?veJcQWxnb3JpdGhtaXN0XEFkIEhvY1xVVkFcVVZhIDEwODAwXE5vdA==?=
+	=?gb2312?B?IFRoYXQgS2luZCBvZiBHcmFwaC5odG0=?=
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0035)http://acm.uva.es/p/v108/10800.html =
+--><HTML><HEAD><TITLE>Not That Kind of Graph</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY><BASEFONT face=3DARIAL>
+<P>
+<CENTER><FONT size=3D6><B>Problem ?</B></FONT><BR><FONT size=3D5><B>Not =
+That Kind of=20
+Graph</B></FONT><BR><FONT size=3D4>Time Limit: 1 second</FONT> </CENTER>
+<P></P>
+<P align=3Dright>
+<TABLE border=3D0>
+  <TBODY>
+  <TR>
+    <TD><SMALL><I>"You know, it's all very sweet, stealing from =
+the<BR>rich,=20
+      selling to the poor..."</I> =
+</SMALL></TD></TR></TBODY></TABLE><TT>Jose Molina,=20
+"Firefly."</TT> </SMALL></P>
+<P class=3Dparagraph>Your task is to graph the price of a stock over =
+time. In one=20
+unit of time, the stock can either <B>R</B>ise, <B>F</B>all or stay=20
+<B>C</B>onstant. The stock's price will be given to you as a string of =
+R's, F's=20
+and C's. You need to graph it using the characters '/' (slash), '\' =
+(backslash)=20
+and '_' (underscore). </P>
+<P class=3Dparagraph><FONT size=3D5><B>Input</B></FONT><BR>The first =
+line of input=20
+gives the number of cases, <B>N</B>. <B>N</B> test cases follow. Each =
+one=20
+contains a string of at least 1 and at most 50 upper case characters (R, =
+F or=20
+C). </P>
+<P class=3Dparagraph><FONT size=3D5><B>Output</B></FONT><BR>For each =
+test case,=20
+output the line "Case #<B>x</B>:", where <B>x</B> is the number of the =
+test=20
+case. Then print the graph, as shown in the sample output, including the =
+x- and=20
+y-axes. The x-axis should be one character longer than the graph, and =
+there=20
+should be one space between the y-axis and the start of the graph. There =
+should=20
+be no trailing spaces on any line. Do not print unnecessary lines. The =
+x-axis=20
+should always appear directly below the graph. Finally, print an empty =
+line=20
+after each test case. </P>
+<TABLE border=3D1 cellSpacing=3D0 borderColor=3Dblack cellPadding=3D5 =
+width=3D"100%">
+  <TBODY>
+  <TR vAlign=3Dtop>
+    <TD><FONT size=3D5><B>Sample Input</B></FONT> </TD>
+    <TD><FONT size=3D5><B>Sample Output</B></FONT> </TD></TR>
+  <TR vAlign=3Dtop bgColor=3D#d0d0d0>
+    <TD><PRE>1
+RCRFCRFFCCRRC
+</PRE></TD>
+    <TD><PRE>Case #1:
+|             _
+|  _/\_/\    /
+| /      \__/
++---------------
+
+</PRE></TD></TR></TBODY></TABLE>
+<P>
+<HR>
+<B>Problemsetter: Igor Naverniouk</B>=20
+<P></P></TD></TR></TABLE></BASEFONT></BODY></HTML>

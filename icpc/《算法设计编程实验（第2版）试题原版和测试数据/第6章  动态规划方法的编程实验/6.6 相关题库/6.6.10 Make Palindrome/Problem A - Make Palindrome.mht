@@ -1,0 +1,168 @@
+From: =?Windows-1252?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem A - Make Palindrome
+Date: Mon, 7 Nov 2011 15:49:20 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.149\10453.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem A - Make =
+Palindrome</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./p3_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./p3_files/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Administrator</o:Author>=0A=
+  <o:LastAuthor>Administrator</o:LastAuthor>=0A=
+  <o:Revision>9</o:Revision>=0A=
+  <o:TotalTime>6</o:TotalTime>=0A=
+  <o:Created>2001-02-20T07:08:00Z</o:Created>=0A=
+  <o:LastSaved>2001-02-20T07:14:00Z</o:LastSaved>=0A=
+  <o:Pages>2</o:Pages>=0A=
+  <o:Words>222</o:Words>=0A=
+  <o:Characters>1268</o:Characters>=0A=
+  <o:Company>BUET</o:Company>=0A=
+  <o:Lines>10</o:Lines>=0A=
+  <o:Paragraphs>2</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>1557</o:CharactersWithSpaces>=0A=
+  <o:Version>9.2720</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+</xml><![endif]-->
+<STYLE>@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in =
+1.25in; mso-header-margin: .5in; mso-footer-margin: .5in; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+<!--[if gte mso 9]><xml>=0A=
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027"/>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapelayout v:ext=3D"edit">=0A=
+  <o:idmap v:ext=3D"edit" data=3D"1"/>=0A=
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US bgColor=3D#d0d0ff>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Problem =
+A</FONT></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D6>Make=20
+Palindrome</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal">Input: </B><SPAN=20
+style=3D"mso-bidi-font-weight: bold">standard =
+input<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal">Output: </B>standard output</P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal">Time Limit: </B>8 seconds</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>By definition =
+palindrome is a=20
+string which is not changed when reversed. "MADAM" is a nice example of=20
+palindrome. It is an easy job to test whether a given string is a =
+palindrome or=20
+not. But it may not be so easy to generate a palindrome. </P><BR=20
+style=3D"mso-ignore: vglayout" clear=3Dall>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>Here we will make a =
+palindrome=20
+generator which will take an input string and return a palindrome. You =
+can=20
+easily verify that for a string of length 'n', no more than (n-1) =
+characters are=20
+required to make it a palindrome. Consider "abcd" and its palindrome =
+"abcdcba"=20
+or "abc" and its palindrome "abcba". But life is not so easy for =
+programmers!!=20
+We always want optimal cost. And you have to find the minimum number of=20
+characters required to make a given string to a palindrome if you are =
+allowed to=20
+insert characters at any position of the string. </P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT =
+size=3D5>Input</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>Each input line =
+consists only of=20
+lower case letters. The size of input string will be at most 1000. Input =
+is=20
+terminated by EOF. </P><BR>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT =
+size=3D5>Output</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>For each input print =
+the minimum=20
+number of characters and such a palindrome seperated by one space in a =
+line.=20
+There may be many such palindromes. Any one will be accepted.=20
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Sample=20
+Input</FONT></SPAN></B></P><FONT size=3D3 =
+face=3Dcourier></FONT><XMP>abcd
+aaaa
+abc
+aab
+abababaabababa
+pqrsabcdpqrs
+</XMP>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Sample=20
+Output</FONT></SPAN></B></P><FONT size=3D3 face=3Dcourier><XMP>3 abcdcba
+0 aaaa
+2 abcba
+1 baab
+0 abababaabababa
+9 pqrsabcdpqrqpdcbasrqp
+</XMP></FONT></DIV>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+
+<P class=3DMsoNormal><B><SPAN style=3D"COLOR: windowtext">Author : Md.=20
+Kamruzzaman</SPAN></B></P><I>The Real Programmers' Contest-2 =
+</I></BODY></HTML>

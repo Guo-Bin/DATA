@@ -1,0 +1,369 @@
+{O(n*logn) - solution
+  1. build visibilty graphs.
+  2. count triangles (every planar graph contains a vertex of degree at most 5;
+     pick up one such vertex; for every pair of its neighbours test whether
+     they are adjacent; remove chosen vertex) } 
+{$I+,$R+}
+program tri;
+const
+   maxn	 = 9000;
+   maxnn = 9000;
+   minx  = 0;
+   maxx	 = 8001;
+   
+   maxe = 30000;
+
+type 
+   plist = ^tlist;
+   tlist = record
+     v  : longint;
+     no : longint;
+     n  : plist;
+   end;   
+   
+var
+   d,n,ii : longint;
+   int	  : array[1..maxn,1..3] of longint;
+   e      : array[1..maxe,1..3] of longint;
+   e_no   : longint;
+   g      : array[1..maxn] of plist;
+   deg    : array[0..maxn] of longint;
+   q      : array[1..2*maxn,1..4] of longint; { y, sign, x, no }
+   q_no   : longint;
+   sum    : array[1..2*maxnn] of longint;
+   scan   : array[0..maxx] of longint;
+   
+   answer : longint;
+   
+
+procedure qsort(l,r : longint);
+var
+   i,j,k : longint;
+   m0,m1 : longint;
+   tmp   : longint;
+begin
+   i:=l;
+   j:=r;
+   if (l>=r) then exit;
+   m0:=q[(l+r) div 2,1];
+   m1:=q[(l+r) div 2,2];
+   repeat
+      while (q[i,1]<m0) or ((q[i,1]=m0) and (q[i,2]<m1)) do inc(i);
+      while (q[j,1]>m0) or ((q[j,1]=m0) and (q[j,2]>m1)) do dec(j);
+      if (i<=j) then begin
+         for k:=1 to 4 do begin
+  	   tmp:=q[i,k];q[i,k]:=q[j,k];q[j,k]:=tmp;
+	 end;
+	 inc(i);
+	 dec(j);	 
+      end;
+   until i>j;
+   if (l<j) then qsort(l,j);
+   if (i<r) then qsort(i,r);
+end;
+
+procedure qsort2(l,r : longint);
+var
+   i,j,k : longint;
+   m0,m1 : longint;
+   tmp   : longint;
+begin
+   i:=l;
+   j:=r;
+   if (l>=r) then exit;
+   m0:=e[(l+r) div 2,1];
+   m1:=e[(l+r) div 2,2];
+   repeat
+      while (e[i,1]<m0) or ((e[i,1]=m0) and (e[i,2]<m1)) do inc(i);
+      while (e[j,1]>m0) or ((e[j,1]=m0) and (e[j,2]>m1)) do dec(j);
+      if (i<=j) then begin
+         for k:=1 to 3 do begin
+  	   tmp:=e[i,k];e[i,k]:=e[j,k];e[j,k]:=tmp;
+	 end;
+	 inc(i);
+	 dec(j);	 
+      end;
+   until i>j;
+   if (l<j) then qsort2(l,j);
+   if (i<r) then qsort2(i,r);
+end;
+
+
+procedure read_data;
+var
+   i : longint;
+begin
+   readln(n);
+   for i:=1 to n do readln(int[i,1],int[i,2],int[i,3]);
+                          {y0      ,y1      ,x       } 
+   for i:=1 to n do begin
+     inc(int[i,1]);
+     inc(int[i,2]);
+     inc(int[i,3]);
+   end;
+   
+   q_no:=0;
+   for i:=1 to n do begin
+     inc(q_no);
+     q[q_no,1]:=int[i,1];
+     q[q_no,2]:=1;
+     q[q_no,3]:=int[i,3];
+     q[q_no,4]:=i;
+
+     inc(q_no);
+     q[q_no,1]:=int[i,2]+1;
+     q[q_no,2]:=-1;
+     q[q_no,3]:=int[i,3];
+     q[q_no,4]:=i;     
+   end;
+      
+   qsort(1,q_no);
+{   for i:=1 to q_no do Writeln(q[i,1],' ',q[i,2],' ',q[i,3],' ',q[i,4]);}
+end; { read_data }
+
+procedure add_edge(e1,e2:longint);
+var
+  tmp:plist;
+begin
+  if (e1<e2) then begin
+{    Writeln('add_edge: ',e1,' ',e2);}
+    inc(e_no);
+
+    e[e_no,1]:=e1;
+    e[e_no,2]:=e2;
+    e[e_no,3]:=1;
+    
+    new(tmp);
+    tmp^.v:=e2;
+    tmp^.no:=e_no;
+    tmp^.n:=g[e1];
+    g[e1]:=tmp;
+    
+    new(tmp);
+    tmp^.v:=e1;
+    tmp^.no:=e_no;
+    tmp^.n:=g[e2];
+    g[e2]:=tmp;
+  end else add_edge(e2,e1);    
+end;
+
+procedure add(x:longint;edge_no,delta:longint);
+var
+  l,r,m:longint;
+  no:longint;
+begin
+{  Writeln('x=',x,' e_no=',edge_no,' delta=',delta); }
+  if (delta=+1) then scan[x]:=edge_no else scan[x]:=0;
+  
+  no:=1;
+  l:=minx;r:=maxx;
+  while (l<=r) do begin
+    sum[no]:=sum[no]+delta;
+    
+    if (l=r) then break;
+    
+    m:=(l+r) div 2;
+    if (x<=m) then begin
+      r:=m;
+      no:=2*no;
+    end else begin
+      l:=m+1;
+      no:=2*no+1;
+    end;
+  end;
+end;
+
+function _search(x:longint;direction:integer;l,r,no:longint):longint;
+var
+  m:longint;
+  res:longint;
+begin
+  res:=-1;  
+  if (l=r) then begin
+{     Writeln('_search l=',l,' scan[l]=',scan[l]);}
+     if (scan[l]=0) then _search:=-1
+     else _search:=scan[l];
+  end else begin
+{     Writeln('_search: x=',x,' sum[no]=',sum[no],' l=',l,' r=',r,' dir=',direction);}
+     if (sum[no]>0) then begin
+        m:=(l+r) div 2;    
+        if (x<=m) then begin
+           if (direction=-1) then res:=_search(x,direction,l,m,2*no)
+           else begin
+   	      res:=_search(x,direction,l,m,2*no);
+	      if (res=-1) then res:=_search(m+1,direction,m+1,r,2*no+1);
+           end;
+        end else begin {x>m}
+           if (direction=+1) then res:=_search(x,direction,m+1,r,2*no+1)
+           else begin
+	      res:=_search(x,direction,m+1,r,2*no+1);
+	      if (res=-1) then res:=_search(m,direction,l,m,2*no);
+           end;
+        end;
+     end;
+     _search:=res;
+  end;    
+end;
+
+function search(x:longint;direction:integer):longint;
+begin
+{  Writeln('search x=',x,' dir=',direction); } 
+  search:=_search(x,direction,minx,maxx,1);
+end;
+
+procedure make_g;
+var
+  i,j,k:longint;
+  y,x:longint;
+  i0,i1:longint;
+  e0,e1,e2:longint;
+begin
+  fillchar(sum,sizeof(sum),0);
+  fillchar(scan,sizeof(scan),0);
+
+  i:=1;
+  while (i<=q_no) do begin
+    y:=q[i,1];
+{    Writeln('y=',y);}
+    i0:=i;i1:=0;    
+    {dodanie wszystkich ze znakiem -1}    
+    while (q[i,2]=-1) and (q[i,1]=y) do begin
+      add(q[i,3],q[i,4],-1);
+      inc(i1);
+      inc(i);
+    end;
+    for j:=1 to i1 do begin
+      x:=q[i0+j-1,3];
+      e1:=search(x-1, -1);
+      e2:=search(x+1, +1);
+      if (e1<>-1) and (e2<>-1) then add_edge(e1,e2);
+    end;
+    
+    i0:=i;i1:=0;
+    while (q[i,2]=+1) and (q[i,1]=y) do begin
+      add(q[i,3],q[i,4],+1);
+      inc(i1);
+      inc(i);
+    end;
+    
+    for j:=1 to i1 do begin
+      e0:=q[i0+j-1,4];
+      x :=q[i0+j-1,3];
+      e1:=search(x-1, -1);
+      e2:=search(x+1, +1);
+      if (e1<>-1) then add_edge(e0,e1);
+      if (e2<>-1) then add_edge(e0,e2);
+    end;
+    
+  end; 
+end;
+
+function check_edge(e1,e2:longint;remove:boolean):boolean;
+var
+  l,r:longint;
+  m:longint;
+  res:boolean;
+begin
+  if (e1>e2) then begin m:=e1;e1:=e2;e2:=m; end;
+
+  l:=1;r:=e_no;
+  while (l<r) do begin
+    m:=(l+r) div 2;
+    if (e[m,1]=e1) and (e[m,2]=e2) then begin
+      l:=m;
+      r:=m;
+      break;
+    end else if (e1<e[m,1]) or ((e1=e[m,1]) and (e2<e[m,2])) then r:=m-1
+    else l:=m+1;    
+  end;
+  
+  res:=false;
+  if (l=r) then begin
+    if (e[l,1]=e1) and (e[l,2]=e2) and (e[l,3]=1) then res:=true;
+  end;    
+  if (res) and (remove) then e[l,3]:=0;
+  check_edge:=res;
+end;
+
+procedure solve;
+var
+   i,j,j1,j2,k : longint;
+   min_v       : longint;
+   a	       : array[1..maxn] of longint;
+   tmp,l       : plist;
+   low_q       : array[1..maxn] of longint;
+   low_h,low_t : longint;
+begin
+   answer:=0;
+   e_no:=0;
+   fillchar(e,sizeof(e),0);
+   fillchar(g,sizeof(g),0);
+   make_g;
+   qsort2(1,e_no);
+   {removing multiple edges}
+   j:=1;
+   for i:=2 to e_no do begin
+     if (e[i,1]<>e[j,1]) or (e[i,2]<>e[j,2]) then begin
+       inc(j);
+       e[j,1]:=e[i,1];
+       e[j,2]:=e[i,2];
+       e[j,3]:=e[i,3];
+     end;
+   end;
+   e_no:=j;
+   fillchar(deg,sizeof(deg),0);
+   for i:=1 to e_no do begin
+     inc(deg[e[i,1]]);
+     inc(deg[e[i,2]]);
+   end;
+
+   fillchar(low_q,sizeof(low_q),0);
+   low_h:=1;low_t:=0;
+   for i:=1 to n do if (deg[i]<6) then begin
+      inc(low_t);
+      low_q[low_t]:=i;
+      deg[i]:=-1;
+   end;
+   
+   for i:=1 to n do begin
+      if (low_h>low_t) then begin
+	 Writeln('ERROR!!! --- bad graph');
+	 halt(1);
+      end;
+      min_v:=low_q[low_h];inc(low_h);
+       
+      deg[min_v]:=-1;
+      l:=g[min_v];
+      k:=0;
+      while (l<>nil) do begin
+	 if (check_edge(min_v,l^.v,true)) then begin
+	    inc(k);
+	    a[k]:=l^.v;
+	    if (deg[l^.v]<>-1) then begin
+	       dec(deg[l^.v]);
+	       if (deg[l^.v]<6) then begin
+		  inc(low_t);
+		  low_q[low_t]:=l^.v;
+		  deg[l^.v]:=-1;
+	       end;
+	    end;
+	 end;
+	 tmp:=l;
+	 l:=l^.n;
+	 dispose(tmp);
+      end;
+      
+      for j1:=1 to k do 
+	 for j2:=j1+1 to k do if check_edge(a[j1],a[j2],false) then inc(answer);
+   end;
+end; { solve }
+			 
+
+begin
+   readln(d);
+   for ii:=1 to d do begin
+      read_data;
+      solve;
+      Writeln(answer);
+   end;
+end.

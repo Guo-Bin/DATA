@@ -1,0 +1,50 @@
+From: =?Windows-1252?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: You can say 11
+Date: Sat, 25 Feb 2012 23:37:50 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX31.602\10929.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--This file created by AppleWorks HTML Filter =
+6.0--><HTML><HEAD><TITLE>You can say 11</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744">
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type></HEAD>
+<BODY>
+<P align=3Dcenter><FONT size=3D6>Problem C - You can say 11<BR><FONT =
+size=3D5>Time=20
+Limite: 1 second</FONT> </FONT></P>
+<P><BR><FONT size=3D4><B>Introduction to the =
+problem<BR></B></FONT><BR>Your job=20
+is, given a positive number N, determine if it is a multiple of=20
+eleven.<BR><BR><FONT size=3D4><B>Description of the=20
+input</B></FONT><B><BR></B><BR>The input is a file such that each line =
+contains=20
+a positive number. A line containing the number 0 is the end of the =
+input. The=20
+given numbers can contain up to 1000 digits.<BR><BR><FONT =
+size=3D4><B>Description=20
+of the output</B></FONT><B><BR></B><BR>The output of the program shall =
+indicate,=20
+for each input number, if it is a multiple of eleven or =
+not.<BR><BR><FONT=20
+size=3D4><B>Sample=20
+input:<BR></B></FONT><BR>112233<BR>30800<BR>2937<BR>323455693<BR>5038297<=
+BR>112234<BR>0<BR><BR><FONT=20
+size=3D4><B>Sample output<BR></B></FONT><BR>112233 is a multiple of =
+11.<BR>30800=20
+is a multiple of 11.<BR>2937 is a multiple of 11.<BR>323455693 is a =
+multiple of=20
+11.<BR>5038297 is a multiple of 11.<BR>112234 is not a multiple of =
+11.<BR></P>
+<HR>
+
+<P>
+<P align=3Dcenter><I>Problem setter: David Deharbe, Copyright 2005 UFRN. =
+All=20
+rights reserved.</P></I>
+<P></P></BODY></HTML>

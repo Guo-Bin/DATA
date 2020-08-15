@@ -1,0 +1,192 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Intersecting Lines
+Date: Sat, 11 Feb 2012 15:36:24 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0007_01CCE8D2.E960E780"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.480\378.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Intersecting Lines</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Intersecting Lines">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Intersecting=20
+  Lines</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>We all know that a pair of distinct points on a plane defines a line =
+and that=20
+a pair of lines on a plane will intersect in one of three ways: 1) no=20
+intersection because they are parallel, 2) intersect in a line because =
+they are=20
+on top of one another (i.e. they are the same line), 3) intersect in a =
+point. In=20
+this problem you will use your algebraic knowledge to create a program =
+that=20
+determines how and where two lines intersect.=20
+<P>
+<P>Your program will repeatedly read in four points that define two =
+lines in the=20
+<I>x</I>-<I>y</I> plane and determine how and where the lines intersect. =
+All=20
+numbers required by this problem will be reasonable, say between -1000 =
+and 1000.=20
+
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The first line contains an integer <I>N</I> between 1 and 10 =
+describing how=20
+many pairs of lines are represented. The next <I>N</I> lines will each =
+contain=20
+eight integers. These integers represent the coordinates of four points =
+on the=20
+plane in the order <IMG alt=3Dtex2html_wrap_inline35 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg1.gif"=20
+width=3D132 height=3D17> . Thus each of these input lines represents two =
+lines on=20
+the plane: the line through <IMG alt=3Dtex2html_wrap_inline37 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg2.gif"=20
+width=3D51 height=3D27> and <IMG alt=3Dtex2html_wrap_inline39 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg3.gif"=20
+width=3D51 height=3D27> and the line through <IMG =
+alt=3Dtex2html_wrap_inline41=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg4.gif"=20
+width=3D51 height=3D27> and <IMG alt=3Dtex2html_wrap_inline43 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg5.gif"=20
+width=3D51 height=3D27> . The point <IMG alt=3Dtex2html_wrap_inline37 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg2.gif"=20
+width=3D51 height=3D27> is always distinct from <IMG =
+alt=3Dtex2html_wrap_inline39=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg3.gif"=20
+width=3D51 height=3D27> . Likewise with <IMG =
+alt=3Dtex2html_wrap_inline41 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg4.gif"=20
+width=3D51 height=3D27> and <IMG alt=3Dtex2html_wrap_inline43 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378i=
+mg5.gif"=20
+width=3D51 height=3D27> .=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>There should be <I>N</I>+2 lines of output. The first line of output =
+should=20
+read <TT>INTERSECTING LINES OUTPUT</TT>. There will then be one line of =
+output=20
+for each pair of planar lines represented by a line of input, describing =
+how the=20
+lines intersect: none, line, or point. If the intersection is a point =
+then your=20
+program should output the <I>x</I> and <I>y</I> coordinates of the =
+point,=20
+correct to two decimal places. The final line of output should read =
+``<TT>END OF=20
+OUTPUT</TT>".=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>5
+0 0 4 4 0 4 4 0
+5 0 7 6 1 0 2 3
+5 0 7 6 3 -6 4 -3
+2 0 2 27 1 5 18 5
+0 3 4 0 1 2 2 5</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>INTERSECTING LINES OUTPUT
+POINT 2.00 2.00
+NONE
+LINE
+POINT 2.00 5.00
+POINT 1.07 2.20
+END OF OUTPUT</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378img1.gif
+
+R0lGODlhhAARAIAAAAAAAP///yH5BAEAAAEALAAAAACEABEAAAL2TACXxm3IlmsQTirlVXzH7D2J
+5ZEaxZHXuJwO262di1Z0NIew+uZTCytZeKjUTQEsiWKr4TFJ/CSFP5dz2XwhNFek9bQFQ7dZ2QeL
+S2t/Z2axaGpP1WlVZoSmY952/HDfg8UTBBJz9yDoA4iYF/cnxXfH8pjHeNAm1VKl9iVCiRR46YlB
+WcF3Nhm2mHlIqroaJsZK1Ee2GBsn6pl7hLlZGZLyu9RrmJWrE/uLGzwYBKzDaBNYjDxtHBzpZrmh
+jGjrVbyrCR6e7X0Jjt5sO6kVxS6eXSU//26PD5q/z9/v/w8woMCBBAsaPIgwocKFDBs6fAgxYogC
+ADs=
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378img2.gif
+
+R0lGODlhMwAbAIAAAAAAAP///yH5BAEAAAEALAAAAAAzABsAAAJ9jGGpy+2OVHy0WjCx3Zxp3YXc
+N4nmg5UJeQagS6Wei7xdHamLLB24ybN5hCsdEZJLDnWHxtFZ9C13tGZ0k1HuhKmcRHXMXL+2Lk9K
+Xr6I3RuTia5SYSPjUB5HP7dneu9sttLT4lcE9zVH2HKo2Oj4CBkpOUlZaXmJmalpUgAAOw==
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378img3.gif
+
+R0lGODlhMwAbAIAAAAAAAP///yH5BAEAAAEALAAAAAAzABsAAAKBjGGpy+2OVHy0WjCx3Zxp3YXc
+N4nmg5UJeYKB6rnri8hbHcFLuh+4yKNVgrEdEZVL2o4Sj2+4yj2jqt9rJqRkpFlfNQgD2Q5YSSl1
+Ri+3YbTROEZey8XonHy/4PPP5V6sE0MURpM22HTCV3hTlei49xgpOUlZaXmJmam5ydnpKVkAADs=
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378img4.gif
+
+R0lGODlhMwAbAIAAAAAAAP///yH5BAEAAAEALAAAAAAzABsAAAKAjGGpy+2OVHy0WjCx3Zxp3YXc
+N4nmg5UJeQagS6Wei7xdHamLLB24ybN5hCtVStcAkYS82c53KcJoEiZ1Wo1CpUVjsFoiYjPMJu2o
+e5l9a9txo35CfoceNpaxZ5X5rXholnbWFbfSUrfzl6V3eILUCBkpOUlZaXmJmam5ydnZUgAAOw==
+
+------=_NextPart_000_0007_01CCE8D2.E960E780
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.480/378img5.gif
+
+R0lGODlhMwAbAIAAAAAAAP///yH5BAEAAAEALAAAAAAzABsAAAJ/jGGpy+2OVHy0WjCx3Zxp3YXc
+N4nmg5UJeYKB6rnri8hbHcFLuh+4yKNVgjHIJadK2maNpWdVshEPwpfE2fNBldwc1Kp9UrXda8rl
+9cHOmfFWFztLUEg5E46a737iMDbe1jNFg6bXEneTdLJoyOj4CBkpOUlZaXmJmam5yZlQAAA7
+
+------=_NextPart_000_0007_01CCE8D2.E960E780--

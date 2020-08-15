@@ -1,0 +1,277 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Robbery
+Date: Mon, 7 Nov 2011 08:50:41 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC9D2A.5432BBA0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.480\707.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Robbery</TITLE>
+<META name=3Ddescription content=3DRobbery>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>=20
+Robbery</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Inspector Robstop is very angry. Last night, a bank has been robbed =
+and the=20
+robber has not been caught. And this happened already for the third time =
+this=20
+year, even though he did everything in his power to stop the robber: as =
+quickly=20
+as possible, all roads leading out of the city were blocked, making it=20
+impossible for the robber to escape. Then, the inspector asked all the =
+people in=20
+the city to watch out for the robber, but the only messages he got were =
+of the=20
+form ``We don't see him."=20
+<P>But this time, he has had enough! Inspector Robstop decides to =
+analyze how=20
+the robber could have escaped. To do that, he asks you to write a =
+program which=20
+takes all the information the inspector could get about the robber in =
+order to=20
+find out where the robber has been at which time.=20
+<P>Coincidentally, the city in which the bank was robbed has a =
+rectangular=20
+shape. The roads leaving the city are blocked for a certain period of =
+time=20
+<I>t</I>, and during that time, several observations of the form ``The =
+robber=20
+isn't in the rectangle <I>R</I><SUB><I>i</I></SUB> at time=20
+<I>t</I><SUB><I>i</I></SUB>'' are reported. Assuming that the robber can =
+move at=20
+most one unit per time step, your program must try to find the exact =
+position of=20
+the robber at each time step.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>
+<P>The input file contains the description of several robberies. The =
+first line=20
+of each description consists of three numbers <I>W</I>, <I>H</I>, =
+<I>t</I> ( <!-- MATH: $1 \le W, H, t \le 100$ --><IMG border=3D0=20
+alt=3D"$1 \le W, H, t \le 100$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg1.gif"=20
+width=3D139 height=3D32>) where <I>W</I> is the width, <I>H</I> the =
+height of the=20
+city and <I>t</I> is the time during which the city is locked.=20
+<P>The next contains a single integer <I>n</I> ( <!-- MATH: $0 \le n \le =
+100$ --><IMG border=3D0 alt=3D"$0 \le n \le 100$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg2.gif"=20
+width=3D96 height=3D30>), the number of messages the inspector received. =
+The next=20
+<I>n</I> lines (one for each of the messages) consist of five integers =
+<!-- MATH: $t_i, L_i, T_i,=0A=
+R_i, B_i$ --><I>t</I><SUB><I>i</I></SUB>,=20
+<I>L</I><SUB><I>i</I></SUB>, <I>T</I><SUB><I>i</I></SUB>,=20
+<I>R</I><SUB><I>i</I></SUB>, <I>B</I><SUB><I>i</I></SUB> each. The =
+integer=20
+<I>t</I><SUB><I>i</I></SUB> is the time at which the observation has =
+been made (=20
+<!-- MATH: $1 \le t_i \le t$ --><IMG border=3D0 alt=3D"$1 \le t_i \le =
+t$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg3.gif"=20
+width=3D78 height=3D30>), and=20
+<!-- MATH: $L_i, T_i, R_i, B_i$ --><I>L</I><SUB><I>i</I></SUB>,=20
+<I>T</I><SUB><I>i</I></SUB>, <I>R</I><SUB><I>i</I></SUB>,=20
+<I>B</I><SUB><I>i</I></SUB> are the left, top, right and bottom =
+respectively of=20
+the (rectangular) area which has been observed. ( <!-- MATH: $1 \le L_i =
+\le R_i \le W, 1 \le T_i \le B_i \le H$ --><IMG border=3D0=20
+alt=3D"$1 \le L_i \le R_i \le W, 1 \le T_i \le B_i \le H$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg4.gif"=20
+width=3D271 height=3D32>; the point (1, 1) is the upper left hand =
+corner, and=20
+(<I>W</I>,<I>H</I>) is the lower right hand corner of the city.) The =
+messages=20
+mean that the robber was not in the given rectangle at time=20
+<I>t</I><SUB><I>i</I></SUB>.=20
+<P>The input is terminated by a test case starting with <!-- MATH: $W =
+=3D H =3D t =3D 0$ --><I>W</I> =3D <I>H</I> =3D <I>t</I> =3D 0. This =
+case=20
+should not be processed.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>
+<P>For each robbery, first output the line ``<TT>Robbery=20
+#</TT><I>k</I><TT>:</TT>'', where <I>k</I> is the number of the robbery. =
+Then,=20
+there are three possibilities:=20
+<P>If it is impossible that the robber is still in the city considering =
+the=20
+messages, output the line ``<TT>The robber has escaped.</TT>''=20
+<P>In all other cases, assume that the robber really is in the city. =
+Output one=20
+line of the form ``<TT>Time step </TT><IMG border=3D0 alt=3D$\tau$ =
+align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg5.gif"=20
+width=3D14 height=3D16><TT>: The robber has been at=20
+</TT><I>x</I><TT>,</TT><I>y</I><TT>.</TT>" for each time step, in which =
+the=20
+exact location can be deduced. (<I>x</I> and <I>y</I> are the column =
+resp. row=20
+of the robber in time step <IMG border=3D0 alt=3D$\tau$ align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg5.gif"=20
+width=3D14 height=3D16>.) Output these lines ordered by time <IMG =
+border=3D0=20
+alt=3D$\tau$ align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707i=
+mg5.gif"=20
+width=3D14 height=3D16>.=20
+<P>If nothing can be deduced, output the line ``<TT>Nothing known.</TT>" =
+and=20
+hope that the inspector will not get even more angry.=20
+<P>Output a blank line after each processed case.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2>
+<P><PRE>4 4 5
+4
+1 1 1 4 3
+1 1 1 3 4
+4 1 1 3 4
+4 4 2 4 4
+10 10 3
+1
+2 1 1 10 10
+0 0 0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2>
+<P><PRE>Robbery #1:
+Time step 1: The robber has been at 4,4.
+Time step 2: The robber has been at 4,3.
+Time step 3: The robber has been at 4,2.
+Time step 4: The robber has been at 4,1.
+
+Robbery #2:
+The robber has escaped.
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>2000-02-09</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707img1.gif
+
+R0lGODlhiwAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAACLACAAQAT+cMlJq7046827/2AmAN3DFAnHkNJTAMKkENsANBTgcM+9
+majOaGIAICaFwaJ4lCQvD8FLIcB9DJkebcKIVWzeRfQlCCwCgsNB8JiAKwyqGYSFSgFUXMPxIFAn
+e31/IYSFhoeIiYqLjI2OIUMaCUlWPAAPASkLMA0MQgBbEgAFlm0ZkwOVHJELI6YLK62XXCyPig11
+hLi2vL2+v8DBwsPEDwoOtR7GDqoULxQjTU7SFw0wFAFGHAoKH8vNLcfJCAU0AZ4S5OboGKwWJgy5
+n+kJPTEE7BnWDgL9AjavLhhwweCBvBYM4kGq5YqWrFex2iXbEKCAwiyjpJ1QwqFItwn+I+ZoKNAN
+E4eKF0XUsqZpwYFuLCe8NNTggc2bOBchCAhiJ4iaOIMSG0q0qNGjSJMqXcq0qdOnUJM2+BjiIK1R
+MQQgO4BuxCgM5wAA6ALrBVdqi6xSmFohioAEocT0g6vB3QYDAw6ghZNsREsDYTAkANBygY0OBwpn
+wKt3g7s1E7S5DCP5gl0L5BiIdFxrQDYvaDgUIAXoWgYEAhTA2EwhM+u6tbJB3CGbyw6JGQKsAQcb
+BwMa1xLstTCYzU1kvCkQAPBagu4qC0HOkhCrIfWJ0LBbdpAS4wOOm6iotcCdQpHAgg8I4T6+Aqva
+1GlPh3XbsnYNCBykwtADPCwAB6VbcVA21KwQl4AVXLNfB/ktaB8F/EiwnCkRLjDhUA2wFkBcExCA
+3gceWmAAh7wQgMZBJgrQnhAJtegiA8mBOEMhfpBY14svxhjVjjz26OOPQAYp5JBEFmnkkRxEAAA7
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707img2.gif
+
+R0lGODlhYAAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABgAB4AQAT+cMlJq7046807FsAzMcD1MIzRNQLiKM0iKCaqehI4gaJE
+yqFRCUdpPI7IJNFiTDqX0Kh0Sl0iCoRFgEF8KByxasULNn2Hkmt2O1FruZUGIDE50DiBQgrzAIQF
+Dgt0G3l7GjoScoMLdguKdXdikpOUlZaXmJmaFgYACBMFAxsnBYuTpKYZiAudnxKhrJ6gohQ8QhkJ
+oWEZBgQFAhMOqRS5A7scq7Y+JcoLP3EODwQKwEs3FQ7VCwMCDFk412MCBQDUMQ3R09ro0tSb7/Dx
+8vP09fb3JgICCd9E4ZX/4kSS8EAfPwoF9/WjcECbLA4GBhxwRSnixA2rGDl01XDCwwmWAYL4CITh
+CoMAyAQYaJBA38IKJlF6WBWyh7NANUeQ3CHSGRoKARoeU4UAxLduF4IKGIoMTbMfT39q6clg5wcH
+hjDI6dHH5tWsh9DkHDnVZlUL2SQQ6MnBhTEL40aopNXWwdsPP9MuWNtDL98LBAKopNRgobR3gQdT
+SByQSDcUkCMzxfE4smR8mDNr3sy5s+fPoEOLxhEBADs=
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707img3.gif
+
+R0lGODlhTgAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABOAB4AQAT+cMlJq704682tANnDMEa3GE/BPKUmkiaqsmbVPHium0eg
+XDedsEYsGo+ch8IBIiodjYzid3xGMdPMpxZQtS6F3yOwEAiumy4ME16MkfC4fE6v2+/1bZJRSCQB
+aB0ifX+BFXoZCQUDhhgPAA8UBn4YioyCkI4CBQAKZ0RfFQyeZAGPjRuhFKMCZHg1BKqvs7S1tre4
+uQsNVEWyd78miBwGAwcIGweUoMbIGspaTRkIKq4aCAIKAK0d1AzW09nb4BTDFQEHnyYEAOAPAhfo
+6h3s5IfSGgIOa4kHRvr8KvnLh6+bg0sWti1gJOCBg0gmEBxEpRBhLgMEJmRDhQQjHAEdI0KKZMCx
+AoAEy8qNHFlSl8uXMGPKnEmzps2bEQAAOw==
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707img4.gif
+
+R0lGODlhDwEgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAAPASAAQAT+cMlJq7046827/2AojmRpnosAeA9TJN0ANGT7xvNEAAxo
+wxrGSvIoAAQTBWGjYrmAl4FhIqRJepyfZ+CoHA4fLc4qAXQvD4FRISB7ppW0UUAXFiYChbsDp8iP
+ARINBwIGWHl7HH1xAEtUSBUykBN/bIkbi4J0BwADAg94eiGZRGpHdAqEjimiIKQLfwKBAQJfnyi4
+ubq7vL2+v8DBwsPExcbHGE0bCQUDlxcqqynSGczOHtETBQog1s+MDwFARw1YHMoa3h9C1MvN3xZq
+FQ5gHerYjRQAd8j9/hwNXv0bSLCgwYMIEypcyLChQxQPFDgY4kPitwZHIFrMgHESAgD+UEJEdHDJ
+CAUVCCgUSIlGIsUwG70kWNKRSD6YJDXUlEDgAD+RMTHslBAAAEtoLy20YCBQaCcMadAwYAoCY4EH
+WBm0KiWVKj4JCBI8yEjAnAZ0XZtiMJDRzyQ/U9VewKgAa4B3lN5SihsCowM6dGSAyoCWw12vF9hy
+m5AAyScHgzccbqqYUtsUDyB3mJxh7EoqzT4UllwA8YWPiyU8jqyBcwa2gSZgHIBZs+HSaivjARC7
+RAOswIOz/gAypGzhwksUn4s8OAoEwz38bo41xHIL06krT2BcEPXqD8OLH0++vPnz6NOrX8++vfv3
+8OPLn8+wQepRGQII4WGWRFP9ABz+MJUDA/Tm3wX7FeDYRAKqBsA+HN3nygUJTGXhhaa90ZoQDlh4
+gBIlqAUgD0i4ECADR52UFCYDHJAihSCZYECLL1qQQIwTBCjCjC5mIISKUBigVzwrasBjjbBMcmNk
+9fBBIwc3LvKjK08ug6MEMpxVZAUIlGbgBgX8BEKXDHypQZgUtCjXBGSaidQEBbZFyzlbUtDmBik6
+IGZ0XHoJQmkUpLLmAnd+gKZsl72ZHyHw2MjbWt0tEACj3RyB1QAFZGJApJO2IVoODCyRUQJIEtka
+pSCo8OWmF3TaqKPQYZXAAb2xaoGrIdz4CXATwTNaMh2u2eE8qnl6VrAcDDtBg3jOGEsYshqM9QBt
+ZbAxaAp1ViAAtBsw22yj22aIAYEVGDEFHeByq4GyErA1pLbZYoAAgZcUdRQCB4ASwFivsklvq0bt
+hgQ3++bgwbzXKPUUFQBkUssrv+L5L1IpFtwvWBPfetMCBhTgwBQWf4DwM/ZSwM5CtEq4CwGyLBuA
+yiQ08GUA7SzAckEpG5OzeAJgiOHFFBAgUM8+Wwh0BUInU7TRJhAAoghEL3100tAsPdXRQQ9tNQNY
+0+f112CHLfbYZJdt9tlop6322my37XbbEQAAOw==
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.480/707img5.gif
+
+R0lGODlhDgAQAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqmZmZv///0RERN3d3bu7uwAA
+AAAAACH5BAEAAAoALAAAAAAOABAAQAQpUMlJ60xDlCQEsmCocGJplsxiNsDpvi+BdHRQzdJCmIJa
+EoeGiWAARQAAOw==
+
+------=_NextPart_000_0000_01CC9D2A.5432BBA0--

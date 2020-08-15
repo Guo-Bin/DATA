@@ -1,0 +1,301 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Gone Fishing
+Date: Sun, 12 Feb 2012 16:48:57 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE9A6.3682DA90"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.990\757.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Gone Fishing</TITLE>
+<META name=3Ddescription content=3D"Gone Fishing">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Gone=20
+  Fishing</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>John is going on a fishing trip. He has <I>h</I> hours available ( =
+<!-- MATH: $1 \le=9F h \le=9F 16$ --><IMG border=3D0 alt=3D"$1 \le=9F h =
+\le=9F 16$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg1.gif"=20
+width=3D87 height=3D32>), and there are <I>n</I> lakes in the area ( =
+<!-- MATH: $2 \le=9F n \le=9F 25$ --><IMG border=3D0 alt=3D"$2 \le=9F n =
+\le=9F 25$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg2.gif"=20
+width=3D88 height=3D30>) all reachable along a single, one-way road. =
+John starts at=20
+lake 1, but he can finish at any lake he wants. He can only travel from =
+one lake=20
+to the next one, but he does not have to stop at any lake unless he =
+wishes to.=20
+For each <!-- MATH: $i =3D 1, \dots, n- 1$ --><IMG border=3D0=20
+alt=3D"$i =3D 1, \dots, n- 1$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg3.gif"=20
+width=3D122 height=3D31>, the number of 5-minute intervals it takes to =
+travel from=20
+lake <I>i</I> to lake <I>i</I> + 1 is denoted =
+<I>t</I><SUB><I>i</I></SUB> ( <!-- MATH: $0 < t_i \le=9F 192$ --><IMG =
+border=3D0 alt=3D"$0 < t_i \le=9F 192$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg4.gif"=20
+width=3D98 height=3D30>). For example, <I>t</I><SUB>3</SUB> =3D 4 means =
+that it takes=20
+20 minutes to travel from lake 3 to lake 4.=20
+<P>
+<P><BR>To help plan his fishing trip, John has gathered some information =
+about=20
+the lakes. For each lake <I>i</I>, the number of fish expected to be =
+caught in=20
+the initial 5 minutes, denoted <I>f</I><SUB><I>i</I></SUB> ( <!-- MATH: =
+$f_i \ge=96 0$ --><IMG border=3D0 alt=3D"$f_i \ge=96 0$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg5.gif"=20
+width=3D50 height=3D32>), is known. Each 5 minutes of fishing decreases =
+the number=20
+of fish expected to be caught in the next 5-minute interval by a =
+constant rate=20
+of <I>d</I><SUB><I>i</I></SUB> ( <!-- MATH: $d_i \ge=96 0$ --><IMG =
+border=3D0=20
+alt=3D"$d_i \ge=96 0$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg6.gif"=20
+width=3D51 height=3D32>). If the number of fish expected to be caught in =
+an interval=20
+is less than or equal to <I>d</I><SUB><I>i</I></SUB>, there will be no =
+more fish=20
+left in the lake in the next interval. To simplify the planning, John =
+assumes=20
+that no one else will be fishing at the lakes to affect the number of =
+fish he=20
+expects to catch.=20
+<P>
+<P><BR>Write a program to help John plan his fishing trip to maximize =
+the number=20
+of fish expected to be caught. The number of minutes spent at each lake =
+must be=20
+a multiple of 5.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>You =
+will be given=20
+a number of cases in the input. Each case starts with a line containing=20
+<I>n</I>. This is followed by a line containing <I>h</I>. Next, there is =
+a line=20
+of <I>n</I> integers specifying <I>f</I><SUB><I>i</I></SUB> ( <!-- MATH: =
+$1 \le=9F i \le=9F n$ --><IMG border=3D0 alt=3D"$1 \le=9F i \le=9F n$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg7.gif"=20
+width=3D76 height=3D31>), then a line of <I>n</I> integers=20
+<I>d</I><SUB><I>i</I></SUB> ( <!-- MATH: $1 \le=9F i \le=9F n$ --><IMG =
+border=3D0=20
+alt=3D"$1 \le=9F i \le=9F n$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg7.gif"=20
+width=3D76 height=3D31>), and finally, a line of <I>n</I> - 1 integers=20
+<I>t</I><SUB><I>i</I></SUB> ( <!-- MATH: $1 \le=9F i =9F\le n - 1$ =
+--><IMG border=3D0=20
+alt=3D"$1 \le=9F i =9F\le n - 1$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757i=
+mg8.gif"=20
+width=3D106 height=3D31>). Input is terminated by a case in which =
+<I>n</I> =3D 0.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each test=20
+case, print the number of minutes spent at each lake, separated by =
+commas, for=20
+the plan achieving the maximum number of fish expected to be caught (you =
+should=20
+print the entire plan on one line even if it exceeds 80 characters). =
+This is=20
+followed by a line containing the number of fish expected. If multiple =
+plans=20
+exist, choose the one that spends as long as possible at lake 1, even if =
+no fish=20
+are expected to be caught in some intervals. If there is still a tie, =
+choose the=20
+one that spends as long as possible at lake 2, and so on. Insert a blank =
+line=20
+between cases.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>2
+1
+10 1
+2 5
+2
+4
+4
+10 15 20 17
+0 3 4 3
+1 2 3
+4
+4
+10 15 50 30
+0 3 4 3
+1 2 3
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>45, 5
+Number of fish expected: 31
+
+240, 0, 0, 0
+Number of fish expected: 480
+
+115, 10, 50, 35
+Number of fish expected: 724
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>2000-02-09</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img1.gif
+
+R0lGODlhVwAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABXACAAQAT+cMlJq7046827FMCGFEzgBcAjCI82lh5IEYCA2F6+GVTT
+6EBKQMALGo/IYENhLF4EDgfSaVleEAqBCSPjQBnUS+IwKQy8DrA3NKEJJgBGck6v2+/4vH5P6XYM
+AwcIGwcJQICCGn4SKDwJKVxsFwEHAj8eNGcLD5AWlJY6i5wFEgYAWxaLHQgOA5cVNRIPBwQDBB6s
+rpEVClILCACDQQIMxcbHr0bEx8zJfM/Q0dLT1NXW19jZGQ+9kh7cDs4UCnJB4OLg3h8MBAYHLU/q
+GA8MBYYbnOLb9feK6g6k1uxTk2PAqU0A9NEjGMPbqAS1mOzSkMCMPguc4FGiaLEhBU5QbyQA0JRK
+XoYAJMJQKCCRxoMAKj2l9AdL4gIANieoKIATVI6YDToZcJAg5M8LO3teIlDARtMjDR5InUp1TlSq
+WLVp3cq1q9evYMOKHUvWWgQAOw==
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img2.gif
+
+R0lGODlhWAAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABYAB4AQAT+cMlJq7046817FQByPQxjdI2AOEqzCMpYnh4Fio+DkEJ9
+NY+gcOizAIfIonLJbDoXigTBUCi4PA+F4/qkZLeX6LTqegDOh0BG0FsQBp1AwYQxXwWORYIjp6/b
+b2ZtCwAxXYeIiYqLjI2ORWYMEwCSGiQFe4qXmXWUk5IPgxwFohcJBQNcGAYEpBMOnBanqT6uF4VG
+Z7ohRTQVDoMDAgwEPr4UDbtnIgkMCAGwj9LT1NXW19jZiQQIAwwJqh7HiuMT3N7gEgYJQqUSDQ4P
+EggA7hcGAwci5Pn7RvHz6i14IEzNGnlucGFAMMegBjYGGiRgU2xhww4CEBLAFSpIuX9z9hYEOCAg
+HAYVICoOuzCypBJ4bRrQ2OjPgjAPePxgSIbQDMI1DnRquCmBgAOHnizgYQMj5IUVtD4UmMBAAD4P
+UE2+AMZGgQACByoa4GWtQUUJD846IpAgnZNhJeLK1YpTrl0GdLXp3cu3r9+/gAMLHqwoAgA7
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img3.gif
+
+R0lGODlhegAfAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAB6AB8AQAT+cMlJq7046827/9YzCCAnAGWKCYLRJCyhXuf2yPNHkPm1
+Uw2c5NYrGo/I5CfAOzYUyujsqTEAHsqalNO4Dr1H7XZMLpvP6LR6zc6I2+N3RRBAoC6PvH7/aKzu
+awIIJzgCDEhyFQwtA0lyAgcGFJCSk5Fzl5aVEgIFE4sGjUaJbQQKQkemqHCsra6vsLGys7S1trc5
+A1BGDwoOgLggvb9spMEdxgsEAwTAkyzQ0S1/bQ2CDgp+ArujzhQGBAyiiN5n4AVNDgk0DO3u734W
+yQsCDgTrFu/67QjUbQ8A4tVbgK/IPF0MVs140AmAAgHxBgBoskABmAkWsVDIWEEiRQcjTUYkLMKw
+gEOIrhBoTKLymJQGm5DAdEmzps2bOHPq3MmzRwQAOw==
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img4.gif
+
+R0lGODlhYgAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABiAB4AQAT+cMlJq7046827FsAzMYBmMAVCZMZTMI/BPQwjewtIEYAg
+NQBGBYTAGT2HgALTeDif0KN0Sq1ap4jCKiC8UhRL6kPhaFjGjhIlAJANBhJFgmAoFMwVYGJyCF8I
+CQcCNxkFSw8BOQJ4HAEvhBc6FAY3bDcCPgsEcF6dnp+goaKjpKUeBgBFEgWcHA0DDnsXDwCMHjQF
+sh9qEqiZCwAJtF3AxBMgIhIkkak4tMm9uhcJrLa7eQwCASCtCwW/Fg0ODwQK4BsIfZAj5okBtNYd
+6xIPAgUA5ngMCg8DWgtAAAgUqMpUBjoGEypcyLChw4cQ6WGaE5FFhgZ+JtTTtkITggG/DBLEkyBo
+QjMcr0YuOCANh4EBBwoyq9CHXhtxyRD0sMAGGgMHM2C1nIBAgIIeiTpkYZCUgySbvwDAEZCMR0YJ
+yEbwqtAvRQceTRfUwxBAkEoMT1cVkJAgCAVx5yT0HAHUAgEBDgR03BBoCl4bTrdOoKRnwoC4FPJK
+4AENA4EADgY0rrBzQAOq44wgiKwyLTA1rLDmxWTO8bZ5jRiMNLDX6NlPRSdXtBBsKNYauHOrns27
+t+/fwIMLH068uPEJEQAAOw==
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img5.gif
+
+R0lGODlhMgAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAAyACAAQATwcMlJq7046/WEY0KzVY1whFcAPBPjYAJDCYo43gsRCAbu
+/8BFQeHoZRoEYEeQSGYYMqAAMDCmVq1XcMvter/gUQxHGDgEt9MEgMioKJ1fwjFwTqYsCQOAaWAX
+Ag8OeRYJJzYjZxIEfxMPBwEHdgsACQkwUJmaDIhhnp+goaKjngaTpBoPAFNWFx6XOAgFSQFRT2g+
+DWYCpxQGbBMFA30IlQ+9IyUHTRV4LXyYvrAjcwOdd417GQW4gCgYBHPfR5UTBwoYbxIBqtcTSD8N
+gwQK3RNlCAP2kOgXDQ8AAwrkkiBQBQKtUClcyLChw4cQIUYAADs=
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img6.gif
+
+R0lGODlhMwAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAAzACAAQAT6cMlJq70460WCEAlAbFUjHEKDBcAzMc5lGNIzLoKikjzn
+0b2gcIhzADaNm/DxSSgnrIQkcRgKAAPgqvWKEb/gsHhMHh6kG8LAIeihJgCERXG4AQITZjDhGDwl
+Vy4SDEcUCCILBigCCAIPDoIVVClBbBIEXD0ACWgVAgygoaI7ZaWmp6ipqqusRAoFGwIOnTwIBSMB
+DCQPmSQNawJ/FQZxEwUDFgQKCgsNWF8mZ8KBL4UTmG3NvQa0GXwDpJ69hOI7DAoGeB/hFAR8lEib
+EwfMFQUCAQoDCgwdvOwSkgxpAElZNjf5LjR4wLChw1QEtLSaSLGixYsYM16MAAA7
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img7.gif
+
+R0lGODlhTAAfAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABMAB8AQAT+cMlJq704682pABtSMEH3DEImkp0gGE3iEl1t0rbW4NLD
+58CgkNNQCA2aQMqGHHpAHIGD0cwYAI+NlLppYHtfp3hMLpvP6LQW2jEMDoiyG27+ZAIHQaMmCCDY
+FHh6fAgfOAIMGXY5CA4DexYMLwM1jY8XAgUTkm5CiAygoaGQNp+ioqRqqqusra6vsLGyszUPCg6A
+JrepFQNGug68nrkYDwwFCWXGyGiLF8ZcHQQDBMQL0FVdAo0KewK/mNYUCQWXGwYEDJQY5OYa6AVL
+Cw7JGM4cASPZFVIE9Un6MjwAAEnKgn8THmQCoGAQEwy+GPzgsG+CA3koJApp8KCjx48SQTh+HEmr
+pMmTKFOqXMmy5ZAIADs=
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.990/757img8.gif
+
+R0lGODlhagAfAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABqAB8AQAT+cMlJq7046827vwLAIQUTcM8gaKTJCYLRJDDxbeGtZ4+9
+Xw2fpPcrGo/I5K2hKBoygdXtqfwwcaKOwMGgYgyAx4vrBYaHZ2Wuym673/C4fE5Hrj2GwQGhzO/r
+FncYghYBBwINWgEIWYWHiS8IIT4CDFWEgY0fCA4DkBQMMQObnZ8TAgUToXlqmj+VDLGysqZas7cM
+tYC7vL2+v8DBwsPExcY6DwoOrh3JDroSA00eztBwzswVmBgPDAUJSt3fwdsU5UOxZRkEAwTZC91d
+HQ0CnAqJAtNJ5xL8EgkFPG0wQIDBqAwABWogWEDKAgfgAuGaBc2fvwoBSqg75YBAxA1BGeVdeAAA
+0pYFH4+ce4AKgAJEOjYukMZACJ4LDhyqqImEZQGXMH80eEC0qNEdQ40qPca0qdOnUKNKnUq1qtUd
+EQAAOw==
+
+------=_NextPart_000_0000_01CCE9A6.3682DA90--

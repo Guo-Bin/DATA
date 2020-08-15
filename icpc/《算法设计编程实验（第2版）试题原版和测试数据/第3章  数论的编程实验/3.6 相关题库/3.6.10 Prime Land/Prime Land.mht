@@ -1,0 +1,188 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Prime Land
+Date: Sun, 12 Feb 2012 20:54:52 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0013_01CCE9C8.914B1650"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0013_01CCE9C8.914B1650
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.764\516.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Prime Land</TITLE>
+<META name=3Ddescription content=3D"Prime Land">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Prime=20
+  Land</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Everybody in the Prime Land is using a prime base number system. In =
+this=20
+system, each positive integer <I>x</I> is represented as follows: Let =
+<!-- MATH: $\{p_i\}_{i=3D0}^{\infty}$ --><IMG border=3D0=20
+alt=3D$\{p_i\}_{i=3D0}^{\infty}$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516i=
+mg1.gif"=20
+width=3D59 height=3D34> denote the increasing sequence of all prime =
+numbers. We know=20
+that <I>x</I> &gt; 1 can be represented in only one way in the form of =
+product=20
+of powers of prime factors. This implies that there is an integer=20
+<I>k</I><SUB><I>x</I></SUB> and uniquely determined integers <!-- MATH: =
+$e_{k_x}, e_{k_x-1}, \dots, e_1, e_0$ --><FONT=20
+size=3D4>e<SUB>k<SUB>x</SUB></SUB>,=20
+e<SUB>k<SUB>x</SUB>-1</SUB>,...,e<SUB>1</SUB>,e<SUB>0</SUB>,(<I>e</I><SUB=
+><I>k</I><SUB><I>x</I></SUB></SUB>=20
+&gt; 0),</FONT> that <!-- MATH: $x =3D p_{k_x}^{e_{k_x}} \cdot =
+p_{k_x-1}^{e_{k_x-1}} \cdot \dots \cdot p_1^{e_1} \cdot p_{0}^{e_0}$ =
+--><IMG=20
+border=3D0=20
+alt=3D"$x =3D p_{k_x}^{e_{k_x}} \cdot p_{k_x-1}^{e_{k_x-1}} \cdot \dots =
+\cdot p_1^{e_1} \cdot p_{0}^{e_0}$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516i=
+mg3.gif"=20
+width=3D229 height=3D38>. The sequence=20
+<DIV align=3Dcenter><!-- MATH: \begin{displaymath}=0A=
+(e_{k_x}, e_{k_x-1}, \dots, e_1, e_0)=0A=
+\end{displaymath} --><IMG=20
+alt=3D"\begin{displaymath}(e_{k_x}, e_{k_x-1}, \dots, e_1, =
+e_0)\end{displaymath}"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516i=
+mg4.gif"=20
+width=3D160 height=3D31> </DIV><BR clear=3Dall>
+<P></P>
+<P>is considered to be the representation of <I>x</I> in prime base =
+number=20
+system.=20
+<P>It is really true that all numerical calculations in prime base =
+number system=20
+can seem to us a little bit unusual, or even hard. In fact, the children =
+in=20
+Prime Land learn to add to subtract numbers several years. On the other =
+hand,=20
+multiplication and division is very simple.=20
+<P>Recently, somebody has returned from a holiday in the Computer Land =
+where=20
+small smart things called computers have been used. It has turned out =
+that they=20
+could be used to make addition and subtraction in prime base number =
+system much=20
+easier. It has been decided to make an experiment and let a computer to =
+do the=20
+operation ``minus one''.=20
+<P>Help people in the Prime Land and write a corresponding program.=20
+<P>For practical reasons we will write here the prime base =
+representation as a=20
+sequence of such <I>p</I><SUB><I>i</I></SUB> and =
+<I>e</I><SUB><I>i</I></SUB>=20
+from the prime base representation above for which =
+<I>e</I><SUB><I>i</I></SUB>=20
+&gt; 0. We will keep decreasing order with regard to=20
+<I>p</I><SUB><I>i</I></SUB>.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input file=20
+consists of lines (at least one) each of which except the last contains =
+prime=20
+base representation of just one positive integer greater than 2 and less =
+or=20
+equal 32767. All numbers in the line are separated by one space. The =
+last line=20
+contains number 0.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>The =
+output file=20
+contains one line for each but the last line of the input file. If =
+<I>x</I> is a=20
+positive integer contained in a line of the input file, the line in the =
+output=20
+file will contain <I>x</I> - 1 in prime base representation. All numbers =
+in the=20
+line are separated by one space. There is no line in the output file=20
+corresponding to the last ``null'' line of the input file.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2>
+<P><PRE>17 1
+5 1 2 1
+509 1 59 1
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2>
+<P><PRE>2 4
+3 2
+13 1 11 1 7 1 5 1 3 1 2 1
+</PRE>
+<P>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0013_01CCE9C8.914B1650
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516img1.gif
+
+R0lGODlhOwAiAIAAAAAAAP///yH5BAEAAAEALAAAAAA7ACIAQAKcjI+py+0OwIMyxYnDPVvXzlVG
+F5UmCGbqyrbuC2MpTJZhY48ipePi7Emhdr5e7IhM6oAupozoUQ5PRsTMucrdglordLL7VqOKa1js
+TfNU2KfyDY/LaXMpumXKAtvs+8NsRwPFlzElsQEYkufD1GXkWEbIYVW0RZYYBHbGYFgTqbY2Bto4
+uLl00nV3saj5A/lJVic7S1tre4ubO1cAADs=
+
+------=_NextPart_000_0013_01CCE9C8.914B1650
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516img3.gif
+
+R0lGODlh5QAmAIAAAAAAAP///yH5BAEAAAEALAAAAADlACYAQAL+jI+py60AnZwMgmrzDZv6D4bi
+SJaGxl1R2pln9qbssSK1i0s33ZL336MJE5piUBZD5oid1Q5j4y2nSaVVVHNGqTiY5VTNebUsGM/M
+TasXz7X7DY/L5+7sd0a1I+9SJt0VodelorJlQ8h3ZtQ2RnGXqPPV9uA0+ffRyIbiKHm055k2iTZj
+6SCa2HnVdxlpCjrB2FLKSltre4ubq7vLGxdICPcbRhk121uxNlq7M/b7yklZVBZkrCtY3foi+3zZ
+rDzlvagNeTzexM0paUictyFtQv75zWS03hAPGKtdlq65Xxnp3SA0ldB5EFgQir8SkFBhm9bjoSYz
+QFjNE3bIRzz9jKtOHZs3DNNGdwbLmTyJMqXKlSxbunwJU2RINYIUjouJs4uiYFJKPZGYq2BJWCRn
+/lnkjqY0Mn6arjxnNMQ5WUGnJgRqExEiGT+H2qqnCgvYqMuKhgVXtOYqlVnIygzTdetAkGzc0qP7
+wG6vsQsPCmz6M0ZcpNGgLqHGB6tOmoXXGkR8LfEzxa7+eWXHLhXRYvictlMoGdpCdUPuATsr1TDl
+zUmqeWTIDEhJtauVcEQd7AiZZiP0cbi5CfNeULW7ZrToSVln1o0PGRa+y+flteum566CVyP2R8mt
+l80uVm9Vkt79ks+JPr369ezbu38PP778+fTr27+PP3+cAgA7
+
+------=_NextPart_000_0013_01CCE9C8.914B1650
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.764/516img4.gif
+
+R0lGODlhoAAfAIAAAAAAAP///yH5BAEAAAEALAAAAACgAB8AQAL+jI+py+0Po5y02ouz3jwD0IXi
+eIHY9yFmeqSogZotG7wqaMeJXcu7D6P1gLwgUehC+oq9IUw1I0mn1CpDaM1qt7voTdc8xVbAaznI
+VYyX559OiY5PcuASixnBcvTzdt6fFig4SFhoeIiYGAio2Gh4p0YWJobGFwlVN3gnY/lTCWVEtAA5
+hGN5RvqWeVPo19ly6UXqsDlD8yrLSWc2ymiBW3rrG1braHyMnKy8zNzs/AwdLT1NXW3tCHytPZm9
+vS3pZjpM+4IXPgbaStcNVlzqWTneG5WN5KWpe98gXJO+qrdJ3qRcbU4JHGEQAhY4TY7QK1JOHLyG
+EJMMZOXmS0YujRzl8LM1MVMtYBYxwlJoKmTBglLGAfzjUV+kJCviDFNVM5iSfy01CLTnLSiFAgA7
+
+------=_NextPart_000_0013_01CCE9C8.914B1650--

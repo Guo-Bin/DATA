@@ -1,0 +1,193 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Video Surveillance
+Date: Sat, 11 Feb 2012 19:26:02 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0026_01CCE8F2.FDBA33B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0026_01CCE8F2.FDBA33B0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.980\588.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Video Surveillance</TITLE>
+<META name=3Ddescription content=3D"Video Surveillance">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Video=20
+  Surveillance</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>A friend of yours has taken the job of security officer at the =
+Star-Buy=20
+Company, a famous depart- ment store. One of his tasks is to install a =
+video=20
+surveillance system to guarantee the security of the customers (and the =
+security=20
+of the merchandise of course) on all of the store's countless floors. As =
+the=20
+company has only a limited budget, there will be only one camera on =
+every floor.=20
+But these cameras may turn around to look in every direction.=20
+<P>
+<P><BR>The first problem is to choose where to install the camera for =
+every=20
+floor. The only requirement is that every part of the room must be =
+visible from=20
+there. In the following figure the left floor can be completely surveyed =
+from=20
+the position indicated by a dot, while for the right floor, there is no =
+such=20
+position, the given position failing to see the lower left part of the =
+floor.=20
+<P>
+<DIV align=3Dcenter><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.980/p588=
+.gif">=20
+</DIV>
+<P>Before trying to install the cameras, your friend first wants to know =
+whether=20
+there is indeed a suitable position for them. He therefore asks you to =
+write a=20
+program that, given a ground plan, de- termines whether there is a =
+position from=20
+which the whole floor is visible. All floor ground plans form =
+rectangular=20
+polygons, whose edges do not intersect each other and touch each other =
+only at=20
+the corners.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input file=20
+contains several floor descriptions. Every description starts with the =
+number=20
+<I>n</I> of vertices that bound the floor (=20
+<!-- MATH: $4 \le=9F n \le=9F 100$ --><IMG border=3D0 alt=3D"$4 \le=9F n =
+\le=9F 100$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.980/588i=
+mg1.gif"=20
+width=3D96 height=3D30>). The next <I>n</I> lines contain two integers =
+each, the=20
+<I>x</I> and <I>y</I> coordinates for the <I>n</I> vertices, given in =
+clockwise=20
+order. All vertices will be distinct and at corners of the polygon. Thus =
+the=20
+edges alternate between horizontal and vertical.=20
+<P>A zero value for <I>n</I> indicates the end of the input.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+every test=20
+case first output a line with the number of the floor, as shown in the =
+sample=20
+output. Then print a line stating ``<TT>Surveillance is possible.</TT>'' =
+if=20
+there exists a position from which the entire floor can be observed, or =
+print=20
+``<TT>Surveillance is impossible.</TT>'' if there is no such position.=20
+<P>Print a blank line after each test case.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>4
+0 0
+0 1
+1 1
+1 0
+8
+0 0
+0 2
+1 2
+1 1
+2 1
+2 2
+3 2
+3 0
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>Floor #1
+Surveillance is possible.
+
+Floor #2
+Surveillance is impossible.
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>1998-03-10</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0026_01CCE8F2.FDBA33B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.980/p588.gif
+
+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
+
+------=_NextPart_000_0026_01CCE8F2.FDBA33B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.980/588img1.gif
+
+R0lGODlhYAAeAIAAAAAAAP///yH5BAEAAAEALAAAAABgAB4AQAK9jI+py+0PowMGUGWtDPlqnG3c
+VZHjeXziyrbuC8eyq0b1nJr5/am9DrKFGD4KEHRL8Ei/HO4JjUqn1KoVZzwqk7PhRGfqIZJM7cgc
+LDW8kJo7O9Z20BhimV5HekNF+PUPGCg4SFhoaMh1+ADUsZW4I8H2JLlVqYaCGZfpiHfmuUZpp+n0
+lsYVale0gAo6qlYaN4fG6vpY0gn7GjbbeSv6Gvm45IRpqzh5ZLwo2wjD3HwcLT1NXW19jZ2tHV0A
+ADs=
+
+------=_NextPart_000_0026_01CCE8F2.FDBA33B0--

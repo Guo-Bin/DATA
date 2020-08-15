@@ -1,0 +1,354 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Mobile Phone Coverage
+Date: Sat, 28 Jan 2012 15:52:40 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCDDD4.DD33B360"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.526\688.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Mobile Phone Coverage</TITLE>
+<META name=3Ddescription content=3D"Mobile Phone Coverage">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Mobile Phone=20
+      Coverage</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>A mobile phone company ACMICPC (Advanced Cellular, Mobile, and=20
+Internet-Connected Phone Corporation) is planning to set up a collection =
+of=20
+antennas for mobile phones in a city called Maxnorm. The company ACMICPC =
+has=20
+several collections for locations of antennas as their candidate plans, =
+and now=20
+they want to know which collection is the best choice.=20
+<P>
+<P><BR>For this purpose, they want to develop a computer program to find =
+the=20
+coverage of a collection of antenna locations. Each antenna=20
+<I>A</I><SUB><I>i</I></SUB> has power <I>r</I><SUB><I>i</I></SUB>, =
+corresponding=20
+to ``radius''. Usually, the coverage region of the antenna may be =
+modeled as a=20
+disk centered at the location of the antenna=20
+<!-- MATH: $(x_i, y_i)$ -->(<I>x</I><SUB><I>i</I></SUB>,=20
+<I>y</I><SUB><I>i</I></SUB>) with radius <I>r</I><SUB><I>i</I></SUB>. =
+However,=20
+in this city Maxnorm such a coverage region becomes the square <!-- =
+MATH: $[x_i - r_i, x_i + r_i] \times [y_i - r_i, y_i + r_i]$ --><IMG=20
+border=3D0 alt=3D"$[x_i - r_i, x_i + r_i] \times [y_i - r_i, y_i + =
+r_i]$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg1.gif"=20
+width=3D257 height=3D34>. In other words, the distance between two =
+points <!-- MATH: $(x_p, y_p)$ -->(<I>x</I><SUB><I>p</I></SUB>,=20
+<I>y</I><SUB><I>p</I></SUB>) and=20
+<!-- MATH: $(x_q, y_q)$ -->(<I>x</I><SUB><I>q</I></SUB>,=20
+<I>y</I><SUB><I>q</I></SUB>) is measured by the max norm <!-- MATH: =
+$\max \{ |x_p - x_q|, |y_p - y_q| \}$ --><IMG border=3D0=20
+alt=3D"$\max \{ \vert x_p - x_q\vert, \vert y_p - y_q\vert \}$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg2.gif"=20
+width=3D191 height=3D34>, or, the <!-- MATH: $L_{\infty}$ --><IMG =
+border=3D0=20
+alt=3D$L_{\infty}$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg3.gif"=20
+width=3D31 height=3D32> norm, in this city Maxnorm instead of the =
+ordinary Euclidean=20
+norm <!-- MATH: $\sqrt{(x_p - x_q)^2 + (y_p - y_q)^2}$ --><IMG =
+border=3D0=20
+alt=3D"$\sqrt{(x_p - x_q)^2 + (y_p - y_q)^2}$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg4.gif"=20
+width=3D193 height=3D47>.=20
+<P>
+<P><BR>As an example, consider the following collection of 3 antennas=20
+<P><PRE>4.0 4.0 3.0
+5.0 6.0 3.0
+5.5 4.5 1.0
+</PRE>
+<P>depicted in the following figure=20
+<P>
+<DIV align=3Dcenter><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/p688=
+.gif">=20
+</DIV>
+<P>where the <I>i</I>-th row represents <I>x</I><SUB><I>i</I></SUB>,=20
+<I>y</I><SUB><I>i</I></SUB>, <I>r</I><SUB><I>i</I></SUB> such that <!-- =
+MATH: $(x_i, y_i)$ -->(<I>x</I><SUB><I>i</I></SUB>,=20
+<I>y</I><SUB><I>i</I></SUB>) is the position of the <I>i</I>-th antenna =
+and=20
+<I>r</I><SUB><I>i</I></SUB> is its power. The area of regions of points =
+covered=20
+by at least one antenna is 52.00 in this case.=20
+<P>
+<P><BR>Write a program that finds the area of coverage by a given =
+collection of=20
+antenna locations.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input=20
+contains multiple data sets, each representing a collection of antenna=20
+locations. A data set is given in the following format.=20
+<P><BR>
+<P></P>
+<DIV align=3Dcenter><!-- MATH: \begin{displaymath}=0A=
+\begin{array}{lll}=0A=
+n & & \\=0A=
+x_1 & y_1 & r_1 \\=0A=
+x_2 & y_2 & r_2 \\=0A=
+\dots & & \\=0A=
+x_n & y_n & r_n=0A=
+\end{array}=0A=
+\end{displaymath} --><IMG=20
+alt=3D"\begin{displaymath}\begin{array}{lll}&#10;n &amp; &amp; =
+\\&#10;x_1 &amp; y_1 &amp; r_1 \\&#10;x_2 &amp; y_2 &amp; r_2 =
+\\&#10;\dots &amp; &amp; \\&#10;x_n &amp; y_n &amp; =
+r_n&#10;\end{array}\end{displaymath}"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg5.gif"=20
+width=3D86 height=3D115> </DIV><BR clear=3Dall>
+<P></P>
+<P>The first integer <I>n</I> is the number of antennas, such that <!-- =
+MATH: $2 =9F\le n =9F\le 100$ --><IMG border=3D0 alt=3D"$2 =9F\le n =
+=9F\le 100$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688i=
+mg6.gif"=20
+width=3D96 height=3D30>. The coordinate of the <I>i</I>-th antenna is =
+given by <!-- MATH: $(x_i, y_i)$ -->(<I>x</I><SUB><I>i</I></SUB>,=20
+<I>y</I><SUB><I>i</I></SUB>), and its power is =
+<I>r</I><SUB><I>i</I></SUB>.=20
+<I>x</I><SUB><I>i</I></SUB>, <I>y</I><SUB><I>i</I></SUB> and=20
+<I>r</I><SUB><I>i</I></SUB> are fractional numbers between 0 and 200 =
+inclusive.=20
+<P>
+<P><BR>The end of the input is indicated by a data set with 0 as the =
+value of=20
+<I>n</I>.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each data=20
+set, your program should output its sequence number (1 for the first =
+data set, 2=20
+for the second, etc.) and the area of the coverage region. The area =
+should be=20
+printed with two digits to the right of the decimal point, after =
+rounding it to=20
+two decimal places.=20
+<P>
+<P><BR>The sequence number and the area should be printed on the same =
+line with=20
+no spaces at the beginning and end of the line. The two numbers should =
+be=20
+separated by a space.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2>
+<P><PRE>3
+4.0 4.0 3.0
+5.0 6.0 3.0
+5.5 4.5 1.0
+2
+3.0 3.0 3.0
+1.5 1.5 1.0
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>1 52.00
+2 36.00
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>1999-03-05</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img1.gif
+
+R0lGODlhAQEiAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAABASIAQAT+cMlJq7046827/2AojmRpYo9wrizHPCywpm1tL2980Utw
+NIKCZIAQPBywU7BiRE4EB8PEBxQuiItmMpPTLCnaiexCYCgmDUdgp5I8xm9Y2PR9HrdQ6eTtBsjv
+G10ZdVmAYjeIiYqLjI2Oj5CRkpOUlZaXmJmaKG04BFkOCwZrCzwlAkUHnwkNbp0XDJ8CoaN7r7Bb
+F6hQq62lnWMYaQlmGTwCAQhwfq50qb3NGMjKfUmmGIK6zwusvxTBFNcYAAkJiuTmEgQKnx3o5+WH
+JzwNBQ/D3/GI7+rsaPb4xOi7wU8CuE0IEypcyLChw4eSxEHUdHCExImWKnqzJaBBAgH+t5QIMGAA
+pJ4OKTp+DKkhm66RJUde0LigHqkFZc5YMPVgQLoFCE6uMBlTqIaeP4N+cGmBqMmZbCwc+GmjATMS
+U0cwrWA1F9SWAxxQrWDKKoIhA6peBWEWLYitFLpu0GiKpAQDvrIoyFuiQTsweykQeGVXFF8BgVt6
+teC3aeIFNEGIIzlAp16+IxozeYwzJGXLiDFbgIvmr4TQ3y4AMYIxUwCQK1Yvbg3pNUvauHPr3s27
+t+/fwIMLH07c9xEGN4vbEMAg8ofjyZUPbR5VOtcWzj1cJC6aBN3bxUmDoIkg+gLL4cALF//h+54z
+UD5mZ4vqwBkA6sPBnypgPgXxQCD+YB9kLEWWxhoEVMaJOgMQEMwB5pEQ4ID4dZCggxNAuNRsaNR3
+X4HViSIBA2lRYMBYpzGg4oos8mUAAQV4hqKJI5ZoIoosMnBAASyeZSKMMsqTgYMMHNXGiwOU6MME
+JzaVY44uAmlBkxggqeQBTOLI4o49VvBijF5S5R4FyrTywBogdRfCG5ilyUGZpZDipmIbsMlER0Ja
+kJMoBUS4USkA+AKAnHiaYCcYhaIQqEGEqjkBe4eelihk1QWBAANqCGBOAJGW4MAtnC46RIWnFXBp
+pumE6uiIHE7waQWq5klBAOjhFMpOnRBwADIOYNlDpyO8OmukA5Cqzq4B9CpBrHRyaiDssp2OqQGE
+tdZALZmtVnCtBgiY9sG2lM7ThoMqGLAWuDagi8AW5IpyLq0bdCsCunQxwNqQRtlAgFAN5IvvIvsu
+298M9sKwklEBJ5KwBP1WcHAFC9+w8Gv+WWfxxRhnrPHGHHfs8ccghyzyyCSXvFAEADs=
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img2.gif
+
+R0lGODlhvwAiAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAC/ACIAQAT+cMlJq7046827/2AojuQoMNWDluynbm8rY7F0ag/wSPm+
+CAAbgCApMB6CRmEnODQoN0os4BQUJAPELxdYMBIsasOK1S4Ug991UWsaUqscT7cFdL8tOZt+TpPZ
+KzaBM4SFhoeIiYqLjI2Oj5CRkpMjOQJzZkATApdegU0NAz4TDGlSgQxEAg4LBl2IqT+srhk1NCgC
+AQhBe6OEubtzvqdSfJMJaxO2GQAMAQVvig0OAQyBNQQKRMRKD9NgE83P0SXd3xPT1deDUZTu7/Dx
+8vP09TgH5ID2tzCD+7YDTF1AciSAAAUGGiQ4uI3NgBOvDHJaIHFUOx6DkCRZ2AmRRoX+E/nhiDMA
+3AIE+Qg9KDkBpUhBOPj0EDJBATVPFBIA6MjjwCtl/hYcMMloKIdlFmI0AGAmYKKlTQUmHUTAgTYZ
+DXw0eLLhoj4JBqIlhKJgAQE7LcKC5bogASsvr2wR4PkVrIEBZW2UPfuTRVi8EtxKcIYRSlBJBpJI
+IGBGw0FJBX4y3jA5w2NIkSdUztVwn+fPoEOLHk26tOnTqFN7RuBAcd3QSOHAXiHA6Tuvsf8dJgba
+ltdIuHfbyw10tuEMCgFA+3FAwRNrEw4cMOsAjAGdZakgYBtcWdkmC3kdevB9qKaX/AgMOBu97wz1
+7CX4RP+7mI+ZP8SbTWBzUAGjNRX+QFdd0ZQCwgnWJKggWxMUKBV6A6FggHqmUOEBggouSMGEtlkI
+4QNGpCTMiPlhMhgDWZlVgE6NwcRbSwA88UAX2SiAQEgy7CLjTwsZVNhIc3CFVo03DihCDkLymEsn
+vr01kAIADBBAAAMAoAASBezUQFWiKJDAAXg5gBYQAm7iTwxWIMAANQKAE8AD03lh5AdprmkQOEvt
+gMaPC1RJVwwEHJCLA3G+GScDc34Q6KBx5tkHnz8I10h3HLTWVjKI1NbKEJAiMMwLZ11igDGWItNC
+qJv6oOmo2/gmKSMEFDAAW8Q1eAABwySCq6Z8NiBiDBzlY8CtuZIQbAW7ClSDdqkgaVRsIpwkeiQn
+zx4SrWrYZqvtttx26+234IYr7rj0RAAAOw==
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img3.gif
+
+R0lGODlhHwAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAAfACAAQASLcMlJq71YDtCyr49QAELJAIX0IBOBEpPwzXRtWwIAx/vt
+/8CgcNIgDSvFwZFiACgoCdmCYSAMDgbBc5F4AKOCQWJhcDAEjN5yzW6735LACcBgsBOAcbuQauMD
+bmYVDhINaAIdCwgDAywYAQCOigdeBnpTThRbNwRSCwoCB0oLIUEEXkwGcKusra6rEQA7
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img4.gif
+
+R0lGODlhwQAvAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAADBAC8AQAT+cMlJq7046827/2AojmTxkGiqrmzrIgrVACf1CEKT4G51
+5zvBRhGTCGINDqOGmTEXj0FigjD0JNGppJohUo6LZOZQXDgIl8SAYrAuDGKJQ5gorNoS+ESwNgDQ
+eQAkSxtqFm0DZXMLdS2IMXxvfxN+KAMBV5mam5ydnp+goaIjAQCmp6ipqqusra6vsLGys7S1tqYg
+MxUIDKMjDwWAAnaMBy28vh/AgAvDEgnGFg0DAJgUBdYTD4IXB1oSBEQIPC3eFjsBQnu9IoQZ2xUz
+CBIDa+EK4+op8vRrjALpvrALwUBBAAcc4lz48aQTDn0KO0W0gaOhpocTJibbyLGjx4/+IEOKHEmy
+pESEJlOqXBFpZQcCOzS6dAEzxwgGbiQEIDbzQbRrZTK4y7DTpc8LBYL6uDBJG7cJDNAIQGggW4+o
+zahavSCg17ZTA4VatPG0WQAE3LaNTQEQLRYaGbq+BRsXpU6lkpgEONDA2YIB8wIcXcBAHym+fgGH
+gavAnxHHIIZe8PMEHhS4gqMVVmFZrZMFjb9A9pAAQBKDcQ1jMHCAwNoerluGcSCzBbkGJho4+Mba
+NQvcD3R/i+1Yd+0NfgDknMm8ufPn0KNLn069uvXr2LNr3869u/MDy72Lv0JuvHkXBnieX6/CRIUA
+31IqYEZgQAPdqlPAl89sQf37i4T+AMYEBJzBnABaGKBFaQlxUGB/JSFIyYJldcBaBQxstZIDT8im
+gWQXZDgThxV46AED8zi13AOQeCNAhS2w2IyLMJbITkDNKPHaZTnVR8BTB2iogo9ACmnEQDjmJ0ED
+P00QgFKWUSIBA6Nt0BUDWGaZ5URuUOmBXB1oycABBWiZolNs1OfPXh1cKeaWFRigpk5NWgCmhQQU
+MFpTTk2EVhIPYCLANpgwEB8Kf0JhTWh+HXnTjtsoFKkE1TRDKGGHijDpApUyqt6dHqCVkxQXOHDm
+MLw4kM43YPxo5JcFpLrqMyiJOAE2j25gKgUEHACQAz+1WmkKvf5qTAK1WoUrQcRsBBCWDK11AECG
+BYTXg27OhrUDCQhAKE20/gEgBGUTTLuTtSH8OC5c2GJJwbYi/DiFXRjgYyVenSz7F7pX2PuPAMsN
+2EIQ1uo7AL8dKEDGq+w1zAEA6jks8cQUV2zxxRhnrPHGHHfs8ccgcxIBADs=
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/p688.gif
+
+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
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img5.gif
+
+R0lGODlhVgBzAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABWAHMAQAT+cMlJq7046827/2AoSg3wSI85rmzrvnAsz55QIIwTCAmV
+uoSDIOA4+AAth+DyozmfD8VCcEgIkDHCgIBdHAKwhgBxkAKWop0ELeIuDSqJejqbs5/4vH7P7/v/
+dQdiBRIDCFMpSwJ3IE0pJwKJU4w1hBSRZ5OAm5ydGIsGDVYCBJ56DaUTD6mmra4vBhIMAxUCA10j
+Blq0CwFGU7csugWMtrh9o7Gvy3wIAA0LD2AGPQsJx43PEgDT1dcrKdAT1BLfzOfoLApxE+sn7ezp
+8p4MpQIOCwZgMUPOKPEsxlAplUBcCBUBCgww+KFBgQcNHFTbdiLhwhgIFTKcx7Gjxxn+AgGkEsDg
+4wgbExgIMMDLpMuXMGO6iDKlyhUZWrhM+BJmTJkFmTQ4gyZNFbYQ4bbti3b0Q9IKTTxEHeEmX7yp
+MrDK3MrVpLJZFLQ0iEjJg64BvHwtEEs2FwFiYRe2nXIjx46Ja1pSFULk1wRbLJR80ssnWdfDiBMr
+Xsy4seNoi0QtmvFgwEQEyl6AMgCKQ5UnJQ4tQCujxLsNBpSFuiRlQYEArESkHtB6SuvXsT2gsiDg
+NuzHwIMLH068uHFPYhA4UACt9+NhbCQCf3rP2mPBhUjmPs69u/fv4GM+iDyKsuUJmPmt5LwyQ70p
++PRRWHoygD+mp+mHEHiAoEH9O+H+9Y8LoRXSklYgmGbBVL4MUohoTM2ExSNGtYDSgsekJsFqR8Aw
+W20RsrAbhh8EsM4QKzgEkXQTmHgGgC24iGJ4NNZoI0zjCSBZWSxUdllmLmzWGQbvVSffWlZsBEI/
+E6pAQJIr8Ocfkjpe8NlfliTglwgFjkbLhVqmGA+YvzR4oSEVFAAiUk2eJoGaUVpyAZwbqraRc0qG
+8CFrC+TZwYi1SOHnEQAUWtIIKkY0UQqFAnAoDIwaeuOklFZq6aWY1nIAkDUBSQWnmYYq6qikluoH
+TVRY0RRVW3TB0wvJ/RTUBV8R5uEucmzZAnQfDBUNGAQooAACvbmZjTjcrCUssQpKGCuVNhMEO2yx
+dOGgAw9yPNDfaDxyEMQQRWS77QDdaoBdi9qWQi4Hgj3ggBhtZALHae2+Wy4I9cKrQWYcimAYBfwO
+Kts4Aps6TwQAOw==
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.526/688img6.gif
+
+R0lGODlhYAAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABgAB4AQAT+cMlJq7046817FwByPQxjdI2AOEqzCMpYnp4ETuAzMcAL
+6BJerdJ4GI/IoaWIbCqf0Kh0qlQkCIZCweV5KBxcKsULHn17E0SBsAgw0uv2+yIQSAiDTqBgwjwA
+XAIOCwkce30aNxINAIUSBzGMjguQYpaXmJmam5ydnn4AcwuhGyQFk5emqBmKCwYhEwV5ryISshkF
+dhoJsmEYBgS5Ew6rFLwDvhutOTs9zEFoE4wA1NS1NTQVDroLAwIMbNh+AgUACgIuDQ4PBOfS6+3c
+n/P09fb3+Pn6+xMECAMMEiTrkE1TwSUxxtS5olAAQyLrJCAAIC+DgQEHrl26mFFZNEqb3GCBnCCS
+ggAgBMxlUMMgAIc6BhokqBPuAkuXHloF+LFj0E4gCxgMwqCu4oQAB9B9QAAi3LcLSJUOWcYTmg+g
+Qi54y+kAEdGqf4BiEOQ1UbSfPdtUDTrU5LY67jysQGaB3A4BF+U6oDv247Y7Vf8uSCn2U4OaC9jN
+IxAAbwXGjqV8K0G58sAakytb5se5s+fPoEOLHk26tOkaEQAAOw==
+
+------=_NextPart_000_0000_01CCDDD4.DD33B360--

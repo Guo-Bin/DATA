@@ -1,0 +1,361 @@
+From: =?Windows-1252?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem C - Digit Primes
+Date: Sun, 12 Feb 2012 21:06:51 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.577\10533.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem C - Digit =
+Primes</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./c_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./c_files/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Shahriar Manzoor</o:Author>
+  <o:LastAuthor>Shahriar Manzoor</o:LastAuthor>
+  <o:Revision>39</o:Revision>
+  <o:TotalTime>1147</o:TotalTime>
+  <o:LastPrinted>2003-07-25T04:57:00Z</o:LastPrinted>
+  <o:Created>2003-05-03T08:19:00Z</o:Created>
+  <o:LastSaved>2003-07-25T23:32:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>172</o:Words>
+  <o:Characters>985</o:Characters>
+  <o:Company>CSE, BUET</o:Company>
+  <o:Lines>8</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>1209</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>BestFit</w:Zoom>
+  =
+<w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEve=
+ry>
+  =
+<w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+ </w:WordDocument>
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Arial Unicode MS;
+}
+@font-face {
+	font-family: @Arial Unicode MS;
+}
+@page Section1 {size: 595.45pt 841.7pt; margin: .8in .8in 67.7pt .8in; =
+mso-header-margin: .5in; mso-footer-margin: .5in; mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman"
+}
+H1 {
+	TEXT-ALIGN: justify; FONT-STYLE: italic; MARGIN: 0in 0in 0pt; =
+FONT-FAMILY: "Times New Roman"; COLOR: black; FONT-SIZE: 12pt; =
+FONT-WEIGHT: normal; mso-bidi-font-size: 10.0pt; mso-pagination: =
+widow-orphan; mso-style-next: Normal; mso-outline-level: 1; =
+mso-font-kerning: 0pt
+}
+H2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 18pt; mso-bidi-font-weight: normal; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-style-next: Normal; mso-outline-level: 2; tab-stops: 143.25pt
+}
+P.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+P.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText2 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; COLOR: black; FONT-SIZE: 12pt; mso-bidi-font-weight: bold; =
+mso-bidi-font-size: 10.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+P.MsoBodyText3 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoBodyText3 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoBodyText3 {
+	TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+A:link {
+	COLOR: #6633cc; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: #6633cc; TEXT-DECORATION: underline; text-underline: single
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+EM {
+	mso-bidi-font-style: normal
+}
+PRE {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Courier New"
+}
+P.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-style-name: =
+Preformatted; mso-bidi-font-family: "Times New Roman"
+}
+LI.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-style-name: =
+Preformatted; mso-bidi-font-family: "Times New Roman"
+}
+DIV.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: 0in 47.95pt 95.9pt 143.85pt 191.8pt =
+239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt; mso-style-name: =
+Preformatted; mso-bidi-font-family: "Times New Roman"
+}
+SPAN.StyleArial16pt {
+	FONT-WEIGHT: bold; mso-style-name: "Style Arial 16 pt"; =
+mso-bidi-font-family: Arial; mso-ansi-font-size: 16.0pt; =
+mso-ascii-font-family: Arial; mso-hansi-font-family: Arial
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US link=3D#6633cc =
+vLink=3Dpurple>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 28pt; mso-bidi-font-size: =
+10.0pt">Problem=20
+C</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial"><BR></SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 20pt; mso-bidi-font-size: =
+24.0pt">Digit=20
+Primes</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial"><BR><B=20
+style=3D"mso-bidi-font-weight: normal">Input: </B><SPAN=20
+style=3D"mso-bidi-font-weight: bold">Standard =
+Input<o:p></o:p></SPAN></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Output:=20
+</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; mso-bidi-font-weight: =
+bold">Standard=20
+Output <o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Time=20
+Limit: </SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; =
+mso-bidi-font-weight: bold">4=20
+Seconds</SPAN></P>
+<P class=3DMsoNormal>&nbsp;</P>
+<P class=3DMsoBodyText3><SPAN style=3D"COLOR: black">A prime number is a =
+positive=20
+number, which is divisible by exactly two different integers. A digit =
+prime is a=20
+prime number whose sum of digits is also prime. For example the prime =
+number=20
+<B>41</B> is a digit prime because <B>4+1=3D5</B> and <B>5</B> is a =
+prime number.=20
+<B>17</B> is not a digit prime because <B>1+7 =3D 8</B>, and <B>8</B> is =
+not a=20
+prime number. In this problem your job is to find out the number of =
+digit primes=20
+within a certain range less than <B>1000000</B>.</SPAN></P>
+<P class=3DMsoBodyText3><SPAN=20
+style=3D"FONT-FAMILY: 'Arial Unicode MS'">&nbsp;<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Input</SPAN></SPAN><SPAN=20
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt; mso-fareast-font-family: 'Arial Unicode MS'; =
+mso-bidi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></SPAN></P>
+<P class=3DMsoBodyText3>First line of the input file contains a single =
+integer=20
+<B>N (0&lt;N&lt;=3D500000) </B>that indicates the total number of =
+inputs. Each of=20
+the next <B>N</B> lines contains two integers <B>t1</B> and <B>t2</B>=20
+<B>(0&lt;t1&lt;=3Dt2&lt;1000000). </B></P>
+<P class=3DMsoBodyText3>&nbsp;</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><SPAN =
+class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Output<o:p></o:p></SPAN></SPAN></P>
+<H1><SPAN style=3D"FONT-STYLE: normal">For each line of input except the =
+first=20
+line produce one line of output containing a single integer that =
+indicates the=20
+number of digit primes between <B>t1</B> and <B>t2</B>=20
+(inclusive).<o:p></o:p></SPAN></H1>
+<P class=3DMsoNormal>&nbsp;</P>
+<H1 style=3D"TEXT-ALIGN: left" align=3Dleft><B><SPAN=20
+style=3D"FONT-STYLE: normal; FONT-FAMILY: Arial; FONT-SIZE: 16pt; =
+mso-bidi-font-size: 10.0pt">Sample=20
+Input <o:p></o:p></SPAN></B></H1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-COLLAPSE: collapse; BACKGROUND: #cccccc; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; mso-border-alt: solid windowtext .5pt; =
+mso-padding-alt: 0in 5.4pt 0in 5.4pt"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 bgColor=3D#cccccc>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: =
+windowtext 0.5pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: =
+231.1pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; =
+BORDER-RIGHT: windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D308>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">3<o:p></o:p></SPAN></B></P>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">10=20
+      20<o:p></o:p></SPAN></B></P>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">10=20
+      100<o:p></o:p></SPAN></B></P>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">100=20
+      10000<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 231.15pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: =
+windowtext 0.5pt solid; PADDING-TOP: 0in; mso-border-left-alt: solid =
+windowtext .5pt"=20
+    vAlign=3Dtop width=3D308>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">1<o:p></o:p></SPAN></B></P>
+      <P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">10<o:p></o:p></SPAN></B></P>
+      <P=20
+      style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+      class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: =
+10.0pt">576<o:p></o:p></SPAN></B></P></TD></TR></TBODY></TABLE>
+<DIV=20
+style=3D"TEXT-ALIGN: center; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt =
+229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt =
+641.2pt 687.0pt 732.8pt"=20
+class=3DMsoNormal align=3Dcenter>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</DIV>
+<P style=3D"TEXT-ALIGN: justify; tab-stops: 429.75pt"=20
+class=3DMsoNormal><B>Problemsetter: Shahriar Manzoor, Member of Elite=20
+Problemsetters' Panel<o:p></o:p></B></P>
+<P style=3D"TEXT-ALIGN: justify; tab-stops: 429.75pt" =
+class=3DMsoNormal><B><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></B></P>
+<P style=3D"TEXT-ALIGN: justify; tab-stops: 429.75pt" =
+class=3DMsoNormal><B>/*Note:=20
+You should at least use scanf() and printf() to take input and produce =
+output=20
+for this problem. cin and cout is too slow for this problem to get it =
+within=20
+time limit.*/<o:p></o:p></B></P></DIV></BODY></HTML>

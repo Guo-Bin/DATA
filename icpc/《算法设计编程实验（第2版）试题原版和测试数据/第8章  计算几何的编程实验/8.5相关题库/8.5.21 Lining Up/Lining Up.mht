@@ -1,0 +1,78 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Lining Up
+Date: Sat, 11 Feb 2012 13:55:14 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.996\270.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Lining Up</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Lining Up">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Lining=20
+Up</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>``How am I ever going to solve this problem?" said the pilot.=20
+<P>
+<P>Indeed, the pilot was not facing an easy task. She had to drop =
+packages at=20
+specific points scattered in a dangerous area. Furthermore, the pilot =
+could only=20
+fly over the area once in a straight line, and she had to fly over as =
+many=20
+points as possible. All points were given by means of integer =
+coordinates in a=20
+two-dimensional space. The pilot wanted to know the largest number of =
+points=20
+from the given set that all lie on one line. Can you write a program =
+that=20
+calculates this number?=20
+<P>
+<P>Your program has to be efficient!=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input consists of <I>N</I> pairs of integers, where 1 &lt; =
+<I>N</I> &lt;=20
+700. Each pair of integers is separated by one blank and ended by a =
+new-line=20
+character. The list of pairs is ended with an end-of-file character. No =
+pair=20
+will occur twice.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>The output consists of one integer representing the largest number of =
+points=20
+that all lie on one line.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>1 1
+2 2
+3 3
+9 10
+10 11</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>3</PRE>
+<P></P></BODY></HTML>

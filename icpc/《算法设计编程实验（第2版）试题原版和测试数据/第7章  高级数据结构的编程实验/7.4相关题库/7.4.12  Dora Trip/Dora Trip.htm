@@ -1,0 +1,112 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Dora Trip</TITLE>
+<META name=description content="Dora Trip">
+<META name=keywords content=1036>
+<META name=resource-type content=document>
+<META name=distribution content=global>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.16722">
+<META content=text/css http-equiv=Content-Style-Type></HEAD>
+<BODY>
+<TABLE border=0 cellSpacing=3 cellPadding=4 width="100%">
+  <COLGROUP>
+  <COL width=256>
+  <COL width=256>
+  <THEAD>
+  <TR vAlign=bottom>
+    <TD bgColor=#000066 width="100%">
+      <P><FONT color=#ffffff><FONT size=6 face="Arial Black">Problem E: Dora 
+      Trip</FONT></P></FONT></TD></TR>
+  <TR vAlign=bottom>
+    <TD bgColor=#000066 width="100%">
+      <P align=right><FONT color=#ffffff><FONT size=3 face="Arial Black">Time 
+      limit: 3 seconds</FONT></P></FONT></TD></TR></THEAD>
+  <TBODY></TBODY></TABLE><BR><!--img align=left src="p10818.gif"-->
+<P><FONT size=6>N</FONT>obita is in great trouble. Today he failed to hand in 
+his homework again, so he was heavily punished at school. Learning that, his 
+mother gets furious, and therefore assigns him many tasks to do - to buy 
+vegetables at the market, to collect a parcel at the post office and a lot more. 
+Nobita certainly does not want to see his teacher on his way, nor would he like 
+to meet Jyian, the tough bully. As usual, he asks Doraemon for help. 
+<P>"Oh no!" cried Doraemon. "My <I>everywhere door</I> is broken, and my 
+<I>small propellers</I> have all run out of batteries..." Well, that means 
+Nobita has got to go without Doraemon's magic tools. "Ah, I still have this. It 
+may well be useful." From his 4th-dimensional pocket, Doraemon takes out a map 
+of their living area. He then marks on it the places where Nobita has to visit 
+by asterisks ('<B>*</B>'), and where Jyian or his teacher may appear by crosses 
+('<B>X</B>'). Now Nobita's job is simple - he has to find the shortest route, 
+through which he would not visit any of the 'crosses', and he could finish the 
+maximum number of the jobs (if not all) given by mum. What he needs is just a 
+computer program that works out the path... 
+<P>Imagine that you are Nobita. Write the program. 
+<P>
+<H2><A name=SECTION00001000000000000000 target=_blank><FONT 
+color=#000066>Input</FONT></A></H2>
+<P>The input file contains no more than <B>20</B> test cases. The details of 
+each set are given as follows: 
+<P>The first line of each case contains two integers <B><I>r</I></B> and 
+<B><I>c</I></B> (1 &lt;= <B><I>r</I></B>, <B><I>c</I></B> &lt;= 20), which are 
+the number of rows and columns of the map respectively. The next <B><I>r</I></B> 
+lines, each with <B><I>c</I></B> characters, give the map itself. For each 
+character, a space `` '' stands for an open space; a hash mark ``<B>#</B>'' 
+stands for an obstructing wall; the capital letter ``<B>S</B>'' stands for the 
+position of Nobita's house, which is where his journey is to start and end; the 
+capital letter ``<B>X</B>'' stands for a dangerous place; and an asterisk 
+``<B>*</B>'' stands for a place he has to visit. The perimeter of the map is 
+always closed, i.e., there is no way to get out from the coordinate of the 
+``<B>S</B>''. The number of places that Nobita has to visit is at most 
+<B>10</B>. 
+<P>The input file is terminated by a null case where <B><I>r</I> = <I>c</I> = 
+0</B>. This case should not be processed. 
+<P>
+<H2><A name=SECTION00001000000000000000 target=_blank><FONT 
+color=#000066>Output</FONT></A></H2>
+<P>For each test case, if Nobita cannot visit any target places at all, just 
+print the line "<B>Stay home!</B>". Otherwise, your program should output the 
+lexicographically smallest shortest path so that the number of target places 
+that Nobita visits is maximized. Use the letters '<B>N</B>', '<B>S</B>', 
+'<B>E</B>' and '<B>W</B>' to denote north, south, east and west respectively. 
+Note that by 'north' we mean facing upwards. You can be sure that the length of 
+a correct output path will never exceed 200. 
+<P>
+<TABLE style="PAGE-BREAK-INSIDE: avoid" border=0 cellSpacing=3 cellPadding=4 
+width="100%">
+  <COLGROUP>
+  <COL width=256>
+  <COL width=256>
+  <THEAD>
+  <TR vAlign=top>
+    <TD width="50%">
+      <P>
+      <H2><A name=SECTION00003000000000000000 target=_blank><FONT 
+      color=#000066>Sample Input</FONT></A></H2><PRE>5 5
+#####
+#  S#
+# XX#
+#  *#
+#####
+5 5
+#####
+#* X#
+###X#
+#S *#
+#####
+5 5
+#####
+#S X#
+#  X#
+# #*#
+#####
+0 0
+</PRE></TD>
+    <TD width="50%">
+      <P>
+      <H2><A name=SECTION00004000000000000000 target=_blank><FONT 
+      color=#000066>Sample Output</FONT></A></H2><PRE>WWSSEEWWNNEE
+EEWW
+Stay home!
+</PRE></TD></TR></THEAD>
+  <TBODY></TBODY></TABLE>
+<HR>
+
+<ADDRESS>Problemsetter: Mak Yan Kei</ADDRESS></BODY></HTML>

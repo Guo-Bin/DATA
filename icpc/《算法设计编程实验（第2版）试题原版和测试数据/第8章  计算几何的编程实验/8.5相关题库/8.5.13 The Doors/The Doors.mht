@@ -1,0 +1,139 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: The Doors
+Date: Sat, 11 Feb 2012 13:48:07 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE8C3.C8B69F20"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE8C3.C8B69F20
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.457\393.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>The Doors</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"The Doors">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>The=20
+Doors</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>You are to find the length of the shortest path through a chamber =
+containing=20
+obstructing walls. The chamber will always have sides at <I>x</I>=3D0,=20
+<I>x</I>=3D10, <I>y</I>=3D0, and <I>y</I>=3D10. The initial and final =
+points of the=20
+path are always (0,5) and (10,5). There will also be from 0 to 18 =
+vertical walls=20
+inside the chamber, each with two doorways. The figure below illustrates =
+such a=20
+chamber and also shows the path of minimal length.=20
+<P>
+<CENTER><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.457/393i=
+mg1.gif"></CENTER>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input data for the illustrated chamber would appear as follows.=20
+<P><PRE>2
+4 2 7 8 9
+7 3 4.5 6 7</PRE>
+<P>The first line contains the number of interior walls. Then there is a =
+line=20
+for each such wall, containing five real numbers. The first number is =
+the=20
+<I>x</I> coordinate of the wall (0&lt;<I>x</I>&lt;10), and the remaining =
+four=20
+are the <I>y</I> coordinates of the ends of the doorways in that wall. =
+The=20
+<I>x</I> coordinates of the walls are in increasing order, and within =
+each line=20
+the <I>y</I> coordinates are in increasing order. The input file will =
+contain at=20
+least one such set of data. The end of the data comes when the number of =
+walls=20
+is -1.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>The output file should contain one line of output for each chamber. =
+The line=20
+should contain the minimal path length rounded to two decimal places =
+past the=20
+decimal point, and always showing the two decimal places past the =
+decimal point.=20
+The line should contain no blanks.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>1
+5 4 6 7 8
+2
+4 2 7 8 9
+7 3 4.5 6 7
+-1</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>10.00
+10.06</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE8C3.C8B69F20
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.457/393img1.gif
+
+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
+
+------=_NextPart_000_0000_01CCE8C3.C8B69F20--

@@ -1,0 +1,235 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem C: Longest Common Subsequence
+Date: Mon, 7 Nov 2011 15:48:27 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC9D64.B0D23B80"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CC9D64.B0D23B80
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.043\10405.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Problem C: Longest Common Subsequence</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY>
+<H2>Problem C: Longest Common Subsequence</H2>
+<P>Sequence 1: <IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<BR>
+<P>Sequence 2: <IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05a.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05b.gif"></IMG>=20
+<IMG align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p104=
+05c.gif"></IMG>=20
+<BR><BR><BR>Given two sequences of characters, print the length of the =
+longest=20
+common subsequence of both sequences. For example, the longest common=20
+subsequence of the following two sequences: <PRE>abcdgh
+aedfhr
+</PRE>is <TT>adh</TT> of length 3.=20
+<P>Input consists of pairs of lines. The first line of a pair contains =
+the first=20
+string and the second line contains the second string. Each string is on =
+a=20
+separate line and consists of at most 1,000 characters=20
+<P>For each subsequent pair of input lines, output a line containing one =
+integer=20
+number which satisfies the criteria stated above.=20
+<H3>Sample input </H3><PRE>a1b2c3d4e
+zz1yy2xx3ww4vv
+abcdgh
+aedfhr
+abcdefghijklmnopqrstuvwxyz
+a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0
+abcdefghijklmnzyxwvutsrqpo
+opqrstuvwxyzabcdefghijklmn
+</PRE>
+<H3>Output for the sample input </H3><PRE>4
+3
+26
+14
+</PRE>
+<HR>
+<B>Problem Setter: Piotr Rudnicki </B></BODY></HTML>
+
+------=_NextPart_000_0000_01CC9D64.B0D23B80
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p10405b.gif
+
+R0lGODlhGQA8ALMAAOSgFvbPCeHSsfTw5KtPK2wzKOzjzMp3JpBnQsCmec66ma6LbOjPVPz1BPj3
+8v///yH5BAAAAAAALAAAAAAZADwAAAT/8Mk53XDYmEv7yxcmYoO2cdMgYN/ojqXhfEb73kMpKMqz
+3rCYySAQJBw9ICknJBYZg6TSMtQUjUSbi1mKXQWMRBbHrH6NgoHWYilbz+ia6MIdnhnghEAeym0E
+BAsECFd4PAl6CgsKRWaBBAQ8CogJCwcEegQHBwCbBwEBDIGCnZuQBAUFmZ6bAAChgpCunaepC4Ct
+ngAMDAsLCAuzpqgFt5qcyK8MAa6grpeoqAoDkAcIrLsJzpzXxKk919abCAgJy64I6NapqQIPgtYA
+5JznlszX7Kk1CcfX5Lvy7olDUIDYDAWaOjUD0CBAg4bMShFDIAHXrFcOH0J8VmuBBAPH/2aB0vjQ
+GS1UCSRQ4yQyY8mI0KRJcNBKJMmXEmVKsHRxJMltl/RN4NnMpUagkArUkKCAZbObG6GlUsPUqc+f
+zEwVQDCjIoGeULclpZjCqlGcUj1WSGfzJkxiPSgkaBk2a1J3FJrS/clxagcBVusCSFqg6wQDTl+5
+dTXWA02WV6MmVduBqOKjfQvErWwW8zDNHh4gBCuZGN4OTSFnzKq1wGkKgEmzJry0g4FrLWFKVRo6
+9kVhrXl7GID7d6ndtSk8Ns7RG9UOj2seP0XsufJwrIZ5KxyaOHVN1PMVsD4BcMyY4oV6SJBv0Hbx
+r2f+ak84PeXy5ID50l6LXfJ3BG21yEIQhwSYSkprbZVfOZVUsmA+hjlA0CKTTOPHDuyRkwpXsLFD
+ziJFTDJfPpsdloB+CTByiC8BEmIYdDsw8oYkCrz4QAQAOw==
+
+------=_NextPart_000_0000_01CC9D64.B0D23B80
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p10405c.gif
+
+R0lGODlhLQAyAMQAAOOgZ49II4sfCmA3If////7txrclBfpHAvg4AY9pUc6pj+UTAvQsAf7nuPzZ
+p8BxOu0hAtEgBb9AEeE3Bf348PPEk7eTe+XSwc2ETPRfCLpZJNe9qfzx3tlrM9xTEe/k1iwAAAAA
+LQAyAAAF/yAhjmRJUQXHUWXrvjBxckVtpysb7yOlzrWGsCAsNmwcXqx4awaPR6KjonTRHA7o0DmM
+NqafZJVwwWAA6Ip6im27p+oK2ozZVBUPM+CM7vv/fmYPgwp3eXSIiYp0g40aFkoUFoOKjZaXmBqa
+DzoxFHiYD5qjpKWmj50xFwmnrZoSsLGyGhd3AgYGEbq7vL28C8AQugaFSgm3u8DKy8zKEM8LuAIJ
+qTDHuc/Zwdnc3dDS1EoKtxMMDAgMENvmEOzP5ufouAEA1S8XAA8GEroTCMLqFnBz927ChA4eHm34
+QMQIGx0b9kw4gMAgwW7pzCHYWFHDQQU+bDApgEVEmQcTN//G08gxXTuOHCdImFCHhsMiWFicnEiR
+gT94QAW202hO5gQACj58aROnSBJ8KHv6/AeUYFWfGjwg/YDihgMAWRw8tYBhpkCfGV22U9cNWIQO
+Eh4UazHlS5INGB7MfIZAV9W1GNMdlBAAkosCFewS+KDXwwGKfSG0hJcNXkwNuAy34FAhSxIFAQzw
+RPdyslrLRSXgmmuic4MkFTQIEKByKDqg3M6yi2aA1gsKWF6TydMBJmltQjEieJxBQwIxLSg4JYOh
+A8LHkI1rh/k4oQXoJqZzAJAhg4cMj42zbLmc4uMIEsK5kC4kyfjy57Fjt8yR7wEP7UWAym/TfWBB
+BxkgqB3/fxv554E/E/SmWXQNJfFBAgh54EFaQC3o04M+9cZaePURwEECD2QAi4fbVcTTARMEMCIJ
+HBTBAgWseCCBY+mx16I/B2QQ44wjNFSADuNIkFWPkqHTYjyPGSCjPTJAUcAIFwQgACw9LqDSdvFs
+FIEAAdhxGBTg4SGkLtDoJlAz8NAEQC0uRAEeGRuUhx46unkDZZBmJGVFFNVcsMF5e7aXnXbpeaBA
+BxZ8UEKNDtRwp4kK8EhRSuqFuRwCHWzQQQIWXGBqHK41QKWoBrU6QWVXxTOBAg5gUCoHSgV3RAWX
+mqRPhK3+0o5f5/hUgQIYXHBCSJY6IOkLJ8KyzwQR4LLLqrARlGOOB3hFiusHSn2hAJEkJKDllqrN
+hosB7Vg7lAcokmrBuGQhpewOFgQwwAABpDvbbBEwYAA55YT6QKTL/lBFvvvuI8G/AgyQ7cDsQjCB
+XA/QOUa5A2gQQL/+qjvwLbhIwG8AG7eQr7kBiOLxvgPA8vHMHw+QQMolXKivzTvvSw8GOwdgrs0a
+4ywCBRskAPPSNjPNrwVUGr3YBgpYkMDVWF897wa9KhECADs=
+
+------=_NextPart_000_0000_01CC9D64.B0D23B80
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.043/p10405a.gif
+
+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
+sBNl5MQiCbCBDHRxRYIEBAA7
+
+------=_NextPart_000_0000_01CC9D64.B0D23B80--

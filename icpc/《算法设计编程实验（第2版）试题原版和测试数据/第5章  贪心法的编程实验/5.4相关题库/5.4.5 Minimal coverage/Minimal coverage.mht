@@ -1,0 +1,92 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Minimal coverage
+Date: Sun, 12 Feb 2012 18:13:31 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.545\10020.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Minimal coverage</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" =
+http-equiv=3DContent-Type><!--=0A=
+* Multiple test case problem corrected by=0A=
+  Mahbub Murshed Suman (udvranto@hotmail.com)=0A=
+  09.January.2004 -->
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Minimal=20
+  coverage</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>The=20
+Problem</A></FONT></H2>
+<P>Given several segments of line (int the X axis) with coordinates=20
+[L<SUB>i</SUB>,R<SUB>i</SUB>]. You are to choose the minimal amount of =
+them,=20
+such they would completely cover the segment [0,M].
+<P></U></U>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>The=20
+Input</A></FONT></H2>
+<P>
+<P>The first line is the number of test cases, followed by a blank line.
+<P>Each test case in the input should contains an integer =
+M(1&lt;=3DM&lt;=3D5000),=20
+followed by pairs "L<SUB>i</SUB> R<SUB>i</SUB>"(|L<SUB>i</SUB>|,=20
+|R<SUB>i</SUB>|&lt;=3D50000, i&lt;=3D100000), each on a separate line. =
+Each test=20
+case of input is terminated by pair "0 0".=20
+<P>Each test case will be separated by a single line.
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>The=20
+Output</A></FONT></H2>
+<P>For each test case, in the first line of output your programm should =
+print=20
+the minimal number of line segments which can cover segment [0,M]. In =
+the=20
+following lines, the coordinates of segments, sorted by their left end=20
+(L<SUB>i</SUB>), should be printed in the same format as in the input. =
+Pair "0=20
+0" should not be printed. If [0,M] can not be covered by given line =
+segments,=20
+your programm should print "0"(without quotes).=20
+<P>Print a blank line between the outputs for two consecutive test =
+cases.
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001005000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>2
+
+1
+-1 0
+-5 -3
+2 5
+0 0
+
+1
+-1 0
+0 1
+0 0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001006000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>0
+
+1
+0 1
+</PRE>
+<ADDRESS>
+<HR>
+<A href=3D"http://diaspro.com/~gevak">Alex Gevak</A><BR>September 10, =
+2000=20
+(Revised 2-10-00, Antonio Sanchez) </ADDRESS></BODY></HTML>

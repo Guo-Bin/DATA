@@ -1,0 +1,236 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: History Grading
+Date: Mon, 7 Nov 2011 15:51:12 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0009_01CC9D65.12D505B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.664\111.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>History Grading</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"History Grading">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>History=20
+  Grading</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Background</A></FONT></H2>
+<P>Many problems in Computer Science involve maximizing some measure =
+according=20
+to constraints.=20
+<P>Consider a history exam in which students are asked to put several =
+historical=20
+events into chronological order. Students who order all the events =
+correctly=20
+will receive full credit, but how should partial credit be awarded to =
+students=20
+who incorrectly rank one or more of the historical events?=20
+<P>Some possibilities for partial credit include:=20
+<OL>
+  <LI>1 point for each event whose rank matches its correct rank
+  <LI>1 point for each event in the longest (not necessarily contiguous) =
+
+  sequence of events which are in the correct order relative to each =
+other.=20
+</LI></OL>
+<P>For example, if four events are correctly ordered 1 2 3 4 then the =
+order 1 3=20
+2 4 would receive a score of 2 using the first method (events 1 and 4 =
+are=20
+correctly ranked) and a score of 3 using the second method (event =
+sequences 1 2=20
+4 and 1 3 4 are both in the correct order relative to each other).=20
+<P>In this problem you are asked to write a program to score such =
+questions=20
+using the second method.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>The=20
+Problem</A></FONT></H2>
+<P>Given the correct chronological order of <I>n</I> events <IMG=20
+alt=3Dtex2html_wrap_inline34 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg1.gif"=20
+width=3D73 height=3D25> as <IMG alt=3Dtex2html_wrap_inline36 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg2.gif"=20
+width=3D84 height=3D17> where <IMG alt=3Dtex2html_wrap_inline38 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg3.gif"=20
+width=3D77 height=3D25> denotes the ranking of event <I>i</I> in the =
+correct=20
+chronological order and a sequence of student responses <IMG=20
+alt=3Dtex2html_wrap_inline42 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg4.gif"=20
+width=3D85 height=3D17> where <IMG alt=3Dtex2html_wrap_inline44 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg5.gif"=20
+width=3D78 height=3D25> denotes the chronological rank given by the =
+student to event=20
+<I>i</I>; determine the <U>length </U>of the longest (not necessarily=20
+contiguous) sequence of events in the student responses that are in the =
+correct=20
+chronological order relative to each other.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>The=20
+Input</A></FONT></H2>
+<P>The first line of the input will consist of one integer <I>n</I> =
+indicating=20
+the number of events with <IMG alt=3Dtex2html_wrap_inline50 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg6.gif"=20
+width=3D82 height=3D25> . The second line will contain <I>n</I> =
+integers, indicating=20
+the correct chronological order of <I>n</I> events. The remaining lines =
+will=20
+each consist of <I>n</I> integers with each line representing a =
+student's=20
+chronological ordering of the n events. All lines will contain <I>n</I> =
+numbers=20
+in the range <IMG alt=3Dtex2html_wrap_inline60 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111i=
+mg7.gif"=20
+width=3D52 height=3D27> , with each number appearing exactly once per =
+line, and with=20
+each number separated from other numbers on the same line by one or more =
+spaces.=20
+
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>The=20
+Output</A></FONT></H2>
+<P>For each student ranking of events your program should print the =
+score for=20
+that ranking. There should be one line of output for each student =
+ranking.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001005000000000000000>Sample =
+Input=20
+1</A></FONT></H2>
+<P><PRE>4
+4 2 3 1
+1 3 2 4
+3 2 1 4
+2 3 4 1</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001006000000000000000>Sample =
+Output=20
+1</A></FONT></H2>
+<P><PRE>1
+2
+3</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001007000000000000000>Sample =
+Input=20
+2</A></FONT></H2>
+<P><PRE>10
+3 1 2 4 9 5 10 6 8 7
+1 2 3 4 5 6 7 8 9 10
+4 7 2 3 10 6 9 1 5 8
+3 1 2 4 9 5 10 6 8 7
+2 10 1 3 8 4 9 5 7 6
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001008000000000000000>Sample =
+Output=20
+2</A></FONT></H2>
+<P><PRE>6
+5
+10
+9
+</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img1.gif
+
+R0lGODlhSQAZAIAAAAAAAP///yH5BAEAAAEALAAAAABJABkAAAJ4jGGpG+AMo5zUPdpQxrx3XSmX
+R5YHN47mioFT6rLlpTZmLX/bfpJ4jrIcXLFKEfgBxY6RHzI4XDAZqadP81BKj8TodqkSJn5arIVW
+O4vF43T4DW5Pxz4rHTin2nv4+j6v4wE4s1doeIiYqLjI2Oj4CBkpOUlZ6VEAADs=
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img2.gif
+
+R0lGODlhVAARAIAAAAAAAP///yH5BAEAAAEALAAAAABUABEAAAJ4jAGmyx3oopwT1vQwXdbu/3Ua
+g2BeKILqZY6ce8DNGdMris8yCbf3anMEg7xZ7KeyQVIHxUmpcTFfUmg06izVniMtlebxZqu9cMn0
+aF6MuC7y1qGAk+r0G5hYRs5YlHh3t5dHJAEYEoiYqLjI2Oj4CBkpOUlZ6VgAADs=
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img3.gif
+
+R0lGODlhTQAZAIAAAAAAAP///yH5BAEAAAEALAAAAABNABkAAAKFjGGpy+0PowMUSVWvbnkne3We
+J44BGFHmqK6fVMKoPE9W+z5xetfMPjn1MDqgbYhbVHycTpL5SUKkwinVlsvyZK7q1qvlQcGHsfIa
+LZ/CNOyBHEKDEL0l6aiir3w4Y/f7FyhIZDZIs2SngSaEmGj4CBkpOUlZaXmJmam5ydnp+QkaKgpZ
+AAA7
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img4.gif
+
+R0lGODlhVQARAIAAAAAAAP///yH5BAEAAAEALAAAAABVABEAAAJ5DGKHy80KlJu0VihdjMnOfXDe
+SCJg94limWDsS21m1qyLbeEnDONxWqIZZryXEKg5JjXEIsnHUR11Qt/NVaPSZNeUFHndKlfccFac
+0Q3Xl2kw9HAaIR4oi26SzzvjXf7pp6QHVHanJziYqLjI2Oj4CBkpOUlZaWlRAAA7
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img5.gif
+
+R0lGODlhTgAZAIAAAAAAAP///yH5BAEAAAEALAAAAABOABkAAAKHjGGpy+0P4wMUSVWvbnnj3Xle
+KB4aVYpo+kUkZK3XO8VWcnOyVCG7Q5sEVrvcogci2nQ/WKfoatYY0kNVhzuejEDWkIv9ardgHPd6
+RIvFt3Kt3FSn3e2hFQkCGn0leFvupRc4SMhhVxjYowhoprcYhBgpOUlZaXmJmam5ydnp+QkaKjpK
+ilkAADs=
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img6.gif
+
+R0lGODlhUgAZAIAAAAAAAP///yH5BAEAAAEALAAAAABSABkAAAKaTICmy+0PI0SgUZNOlevyz3jh
+lmFVspmfCIJs2JEpNaeT3a64VatmWXK8Hpkg0SjsaRRG5M+1jCZ3Op/0GnNOZUdtBKjE8qhJpmT4
+tYGtHC+TW23j1kAd2Yeyp83SPF8vZHY3RdRhRYOYc1D2pEiFSDeoOEnp4laJman5A3kp1+m5KTpK
+Wmp6ipqqusra6voKGys7S1treztaAAA7
+
+------=_NextPart_000_0009_01CC9D65.12D505B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.664/111img7.gif
+
+R0lGODlhNAAbAIAAAAAAAP///yH5BAEAAAEALAAAAAA0ABsAAAJjhBGpy+0Pj2kI2nuPkrj7PTHV
+R0bhMpYqem4rFraBJr4WEqc0aps5m0oEeywXkEJ8/I61JKUyGe2Mz+B01pLOmEKJVXbdnaZX56ps
+LqHTHy9b7R2+b7K5/Y7P6/f8vv8PyFcAADs=
+
+------=_NextPart_000_0009_01CC9D65.12D505B0--

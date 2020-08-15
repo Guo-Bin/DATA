@@ -1,0 +1,153 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem E: Many a Little makes a Mickle
+Date: Sat, 16 Feb 2013 15:31:21 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.444\10860.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Problem E: Many a Little makes a Mickle</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<STYLE type=3Dtext/css>.inout {
+	FONT-FAMILY: "Courier New", Courier, monospace; FONT-SIZE: 12pt
+}
+.cbfont {
+	TEXT-ALIGN: center; FONT-FAMILY: "Times New Roman", serif; FONT-SIZE: =
+13pt
+}
+.psetter {
+	FONT-FAMILY: Tahoma, sans-serif; FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.jbfont {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman", serif; FONT-SIZE: =
+13pt
+}
+.bigfont {
+	FONT-FAMILY: "Times New Roman", serif; FONT-SIZE: 18pt; FONT-WEIGHT: =
+bold
+}
+.cname {
+	TEXT-ALIGN: center; LINE-HEIGHT: 100%; FONT-FAMILY: Arial, sans-serif; =
+FONT-SIZE: 16pt; FONT-WEIGHT: bold
+}
+.pno {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 14pt; =
+FONT-WEIGHT: bold
+}
+.pname {
+	TEXT-ALIGN: center; FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 24pt; =
+VERTICAL-ALIGN: baseline; FONT-WEIGHT: bold
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.18035"></HEAD>
+<BODY>
+<TABLE border=3D2 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD rowSpan=3D3 width=3D"20%">
+            <P class=3Dcbfont>Input: Standard In<BR>Output: Standard =
+Out</P></TD><!--contest name-->
+          <TD class=3Dcname bgColor=3D#c0c0c0 width=3D"60%">Next =
+Generation Contest=20
+            1&nbsp;</TD>
+          <TD rowSpan=3D3 width=3D"20%">
+            <P class=3Dcbfont><B>Time Limit: 2 seconds</B></P></TD></TR>
+        <TR><!--problem no-->
+          <TD class=3Dpno bgColor=3D#c0c0c0 width=3D"60%">Problem =
+&nbsp;E</TD></TR>
+        <TR><!--problem name-->
+          <TD class=3Dpname bgColor=3D#c0c0c0 width=3D"60%">Many a =
+Little makes a=20
+            Mickle</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P class=3Djbfont>A long string does not look so long if we can identify =
+a few=20
+short substrings that were used (possibly more than once) in some =
+permutation to=20
+construct the longer string. Your task is to find if a given (long) =
+string can=20
+be made up by choosing some (shorter) strings from a given collection. =
+</P>
+<P class=3Djbfont>You should note that:=20
+<OL type=3Da>
+  <LI>All the strings are composed of ASCII characters in the range 33 =
+to=20
+  127.</LI>
+  <LI>Any of the short strings or their reversed forms can be used any =
+number of=20
+  times to construct the long string</LI>
+  <LI>Each use of a short string or its reverse would be counted as one=20
+  occurance of that short string</LI></OL>
+<P></P>
+<P class=3Djbfont>When you construct the longer string from these short =
+strings=20
+you should ensure that it is done by keeping the total occurances of the =
+short=20
+strings minimum. </P>
+<P class=3Djbfont>For example, if we want to construct the string =
+"aabbabbabbbb"=20
+from the set {"a","bb","abb"}, there can be many ways to achieve the =
+goal.=20
+"a-abb-abb-abb-bb" and "a-abb-a-bba-bb-bb" are two such valid =
+constructions.=20
+However, we would prefer "a-abb-abb-abb-bb" (5 substrings) over=20
+"a-abb-a-bba-bb-bb" (6 substrings) because it uses lesser number of =
+substrings.=20
+You would only need to find the minimum number of substrings that could =
+be used=20
+to construct the given string. </P>
+<P class=3Dbigfont>Input</P>
+<P class=3Djbfont>The first line of the the input contains <B>S =
+(S&lt;51)</B>, the=20
+number of data set. Then <B>S</B> number of data set follows. First line =
+of each=20
+data set contains the long string, <B>P (0 &lt; length (P) &lt; =
+10001)</B>. The=20
+next line contains the number of short strings, <B>N (0 &lt; N &lt; =
+51)</B> to=20
+choose from. Each of the next <B>N</B> lines contain the short string =
+<B>Pi (0=20
+&lt; length (Pi) &lt; 101) [ i &gt;=3D 1,2,3&#65533;.N]</B>. You can =
+safely assume that=20
+there is no blank/empty line in the input file.<BR>&nbsp;</P>
+<P class=3Dbigfont>Output</P>
+<P class=3Djbfont>For each data set print exactly one line of =
+output.<BR>Either=20
+&#65533;<B>Set S: C.</B>&#65533;<BR>Or &#65533;<B>Set S: Not =
+possible.</B>&#65533;<BR>If it is possible to=20
+construct the string using the given strings then print the first line =
+otherwise=20
+print the second line. Here <B>S</B> is the serial of data set =
+(sequentially=20
+from <B>1</B> to <B>S</B>) and <B>C</B> is the minimum number of times =
+the=20
+substrings were used to construct <B>P</B>. For clarification see sample =
+output=20
+below.</P>
+<P class=3Dbigfont>Sample Input</P>
+<TABLE border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD=20
+      =
+class=3Dinout>2<BR>aabbabbabbbb<BR>3<BR>a<BR>bb<BR>abb<BR>ewu**bbacsecsc<=
+BR>4<BR>ewu<BR>bba<BR>cse<BR>csc</TD></TR></TBODY></TABLE>
+<P class=3Dbigfont>Sample Output</P>
+<TABLE border=3D1 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD class=3Dinout>Set 1: 5.<BR>Set 2: Not =
+possible.</TD></TR></TBODY></TABLE>
+<HR>
+
+<P class=3Dpsetter>Problem Setter: A.N.M. Anisur Rahman.<BR>Special =
+thanks to=20
+Sohel Hafiz.<BR>Moderated by Monirul Hasan.<BR></P></BODY></HTML>

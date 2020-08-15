@@ -1,0 +1,13 @@
+#!/bin/csh -f
+
+if ( ! -e anagram.out ) then
+   echo File \"anagram.out\" not found.
+   exit 1
+endif
+
+if ( { diff -w anagram.out anagram.sol } ) then
+   echo "PROGRAM ACCEPTED."
+else
+   echo "WRONG OUTPUT."
+endif
+

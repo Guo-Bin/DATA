@@ -1,0 +1,265 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Copying Books
+Date: Sun, 12 Feb 2012 15:42:33 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE99C.EFE5B340"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.279\714.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Copying Books</TITLE>
+<META name=3Ddescription content=3D"Copying Books">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Copying=20
+  Books</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Before the invention of book-printing, it was very hard to make a =
+copy of a=20
+book. All the contents had to be re-written by hand by so called=20
+<EM>scribers</EM>. The scriber had been given a book and after several =
+months he=20
+finished its copy. One of the most famous scribers lived in the 15th =
+century and=20
+his name was Xaverius Endricus Remius Ontius Xendrianus =
+(<EM>Xerox</EM>).=20
+Anyway, the work was very annoying and boring. And the only way to speed =
+it up=20
+was to hire more scribers.=20
+<P>
+<P><BR>Once upon a time, there was a theater ensemble that wanted to =
+play famous=20
+Antique Tragedies. The scripts of these plays were divided into many =
+books and=20
+actors needed more copies of them, of course. So they hired many =
+scribers to=20
+make copies of these books. Imagine you have <I>m</I> books (numbered =
+<!-- MATH: $1, 2, \dots, m$ --><IMG border=3D0 alt=3D"$1, 2, \dots, m$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg1.gif"=20
+width=3D84 height=3D30>) that may have different number of pages ( <!-- =
+MATH: $p_1, p_2, \dots, p_m$ --><IMG border=3D0 alt=3D"$p_1, p_2, \dots, =
+p_m$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg2.gif"=20
+width=3D105 height=3D30>) and you want to make one copy of each of them. =
+Your task=20
+is to divide these books among <I>k</I> scribes, <IMG border=3D0 =
+alt=3D"$k \le m$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg3.gif"=20
+width=3D53 height=3D32>. Each book can be assigned to a single scriber =
+only, and=20
+every scriber must get a continuous sequence of books. That means, there =
+exists=20
+an increasing succession of numbers <!-- MATH: $0 =3D b_0 <=0A=
+b_1 < b_2, \dots < b_{k-1} \le b_k =3D m$ --><IMG border=3D0=20
+alt=3D"$0 =3D b_0 <&#10;b_1 < b_2, \dots < b_{k-1} \le b_k =3D m$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg4.gif"=20
+width=3D290 height=3D32> such that <I>i</I>-th scriber gets a sequence =
+of books with=20
+numbers between <I>b</I><SUB><I>i</I>-1</SUB>+1 and =
+<I>b</I><SUB><I>i</I></SUB>.=20
+The time needed to make a copy of all the books is determined by the =
+scriber who=20
+was assigned the most work. Therefore, our goal is to minimize the =
+maximum=20
+number of pages assigned to a single scriber. Your task is to find the =
+optimal=20
+assignment.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>
+<P>The input consists of <I>N</I> cases. The first line of the input =
+contains=20
+only positive integer <I>N</I>. Then follow the cases. Each case =
+consists of=20
+exactly two lines. At the first line, there are two integers <I>m</I> =
+and=20
+<I>k</I>, <!-- MATH: $1 \le k \le m \le 500$ --><IMG border=3D0=20
+alt=3D"$1 \le k \le m \le 500$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg5.gif"=20
+width=3D134 height=3D32>. At the second line, there are integers <!-- =
+MATH: $p_1, p_2, \dots p_m$ --><IMG border=3D0 alt=3D"$p_1, p_2, \dots =
+p_m$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg6.gif"=20
+width=3D97 height=3D30> separated by spaces. All these values are =
+positive and less=20
+than 10000000.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>
+<P>For each case, print exactly one line. The line must contain the =
+input=20
+succession <!-- MATH: $p_1, p_2, \dots p_m$ --><IMG border=3D0=20
+alt=3D"$p_1, p_2, \dots p_m$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714i=
+mg6.gif"=20
+width=3D97 height=3D30> divided into exactly <I>k</I> parts such that =
+the maximum=20
+sum of a single part should be as small as possible. Use the slash =
+character=20
+(`<TT>/</TT>') to separate the parts. There must be exactly one space =
+character=20
+between any two successive numbers and between the number and the slash. =
+
+<P>
+<P><BR>If there is more than one solution, print the one that minimizes =
+the work=20
+assigned to the first scriber, then to the second scriber etc. But each =
+scriber=20
+must be assigned at least one book.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>2
+9 3
+100 200 300 400 500 600 700 800 900
+5 4
+100 100 100 100 100
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>100 200 300 400 500 / 600 700 / 800 =
+900
+100 / 100 / 100 / 100 100
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>2000-02-15</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img1.gif
+
+R0lGODlhVAAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABUAB4AQAT+cMlJq7046825AN30IWG5NQLiKM0iMAOxFIGJPOVtdvru
+/8Bg56FwgDaKBMFQKLSE0N2nIxBICIPo7gF4IroShoJg1ZrP6LR6zV5PNVzGBCBvp9+dQtluMRD0
+Ew5lDQAGFw8CBQAKAi0DAHsLhACUlCQLj5EKADgUm50TnxWZFYKBeweJJQ2GIaxpr3yys7S1trcd
+DQocBAgDDAlPuEB4GA0OnV+RwybFGAKdBIu3VQYNCVUEKFUazhrHy7IpHzIuAOWAz0ccA+G0hJ0G
+nBJf3esuB60iglWMEgL5KADU9y+gQIMiEP4rEIqhBAAIsJUgM9GdEIoUGpSTtJEAqA4WBMaECLlR
+C0lmKFOqXMmypcuXMG1FAAA7
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img2.gif
+
+R0lGODlhaQAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABpAB4AQAT+cMlJq7046827n43wHMqCAM0XjuWZfrC3kiYau9gDVMhD
+4ZaAQDKU9GKc4wRYcRQdiEWCEUJar9isdsvtIoEFB0GiS9oWYYIhIUnsvB2wmKAQCURCwQvO7/v/
+gIGCg4SFhlkGBE5kAGwCA28ZiYsLOgkEAw0NlIWTRZZIDgUCAQU+E2UTkEUToqSmFY+qAKwSCgCn
+E7e5C7sVq02jpacBI2NTEgxsFHm1Gg0GzHfOGdB81hPNF9ES3AuJh+Hi4+Tl5ufo6eqECQIGBgIK
+vB3t7/Hz4/Xw8kgCCAIOugEIkG2DP4ACCRJot6fQwYDfBiIxgKtNxUqRJF1080BAgTZ+B8JRPMUR
+ya0xI1FlFHDAmy0AKC9OKFBiAUuXNlvG0jnh5k6cJyP6EEELow8G1BY0wkYh1QQCzpbitFliD1Q+
+VylIjVUT6QICKBoaGOAA34IAt0hJoDOmG1l8OgDIZbBWQdsubCeMLXuhYoM38QbcXUe4sOHDiBMr
+Xsy4cYcIADs=
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img3.gif
+
+R0lGODlhNQAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAA1ACAAQAT0cMlJq7046xnAIomCYEjBBJskCEaTrESzCpgxEXaqLw0x
+9bfHbkgsChyO4iSnxCQODUYydWQwMQ2AcGHQShCepnhMLpvPu0OCaBgcRmgJAZAYNBaBLSVwENx1
+AggCAD4Lg4UFNBYANA+EClcaCA52FwIFEwqYEgAIL2ICDKKjpH9xp6ipqqusra46CgxKDwoOpmeO
+txoPDAVrqgMDBAoNDrIVvFY7MpPEhgzCCwUoFo4HehkJBZUbBgSJEw6KWZESBQofWgHlFgEm7BK5
+XwB/DAoEij9eCw4BA0XwxIXL12dTkwYPEipc+Kqhw4cQI0qcSNFVBAA7
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img4.gif
+
+R0lGODlhIgEgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAAiASAAQAT+cMlJq7046827/2AojmRpnmEAPBPjoMsDCILSjM/gJJlM
+2zgdD+Or3WCl3E5TBCIviAIjwGkenxSaoZGgERo0QYYQEBiwhvMkwJA8Xh/2lZK2yETyS71SW1wJ
+YlgaeXpqEjMMYkcPjI2MBG4AgnuHAol+SA2QEpoTBCyCoaKjpKWmp6gxNAmbKAEFAHOhr7GltLKp
+JLe5FYYUu7wdKqALLigNAGoDyQ1wbBeADgKtGcjKyZFjAtLUGNYSywYCBRIJB6bR0x3fC+ELB8Qd
+dx3bDL4V7O7wgsigBisSEEgKRrCgwYMIEypcyLChw4cQI0qcaPBAoAUAECAZMCDTAFz+7TrCaPDx
+AkeIJEGGDGZgwAGNGE5CFABQAoOBFRzpZISrgMh/oMqojDGgAMwNPiUAXcOk6FENSRcsJdBlKJYc
+Rj1EBdpAwUUPVDIEsGiVwtYVXb/a2ekIlwAENDfFlVBArQRpEgjUNEHg3AJzZyxl00DGwYB4FPqW
+O2Bo3obChzEo/su4QgEFEgRUzrJ5gmZfnx8HMIw4sV/AC14lCDBgyAbHHxAYljUZtWrWrk+Mm6CA
+3CEEXRAKGPCqrIkACmaEDSUDgPM2Cwgo6MbwWQIG0zkgV47BEoPv4MEbt46dOsXz6NOrX8++vfv3
+8OPLn0+/vv37+PPrVx8F0jMkKpz+EqApA65XIC8PKOAASAc29M9RUZ2g13IlkLSEBRMeIwQ0AFCo
+kIW5JdZhLg8wUECIFWQ40143XRDGiy/e89cMqTlgXgYGmIjAjeXQOBqPeugIZAI+2mhQjkYBOaMY
+P4pSoj0eEMmkkRzAaKWMYMgGhCUDQFKAhwvQREyLKNCYGkBTEFBAaWFm9IGZw4S5TAY0PbUBnCsQ
+8FEzdglSJwh4suDVB8PhlEECPhkX6AKDPmGAmhfh5Qc2+ADg2gGYWRDept/Z6VhS/70xhjlmMIFT
+hLBBQ6qMFHzakQFDEIkKVRax2uqpHcnQQBl2EmGodlKw6moMsfB6Aaeb9krsEQKYHVGeXc08IF2f
+I3j1ihqCEesBApiyam0BvqS6AbcKeCvAtXyI1I6ZvO0lQXLxwLtttxh8q8yFnlkpwCK/fmAuuu3g
+i4SkCxBskW8G6QVJtqOIK0gZmU2AAJsfAgAIA2DI0y8FDbDVyDoWW5Lxfhd0THIDtir0hVLGpbKy
+VC2TLPPMNNds880456zzzjz37PPPQAct9ND7RQAAOw==
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img5.gif
+
+R0lGODlhhgAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAACGACAAQAT+cMlJq7046827/yAlABtSMIEXkESiIJiJdoJgNElNNLWg
+yanNQ/B4GCarx4ThSC4doSjlKCFQpZYGYaKdEJRYSyvRqBACNso5HW673/A4VyG9WgQOaF2+sU8M
+CUVDFEMCCVsShYcaIzQODH4WCQcNTI6QGw0AYAabEggkG3iYGARNEwAMC04STKwLlnyys7S1tre4
+ubq7vBiNHgYDBzAaBwkgwcO4ycQWDwMCQRMHPhIAMNSozXehFwHUZR4EAAkDZQFgFN8C4RwCCCOI
+8RIF1RXr7ZlU4zAj6QwA/C3pxi0EAgfmLgRc8AAAAQWRYiDMN0FAgQkKLlpDkMPDwYT+ag4g6kTM
+QbVxSkxW8SRFAIOXMGNSBOEyps2ZYWrahImzl8+fQIMKHUq0qNGjSJMqNfpAgQOCHZo66LlAgaoQ
+UqnGyeoMgNcD0kxsCXBV7KqrvqBieMCgwDEhALQSavvWFlu3GgZVIDmhwAC+9AZk+HWBLSkPAwY8
+bPDI2cuIF3gcVFDGpeIFBaTNPSzEAQK21QS2CsgSltqKpykk8Cs3EYAD6TKsBqnBAIF6E1Qu0AR5
+wezWFQDQEW2aOMDBqb2d6F2ADsoAvZEsz9AwHKhwDBQQsJchwPSu9oTvJjeNMnkJB+g4syicHbLI
+LJsIfn9B9wL71DR+iJiAAYIADtQuxdgDD1UzYIFhNCDIgoK0oSCDC/LxIIRFLGXhhRhmqOGGHHbo
+4YcghijiiBhGAAA7
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.279/714img6.gif
+
+R0lGODlhYQAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABhAB4AQAT+cMlJq7046817bsJzKAsCNN4CiqSJprC1juUZu9gDVMhD
+4ZaAQDKU9GIaYMVRdCAWCQYISa1ar9isdmu0LQoOgkTHAYIJhoQksePyvGeCIiQICQUvt37P7/v/
+gIGCg3oGBExjAGoCA20ZhogLOgkEAw0NkXuQRZNIDgUCAQU+E2QTjUUTn6GjFYynAKkSCgCkE7S2
+C7hLoKKkASJiURIMahR3shoNBsd1yR/MW8gX0QvVhoTZ2tvc3d7f4OHiGAkCBgYCCrkd5efp64Dt
+6OpIAggCDhIGAAET/Rr28Onjt4BAuTx7AuazRjDGPlJsSJnS8HBNLQEF1hzwUxFKLSRvtMR0lORo
+gYAD1WYBEPmRQgESJlG6kknhZEqbFUIy9BEiFkkfDJ4tULTMwkQJBJIRTUmERJ6kbpa6ghm04AmE
+BgY4gLcgAK1QSBWI0acVng4AaBmEHZsl69YLHxu0STeA7bi7ePPq3cu3r9+/gSIAADs=
+
+------=_NextPart_000_0000_01CCE99C.EFE5B340--

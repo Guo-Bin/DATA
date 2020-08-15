@@ -1,0 +1,184 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Box of Bricks
+Date: Sun, 12 Feb 2012 15:48:11 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE99D.B95AE1A0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE99D.B95AE1A0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.525\591.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Box of Bricks</TITLE>
+<META name=3Ddescription content=3D"Box of Bricks">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Box of=20
+  Bricks</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Little Bob likes playing with his box of bricks. He puts the bricks =
+one upon=20
+another and builds stacks of different height. ``Look, I've built a =
+wall!'', he=20
+tells his older sister Alice. ``Nah, you should make all stacks the same =
+height.=20
+Then you would have a real wall.'', she retorts. After a little con- =
+sideration,=20
+Bob sees that she is right. So he sets out to rearrange the bricks, one =
+by one,=20
+such that all stacks are the same height afterwards. But since Bob is =
+lazy he=20
+wants to do this with the minimum number of bricks moved. Can you help?=20
+<P>
+<DIV align=3Dcenter><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/p591=
+.gif">=20
+</DIV>
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input=20
+consists of several data sets. Each set begins with a line containing =
+the number=20
+<I>n</I> of stacks Bob has built. The next line contains <I>n</I> =
+numbers, the=20
+heights <I>h</I><SUB><I>i</I></SUB> of the <I>n</I> stacks. You may =
+assume <!-- MATH: $1 =9F\le n \le=9F 50$ --><IMG border=3D0 alt=3D"$1 =
+=9F\le n \le=9F 50$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/591i=
+mg1.gif"=20
+width=3D88 height=3D30> and <!-- MATH: $1 \le=9F h_i =9F\le 100$ --><IMG =
+border=3D0=20
+alt=3D"$1 \le=9F h_i =9F\le 100$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/591i=
+mg2.gif"=20
+width=3D101 height=3D32>.=20
+<P>The total number of bricks will be divisible by the number of stacks. =
+Thus,=20
+it is always possible to rearrange the bricks such that all stacks have =
+the same=20
+height.=20
+<P>The input is terminated by a set starting with <I>n</I> =3D 0. This =
+set should=20
+not be processed.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each set,=20
+first print the number of the set, as shown in the sample output. Then =
+print the=20
+line ``<TT>The minimum number of moves is </TT><I>k</I>.'', where =
+<I>k</I> is=20
+the minimum number of bricks that have to be moved in order to make all =
+the=20
+stacks the same height.=20
+<P>Output a blank line after each set.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>6
+5 2 4 1 7 5
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>Set #1
+The minimum number of moves is 5.
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>1998-03-10</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE99D.B95AE1A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/p591.gif
+
+R0lGODdhTwFdAPcAAAAAAP////8AAr8AQL8oAABWAQIZAEAIACjkE1bwABn/AAi/AFCdAWT9ABkB
+AAhAAASU+F1eXBkZGQgICKxkkJ7w7wn//0C/v74EcAoA7wIA/0AAv1CsvwGeAAAJAgBAQHgoKF1W
+VlAoUGRWZJBk/PFkXP8ZGb8ICD/cJi7AXQOyGUAACHYEUF0AZBkAGQgACEQocj9WCA0ZAggIQAIU
+IwDxAAD/AAC/APkEDYwAAAwAAEAAAOgoICRWABMZAJAgPIvxXRX/GQi/CI+dzIv97xUB/wxAv9wE
+VvEAaf8AB78ACLYochlWCEAIQNwEI/EAAP8AAL8AAJAoDV1WABkZAAgIAKw4IJ7xAAn/AEC/ALCd
+RPH9Xf8BGb9ACAUQzMNd7wQZ/0AIvwO4iADwaQD/BwC/CEgEKFwAVkysgwKeAAAJQABABawoUJ5W
+ZAkZGUAICMgoI/FWAP8ZAL8IAKlkEMxkAAQZANjcIVvAABmyAAgAAEgEElwAABkAAEwoDQJWAAAZ
+AAAIAKxo2J7x7xSdgvL9cP8BB/VEUERdhQgZGEjoAU3wAA3/AAAElQAA3AAAFQAACIis6PKe7/8J
+/79Av7AoSdxWZBsZB4QoDPJWg/8ZGIhkNPJk9f8Z/78Iv7AA6NwA8hsA/wgAv0QoL/JWcv8ZBYRQ
+DYFkAAcZALCIANxeABsZAACsNACe9QAJ/wBAv0++NAEK9QAC/11SWAAB8gAA/wAAvwAMAABfAABQ
+AAFkAIw8APLxAP//AL+/AIg/APIuAP8DAL9AAEQCNPJf9cCsAIHxAAf/ALAKrNwAnhsACQgAQE/s
+IAEAAF1uKAAAVgBAGQAFCAC3UgDxATQKAPUAAABQBAC/KAACGQBACAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAATwFdAAAI/gADCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0A7AhhKtCjRoEiTKsVptOnQpVCjSkUJYGHVqVizar14NWHXrWDDii349WDZsWjT
+Rj1LVq3bt0nZEpQLt65dmXQF5r3Lt+/JvXv9Ch4s1Crhw4g/Ak7MuLHFxY4jS2botGiAwJMzJ4as
+ufNkzp5DMwYtuvRg0qZT30WturVb1q5ji4Utu3ZW2rZzQ8Wtu3dQ3r79Vm4advjTvMaPBi9OmblC
+5M+Xz24OFjd06dWpb7UeHft27Vq5/nv1/t1w9u4Ir5PHGhgzUvHp198GPx+9Wfvyd9Nnbz7++PxS
+tefcf/4VCOBSAp5H4H0LHhjXflPBx6CDSiWnnEcWPgVScpc9x2FcFnr4YXohimicicN5lSF+ExbW
+H4YvGqTebzG2xeJcNdpoYIs84nijjz9ilKBiOQ40I1AS9gjkjjIGqVeRHToZpZQVDQmjk0f+lGST
+DXLZ5ZJKgimmjkx66SKVVUI5ZZg8bUmmmWw++eWYdK4Zp513pqkmV2pm6ZObdeL5JpyDFlonb1Zy
+lKiifaJ5E6BGSgmpnHMKGqill+rp6ESTumfTpJiGKqqfl9KFKIQZLbpRpxU2iuWe/qRGGuSpe2pa
+qZCultkTqLFSqquvd5oKK6q41mprnL3qxKukuf4KbKlWraiYtNOmiNyIv5VIIrYyarttiigSZ6q3
+eXoakaoasfrgq+zeGiqtwdZqLkToptosoX/ei6+s7iZLG7zuHpunwIY+mylT+hY8asLQOruwsZwS
+W+ytyea0bL8M8/srwA4TrDCf7Q78aMYGaxwvxrMOC7FE9U7sbMUIh4ysyg7/S3PAFLUMMsWb1nRx
+zSQ/fHLA8z6k82MkF41X0P4yDSXHIrMs8c4v90zTz0NXzSzQVCrd0NEem6yw1zBhva/YY9/8MXBk
+yxuSuiVdSPXMMp9d8t14Y4oo/rXdkjsX30KdeO2Jj2UIbs5Oo8zz1lmXS/TjGyb9l1Fc+f03t2RZ
+fvnh3zqlt+ZoF1wv2IjXfXC6GrpM9+KKN3421K8TS3rEpodO5KqJc8267nYLXenoUyNde94W5+56
+2oz3zjbkjkc+vKjFP/+u2ms/TX3s1q8s9fNtu2R29dLbnPzGsgcfNt4wjxz++HbDnvfyHQur/bmS
+r7v76rwrn33r5O+Pc+n3+1j0Aog8/oHvd9cTXfnmR6/6vcd4+ltfytiHvQliCXAN09oDJZi/9iXQ
+d2bBoJFEqBcSvi9clBsc55AEusu00IQlJJyKrDVDGcaPeb2bHgfxhyQIHlCD0R203Qn9178dRhCI
+PTTiD3l4xCY274k5bJoBA9W9lnwvg0h0IhahKED5KXGLBaTRF4UIwiVWMIgKJCITw7hGMg4wi2zU
+IhjTOEU6ItCHcxRiFVlyRTL20XbuO9QCxzhEOO4Kj35EJCA/uEg1epCQOtwgAanIyEAGspEWnKQe
+HShGTaKvkh+85N2Ap8gyUtJ+htwkBROZyePZsYiejGQqoRezWErRlo4slQkNV0Mb9g1zIwRmMH35
+pxcaU5jDXGHmkMlLCjnzmdCMpjSnSc1qBiUgADs=
+
+------=_NextPart_000_0000_01CCE99D.B95AE1A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/591img1.gif
+
+R0lGODlhWAAeAIAAAAAAAP///yH5BAEAAAEALAAAAABYAB4AQAKrjI+py+0P4wGgUSrDrZqnLV2d
+gU1ehqbqyrbua4lpCSs0stHlbZ8PyNBVfAtgz0Ty8GrMpvMJjUqnRWJwWZNdizhr8ofdfq9eB+aG
+zZWD4s6a2zOKwtS6/Y7P6/f8yLtfNXRi1OZH56L1kTgyVgV2aCK4Rkg2aBkT8xepZLVoxsnYeATh
+6SgaCIaEVgYZ13YWktbV2Aqokqb5qVaKsktpCxwsPExcbHyMjFwAADs=
+
+------=_NextPart_000_0000_01CCE99D.B95AE1A0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.525/591img2.gif
+
+R0lGODlhZQAgAIAAAAAAAP///yH5BAEAAAEALAAAAABlACAAQALKjI+py+0PozQAwFojxnN3S4Fh
+kB3lhH7pOionC8fynIh0aN9N7iE983JwhKLgxQgs2jIvpO4JjUqn1KrV6txlSbnVUOtTtrhJYpdo
+Ci++qjG5eSan2KYi6b6tbeH1cV67ETiHFFh4dYiYqLjI2Oj4CBkpaRb3kPWnEfcjd1JyWenyB3o0
+6rYEcloGWFqHmompZmrBt1ZKpyrnpsfaJ5v7GyuxGTwEOxxKjCq2e3uxFjZ7N5fUw9HJxHvVPMnd
+7f0NHi4+Tl5uft5dAAA7
+
+------=_NextPart_000_0000_01CCE99D.B95AE1A0--

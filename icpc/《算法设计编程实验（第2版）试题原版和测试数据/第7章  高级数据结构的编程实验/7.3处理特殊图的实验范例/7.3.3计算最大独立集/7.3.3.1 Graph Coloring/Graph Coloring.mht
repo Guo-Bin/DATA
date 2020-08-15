@@ -1,0 +1,187 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Graph Coloring
+Date: Wed, 29 Feb 2012 21:01:54 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCF725.5DD6F180"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.792\193.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Graph Coloring</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Graph Coloring">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Graph=20
+  Coloring</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>You are to write a program that tries to find an optimal coloring for =
+a given=20
+graph. Colors are applied to the nodes of the graph and the only =
+available=20
+colors are black and white. The coloring of the graph is called optimal =
+if a=20
+maximum of nodes is black. The coloring is restricted by the rule that =
+no two=20
+connected nodes may be black.=20
+<P>
+<P><A name=3D27>&nbsp;</A> <IMG alt=3Dfigure22 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193i=
+mg1.gif">=20
+<BR><STRONG>Figure:</STRONG> An optimal graph with three black nodes<BR>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001001000000000000000>Input =
+and=20
+Output</A></FONT></H2>
+<P>The graph is given as a set of nodes denoted by numbers <IMG=20
+alt=3Dtex2html_wrap_inline33 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193i=
+mg2.gif"=20
+width=3D44 height=3D12> , <IMG alt=3Dtex2html_wrap_inline35 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193i=
+mg3.gif"=20
+width=3D58 height=3D25> , and a set of undirected edges denoted by pairs =
+of node=20
+numbers <IMG alt=3Dtex2html_wrap_inline37 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193i=
+mg4.gif"=20
+width=3D54 height=3D27> , <IMG alt=3Dtex2html_wrap_inline39 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193i=
+mg5.gif"=20
+width=3D60 height=3D17> . The input file contains <I>m</I> graphs. The =
+number=20
+<I>m</I> is given on the first line. The first line of each graph =
+contains=20
+<I>n</I> and <I>k</I>, the number of nodes and the number of edges,=20
+respectively. The following <I>k</I> lines contain the edges given by a =
+pair of=20
+node numbers, which are separated by a space.=20
+<P>
+<P>The output should consists of 2<I>m</I> lines, two lines for each =
+graph found=20
+in the input file. The first line of should contain the maximum number =
+of nodes=20
+that can be colored black in the graph. The second line should contain =
+one=20
+possible optimal coloring. It is given by the list of black nodes, =
+separated by=20
+a blank.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>1
+6 8
+1 2
+1 3
+2 4
+2 5
+3 4
+3 6
+4 6
+5 6</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>3
+1 4 5</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193img1.gif
+
+R0lGODdh2QCRAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAA2QCRAAAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIEaG2ixgzatzIsaPHjyBDihxJsqTJkyhTahSosqXLlzBjypyJkiXN
+mzhz6twJ0ybPn0CDCp3pc6jRo0iTXiyqtKnTpz0BQJ1KtapIplazan2KdavXr0G7gh1LlqjUsmjT
+RlXLtq1JsW7jyoUrt65aunbzjsWrt69Wvn4DTwUsuLBSwoYTD0WsuDFPxo4j34QsufJay5iBUs7M
+ueRmwZ87Zwzd9+xZ0SlJBz6N+qRqva87x4add/ZI23ZZuzUtFPfupbmP+t6te+nAssd7F2+NUeC/
+5/+GTwYedjlzbQCgQ7delXf16xuza//fDta7Zu6oxY+Pvhf9ZPey1z8/yFx6bvnsV9KvbD8uS/Xk
+3bYfaPDxd5pz2xX4kUV19ZdWVwXlxGBU/TlIFmEKUhihZwBKZ+FXjGUo4YDhrSciSR/+dSJ13SGE
+34ohpdhiSzAK9+J7Br5Uo1EAarejRzI6ZduPYd1IU5BJ+UZkkeMtyRGSPDr5JIgD+SilfoVZeOWR
+oyWHE5Q/pbilTLqN+aSZh6EJpFVlnlebmgtShRWcXTZIJ0h33tZRntjxOSJXQq4Zpp9HEopnU9z5
+CaZLi8YpHHqKGsqopHryGON37YG42FWYetXoW2FVOqinlKqUJ4bKqcgWnSIS+umepfb/pNOJrsZ6
+ZoNfupYqV7ZySeaKhr7ap19X1hisrcJKKGtqi7HqpXGJLfnjsct2adCwje2oGrWThjehYzBKG2W1
+xn2bra46jpuutSSC61lMksZWZkKWKTikuozqZ667h5L5KLnlbhjtlIL6iy+N3u4L23KJTnfwe0X1
+qqx1G3r478W1scguQbNiLNzCzwbMca4elzxXwu3Ci1SyEhu8scBErdwytifrmzLAnQK6Gr2+mozo
+zPDy3PPDUAGdb5/XOuwzr/7NW2GSRoe3aqxUR+0tWsimuVemh2nNdVYse30h2IOJfSHQyWq8tKY/
+d9f21EmSbfZdRBf9NnFubtVr2kd3/+ypkFanhibfBUNdmllj3/0mzn8rTpupgRduOIGuRe6o48S+
+uyrT0bI2MrRttUx4xwjOFzLdgEdWeoD+FW35kUb+xnm2sYfuuuq1bz67Yj0meHp5g70Oe5M2J747
+7x0m+nvZtxuI2OfMHw8erGmjLTyNcEK/afBZqv3l8spyP7ByHxo9utJR2mf+9Qjzeq+c7DPLJvii
+Nr9aefRLnjqB558JmPaYm96jIJQyAM4qfpn53L4o1T8BIk1o3huVA1VkrvwVaoIUvBl2doXBFils
+gznrYPCSNpoI/kmEHoRZc7iFwhTCr4UwbCAMZzRDEcqwhvbDoQNvqMMA9rA1PPyhzByEKMAgErFZ
+RwSPEZN4noo48YlQjKIUp0hFigQEADs=
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193img2.gif
+
+R0lGODlhLAAMAIAAAAAAAP///yH5BAEAAAEALAAAAAAsAAwAAAI2jGGpy+0LInq02mmzPrtfv0UH
+xoGfGKClSUmTmrIXRsZy+9b1DeX239PBUkOazVVMCkkqSaAAADs=
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193img3.gif
+
+R0lGODlhOgAZAIAAAAAAAP///yH5BAEAAAEALAAAAAA6ABkAAAJ4jI+pywEKIpStpvgWzkdS43EW
+g40O8lGpaHZsJa4gF85W2Z7u7tB1T/rkYj7bbGO84HK6pKqYgglNRJ7sSX01qsZrxjNawlBFoI3W
+DE8hZKtvpR0HkUDhj4mXvsT5vr+1Ebj2R1hoeIiYqLjI2Oj4CBkpOUlZKVkAADs=
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193img4.gif
+
+R0lGODlhNgAbAIAAAAAAAP///yH5BAEAAAEALAAAAAA2ABsAAAJ/jGGpy+1/FoK0WjADtryzvXli
+B2bjCWHmMYVj6KaxprXrVbOVKvG5qLLtZj+agthwZYIfImyFbOoiRdbtaaw+sAjh0ZnofsefcHYa
+9qHVVXaR7XRTwCTxkcqZ3eb4X7SptrfFZFaIIuihh7Iowej4CBkpOUlZaXmJmam5ySlSAAA7
+
+------=_NextPart_000_0000_01CCF725.5DD6F180
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.792/193img5.gif
+
+R0lGODlhPAARAIAAAAAAAP///yH5BAEAAAEALAAAAAA8ABEAAAJ1DBCGyZ33VoMOSkqdUVFPDoLX
+gonSdJCnlqrd85rYymRnVl95mteoH5nFQr0Q7oUTwjhCV8WFOJp+zE0VNmL5nFbLSvflBYtkcWsk
+jqWJHnb7TYX3aE+5nWwnwc93ubTN1yfo0TJoeIiYqLjI2Oj4CBkp2VAAADs=
+
+------=_NextPart_000_0000_01CCF725.5DD6F180--

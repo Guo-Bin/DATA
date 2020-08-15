@@ -1,0 +1,54 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Less Prime
+Date: Sun, 12 Feb 2012 21:09:02 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.842\10852.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Less Prime</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY align=3Dmiddle>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>Less Prime</FONT>=20
+</B></TD></TR></TBODY></TABLE></CENTER>
+<H2><SPAN style=3D"COLOR: #0070e8; mso-ansi-language: EN" lang=3DEN>The =
+problem<O:P>=20
+</SPAN></H2>
+<P>Let n be an integer, 100 =A1=DC n =A1=DC 10000, find the prime number =
+x, x =A1=DC n, so that=20
+n-p*x is maximum, where p is an integer such that p*x =A1=DC n &lt; =
+(p+1)*x.</O:P>=20
+</P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>The=20
+Input</A></FONT></H2>
+<P><SPAN style=3D"mso-ansi-language: EN" lang=3DEN>The first line of the =
+input=20
+contains an integer, <EM>M</EM>, indicating the number of test cases. =
+For each=20
+test case, there is a line with a number <I>N</I>, 100 =A1=DC <I>N</I> =
+=A1=DC 10000.=20
+<H2><FONT color=3D#0070e8>The Output</FONT></H2>
+<P>For each test case, the output should consist of one line showing the =
+prime=20
+number that verifies the condition above.=20
+<H2><FONT color=3D#0070e8>Sample Input</FONT></H2><PRE>5
+4399
+614
+8201
+101
+7048
+</PRE>
+<H2><FONT color=3D#0070e8>Sample Output</FONT></H2><PRE>2203
+311
+4111
+53
+3527
+</PRE></SPAN></BODY></HTML>

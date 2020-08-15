@@ -1,0 +1,343 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Prime Factors
+Date: Sun, 12 Feb 2012 20:45:15 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCE9C7.396DE990"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.835\583.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Prime Factors</TITLE>
+<META name=3Ddescription content=3D"Prime Factors">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Prime=20
+  Factors</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>Webster =
+defines=20
+<EM>prime</EM> as:=20
+<P>
+<P><BR><B>prime</B> (prim) <I>n</I>.[<B>ME</B>, fr. <B>MF</B>, fem. of=20
+<EM>prin</EM> first, <B>L</B> <EM>primus</EM>; akin to <B>L</B> =
+<EM>prior</EM>]=20
+<B>1</B> :first in time: <B>original 2 a</B> : having no factor except =
+itself=20
+and one <IMG border=3D0 alt=3D$\langle$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg1.gif"=20
+width=3D11 height=3D34>3 is a &nbsp; number <IMG border=3D0 =
+alt=3D$\rangle$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg2.gif"=20
+width=3D11 height=3D34> <B>b</B> : having no common factor except one =
+<IMG border=3D0=20
+alt=3D$\langle$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg1.gif"=20
+width=3D11 height=3D34> 12 and 25 are relatively &nbsp;<IMG border=3D0 =
+alt=3D$\rangle$=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg2.gif"=20
+width=3D11 height=3D34> <B>3 a</B> : first in rank, authority or =
+significance :=20
+<B>principal b</B> : having the highest quality or value <IMG border=3D0 =
+
+alt=3D$\langle$ align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg1.gif"=20
+width=3D11 height=3D34>&nbsp; television time <IMG border=3D0 =
+alt=3D$\rangle$=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg2.gif"=20
+width=3D11 height=3D34> [from <EM>Webster's New Collegiate =
+Dictionary</EM>]=20
+<P>
+<P><BR>The most relevant definition for this problem is 2a: An integer=20
+<I>g</I>&gt;1 is said to be <EM>prime</EM> if and only if its only =
+positive=20
+divisors are itself and one (otherwise it is said to be =
+<EM>composite</EM>). For=20
+example, the number 21 is composite; the number 23 is prime. Note that =
+the=20
+decompositon of a positive number <I>g</I> into its prime factors, i.e., =
+<BR>
+<P></P>
+<DIV align=3Dcenter><!-- MATH: \begin{displaymath}=0A=
+g =3D f_1 \times f_2 \times \dots \times f_n=0A=
+\end{displaymath} --><IMG=20
+alt=3D"\begin{displaymath}g =3D f_1 \times f_2 \times \dots \times =
+f_n&#10;\end{displaymath}"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg3.gif"=20
+width=3D166 height=3D30> </DIV><BR clear=3Dall>
+<P></P>
+<P>is unique if we assert that <I>f</I><SUB><I>i</I></SUB> &gt; 1 for =
+all=20
+<I>i</I> and <!-- MATH: $f_i \le f_j$ --><IMG border=3D0 alt=3D"$f_i \le =
+f_j$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg4.gif"=20
+width=3D57 height=3D32> for <I>i</I>&lt;<I>j</I>.=20
+<P>One interesting class of prime numbers are the so-called =
+<EM>Mersenne</EM>=20
+primes which are of the form 2<SUP><I>p</I></SUP>- 1. Euler proved that =
+<!-- MATH: $2^{31} - 1$ -->2<SUP>31</SUP> - 1 is prime in 1772 -- all =
+without=20
+the aid of a computer.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input will=20
+consist of a sequence of numbers. Each line of input will contain one =
+number=20
+<I>g</I> in the range <!-- MATH: $-2^{31} < g <2^{31}$ =
+-->-2<SUP>31</SUP> &lt;=20
+<I>g</I> &lt;2<SUP>31</SUP>, but different of -1 and 1. The end of input =
+will be=20
+indicated by an input line having a value of zero.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each line of=20
+input, your program should print a line of output consisting of the =
+input number=20
+and its prime factors. For an input number <!-- MATH: $g>0, g =3D f_1 =
+\times f_2 \times=0A=
+\dots \times f_n$ --><IMG border=3D0=20
+alt=3D"$g>0, g =3D f_1 \times f_2 \times&#10;\dots \times f_n$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg5.gif"=20
+width=3D219 height=3D32>, where each <I>f</I><SUB><I>i</I></SUB> is a =
+prime number=20
+greater than unity (with <!-- MATH: $f_i \le f_j$ --><IMG border=3D0=20
+alt=3D"$f_i \le f_j$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg4.gif"=20
+width=3D57 height=3D32> for <I>i</I>&lt;<I>j</I>), the format of the =
+output line=20
+should be=20
+<P><BR>
+<P></P>
+<DIV align=3Dcenter><!-- MATH: \begin{displaymath}=0A=
+g  \mbox{\tt\ =3D }  f_1  \mbox{\tt\ x }  f_2  \mbox{\tt\ x } \dots =
+\mbox{\tt\ x }  f_n=0A=
+\end{displaymath} --><IMG=20
+alt=3D"\begin{displaymath}g \mbox{\tt\ =3D } f_1 \mbox{\tt\ x } f_2 =
+\mbox{\tt\ x } \dots \mbox{\tt\ x } f_n&#10;\end{displaymath}"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg6.gif"=20
+width=3D194 height=3D30> </DIV><BR clear=3Dall>
+<P></P>
+<P>When <I>g</I> &lt; 0, if <!-- MATH: $\mid g \mid =3D f_1 \times f_2 =
+\times \dots \times f_n$ --><IMG=20
+border=3D0 alt=3D"$ \mid g \mid =3D f_1 \times f_2 \times \dots \times =
+f_n$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg7.gif"=20
+width=3D185 height=3D34>, the format of the output line should be <BR>
+<P></P>
+<DIV align=3Dcenter><!-- MATH: \begin{displaymath}=0A=
+g \mbox{\tt\ =3D -1 x }  f_1  \mbox{\tt\ x }  f_2  \mbox{\tt\ x } \dots=0A=
+\mbox{\tt\ x } f_n=0A=
+\end{displaymath} --><IMG=20
+alt=3D"\begin{displaymath}g \mbox{\tt\ =3D -1 x } f_1 \mbox{\tt\ x } f_2 =
+\mbox{\tt\ x } \dots&#10;\mbox{\tt\ x } f_n&#10;\end{displaymath}"=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583i=
+mg8.gif"=20
+width=3D239 height=3D30> </DIV><BR clear=3Dall>
+<P></P>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>-190
+-191
+-192
+-193
+-194
+195
+196
+197
+198
+199
+200
+0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>-190 =3D -1 x 2 x 5 x 19
+-191 =3D -1 x 191
+-192 =3D -1 x 2 x 2 x 2 x 2 x 2 x 2 x 3
+-193 =3D -1 x 193
+-194 =3D -1 x 2 x 97
+195 =3D 3 x 5 x 13
+196 =3D 2 x 2 x 7 x 7
+197 =3D 197
+198 =3D 2 x 3 x 3 x 11
+199 =3D 199
+200 =3D 2 x 2 x 2 x 5 x 5
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel Revilla</I> <BR><I>2000-05-19</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img1.gif
+
+R0lGODlhCwAiAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAALACIAQAQ5cMlJqxTKSlS0/6DWAE3oPGHqFYH2OJ4BEKAghKWq72Ay
+eI2Ox5GzCFouBmiAAB1onofQg+FZr9YIADs=
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img2.gif
+
+R0lGODlhCwAiAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAALACIAQAQ6cMlJawOmUnO0/2A4CYrHJGL6OUH4OKEweMSReY2q72kH
+IiWQogVyEEAPBqhw0whQHoTyAzjyrthsBAA7
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img3.gif
+
+R0lGODlhpgAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAACmAB4AQAT+cMlJq7046827/2AojmRpnmiqiozwIYGlcO0bV/NawfJW
+a4+CQOFwrQIAyyOJCeQmBIcGWRkuGs2nJHpRAB64bxhscVa4TebEuigECLq4fE6vmwxw+wKv71v4
+GAwAeUU6AgwVSxwEAIgdhxICBRIJBxuMjn6Yj5kYDwKgBjoJAmR1pKZ+faiqra6vsLGys7S1trcq
+SwIAonS6vLgov70XAQdYgsRroMzNAsoUDQgACQ95CzcYDQ4xBANaF9LU1gSkWBnb3d966Qve4BXi
+1dcWAEbT5xUM+/z9DAgZhCRSc4EAgxkG3HAQWKEAPCgH9yi0YxDhxIBGFpSyp9HFA4D+CyrlM+EN
+wYCMEpzYy0ai5MkJSwDI7BRMg0uUC8QEKDBgZM2fQIMKHUq0qNGjSJMqXcq0qVMNDh1AixN16tOq
+siDp0frUAlcNBkAhsJZLgIMWPrVdrAjELNoODdZGpBM3G1tPbgWkhQkApNkLDwILHvxgb0qCAgYQ
+DOcgwdwNVNz13IYzXuPHdrY5flghsgYAAyaIWbFvII0BjTuU3pOA0mILDFC39hM7tY9MBBQoQDCE
+zAEXBApMWtFgNN8Md69w01A8lcbQGJK383oAmoDqVbBbkL5cm/EADw7AeVnhwGwVXyUoWvE1gJHK
+SNMXeuCgwaHQmnMdMEYvTnj+XVEN8J94FRBjgGEBJghCBAA7
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img4.gif
+
+R0lGODlhOQAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAA5ACAAQAT+cMlJq704a/yEY0KzSQZTBKPUfWG6CEwlKKI7wtdp73w/
+FQqHwbeoaYBCFyPG8wwIqSVx2jM4CIcHdcvtei246uCAuDFtAUClc3kcaLz0BX5pALQSwcOBHxEC
+bxl2fQsBCAFnE26AUBQACQkXCEuUlQMWiweNFA9qX5+goaKjpKIGm6OnO50CAEM8DwoFG6yuNiA8
+DQMFkVECOw0Ijw+odQMOZTbBw8UaYRMGvRcJBQNGZhctGAW/EwLaGgQJDuDb3RMJAygYchMBndcp
+rxft7i+XFQQDCAPnEgcBFFwg8KCgQYPzJujj50+CnWYLEuixQCAhFYmE0OErBUyBgGQLHEOKHEmy
+pEkqEQAAOw==
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img5.gif
+
+R0lGODlh2wAgAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAADbACAAQAT+cMlJq7046827/2AojuRnCALyEFgjOAmbBcAzMc52pmtp
+PS+GoNFpFAITAkORATqERI4RKVEyfZppctkMDkWHBAYxMIAIAYGZQhBgwliLgFF5AOKUuZwZxfs9
+enlXRzJ/hoeIiYqLjBxAAjGNHQUKDmuJlJaSmxKZlxoAAxM1HggHZRY0NhI4GaGjq38MdBN2HQwD
+MByzEwIFEgkHGri6m8RiG7ycy8zNzs/Q0dLT1NXW19gcCJEeB24SAAjSgYvk2SXmjuESL0UCYYW9
+pKx3GHbiC+0/D/z9/n0XaFSgkgUGlw0CkyT4kqGBwSuNHCY4qCHhB28LCBT4pSFBAVT+Ghx8IzDv
+3SeMGjn+aTBPgq0MViY4JGiBZSwKlC7ElDDzgskKP/Mc+LQFYs8WLQXYcYPCAq4FEiURUFDoaVQ/
+Dw4EOBAvgAIAAmiOyLo1nh0AaGmds6eVawVSAT4CXEu3rt27ePPq3cu3r9+/gAM3MhAvEWHBFw5H
+Q1CARQC10JYCIPpHMmXAlv9MLfBNx7pOoqIJ+YBA7AKIGEaXMo36UGkLrZ129rCVCIPJWd5xk9Py
+dsUDtnEDRUG8uJqGCAAk6FHEARICA2JTaJB8eeGGzjNGj5gdunSZ1ZnvAiBD5AcCDlTKi+U7NXkJ
+5g2REzCg3gaSkDOQg97A4WwL+C3YEyAH6XAAlgTJzXUBAg4McNN0yk1wwHcLHLhAghfMouGGs+CD
+AWcUvAQTFwYcsQGIEhiATAL2VRBTiaYd8qKJGqCYkQIKICCAAg+6xFkl/1EQFwMKXuDQCgp0Vt9s
+D/wY3x8WudRiKq2hN8OU7IRGpYs5wNaSBF89GGZAVXYZUIsBZMXCAEE+gE8wRboWi5vAAOcHdGT8
+J6IPeLI50DdB2tXnf+Y94IALdRB3GSINfPLIcYYs1GOkSiFWgaQWXGJAnJZ26umnoIYq6qiklmrq
+qaimquqqm0QAADs=
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img6.gif
+
+R0lGODlhwgAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAADCAB4AQAT+cMlJq7046827/2AojmRpnmiqrizKCC33xnQtzdpTCIoD
+1wFA5SHkCABIIvKnCVp4i8bmmEQCmBoF4EHRcrvbDnVrxWKcFOiiECDY3vC4fJ4yuOkLO37v0WMY
+AHc+GwYMhocMX1MMFEQgAwAKIAKMEgIFEgkHHpCSfBedk5UZDwKmBjYJAopyqqyfsBOusbS1tre4
+ubq7vL2+NERHqHLBAMO/NsXHFgEHUoDLFglW1AkcDQgACQ93AR2FAM4HBwxSG9ja3AsEquYa4OLk
+7nvwDePl19nbdxdXEtnzWuxoVKQDEU3RNAy0UMDThoMHEvKBKBHDwgWr/Jla8ABBJmf+MQgMQDAA
+SwAtAryxEEkSixIko5CVYFmyQpgABQYElMmzp8+fQIMKHUq0qNGjSJMqXfqzoYOKNJxCZWqxx1Q6
+lPZkpRpiKyFTCNRlIPCgrFmxOQQ4eLFTQwNTAgjA5UdKLdsQb03J1Qsrb9y5HEqtFdBWAhGPGB0E
+PluWbgY0GCF9mIbggDUPkEU2aDCIA2XLtj5f7gA5A4ABE8JoQIDoEOINhgiCmDa6Q2wJBi5P80Ab
+V+8Pt9cpUICAx5cDMAgUwFSjgWrDBTUQQLB2wYACCBxfcP4qMofp1a9nFxMxTXnzVyWAZyReuwXu
+EwI8OOCmZgXQNbxCf6N/QYAfZnAmZUlMCwzygANvMYAaZ7WtMF8z7gFzAIQCGjQhfRUcY0BhFXao
+QgQAOw==
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img7.gif
+
+R0lGODlhuQAiAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAAC5ACIAQAT+cMlJq7046827/2Aoig8zSuVpCabasW4sY/CXXoewEEVx
+3a4G4EF5ADIEhmLScAQ0QqKlsLQkq4vmc3UwVATdb7hyZTqhQ4nAqBPoZvC4fE6v2+/4vH7P7/v/
+C0AVRghqDhZAD4qLjA8NGgFHFFsZTQlKHZEUBAkCj5UOl1h3lpgcmiCCEwwDWaEYqqkHAQcEkwoA
+ApQnD7O1RQDBAC2AvL62E2kBBQOfxc/Q0dLT1NUTsTbEMlQOXnbc3tYu4B3YEwZuCA/I19q8Ag4M
+nhwNBZRlGQ/w8s5Q9hP46NS7ZwrWvnnl3CVrJSHNIIUjGGgzwoHVq4rEBPhYkOCABov+CfaA7CAx
+hDkKB0IighiixjVJcFxOELCkn7gNMmlKsMduU6ETBH7eHEq0qNGjSJMqXcq0qdOnTk9ykCrCQM86
+VqFqyJpQBVUbuQCEm8NGrFZEYcfmY9l1hjwPCHZJGIXhLVy5C+jGiWtBrwW7Hk7SesTAbJGMbhIr
+FqCWQgMEABKs66BlxwC/jiFLvgrqCYHLeCp/xsxE8+S2fwEgc/Dm8AyXAgbARDLMg8vPDZq0vkCg
+9p7ebL8E/8EylwTINgMRk8i8uUShFwrspogEk4F/G6SfU5lg9ibr2O2UuY53yhsCChQgoCllJSzp
+ClgTl4HqZYYAdAkcuu9dDUML+JFhsV8FuLQ3l0MTFAhgfgNeUF8AvdgywG6uIfJTR8kpp8JnCEw4
+SH8jcOjhJG9QiJSIu8n3gAMNmKghIok11o4LnRhIR41nXYAjBeEYkGGOQAYp5JBEFmnkkUgmqeSS
+TOoRAQA7
+
+------=_NextPart_000_0000_01CCE9C7.396DE990
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.835/583img8.gif
+
+R0lGODlh7wAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAADvAB4AQAT+cMlJq7046827/2AojmRpnmiqrmzrvqxRAIAAU4x9X/nu
+qz3NoyBQOHS/xYPGVGgEzCUNqQkAKssOlCatcayW4qLxjDKpGgXgQVGz22utefq9UsSLQoCQ7Pv/
+gIGCgxQGfH+GhIqFhzwAh0caBgyUlQxvGAKam2heHgMATiACDBRZH6CiHqQTAgUSCQcdqYsUtB+s
+QpsGtS4JAphJv8G9gMPFyMnKy8zNzs/Q0dLTyA4JP0tQvEnZANvUK93fFgEHZAzeGQlM7NclnpLo
+5gcHDGQcDQgACQ+HAR2TAMyrd09Dvn39FhD4VRBDwIH2CD1sQC/ihoP8GlnwpK9hEnj+G5bEGseB
+iCk7HUQeIKnBpIUCqjKoZClo5geXC4B50aQEASxz4DYQGIBgAJUAagT8YzG0KJUuAEoFBdHUaIU4
+AQoM8Di1q9evYMOKHUu2rNmzaNOqXcu2rdu3F2A6oAlDLt23dplBQfMilx+/cMNI3WBAE4KEGAg8
+WMwYcYgGAgyAxABZE4FNGmUKcJCDq0HMmDk82NwZRGUBly0TOp0atWjSAjxLWOIzp4OQjRdnvsqO
+RsPJ6gAgOODOAxgJAkB9WDe8eJ0JQxs0iLSBOfFe1p1vOK4BwIAJcTIgsFSpNgngwbVzoHQSxDr1
+GthLMOBuXYf3yPB/kK9QgQIERbx6cYANBBTwih+LheLYBQQgwNkCAxSAwG4XNBDebChp0OCDEU6I
+z4WtfKehg6V0SOEFAqx0h4or3kXBhiVKeCIFFmISwAMH8GFVBdedBZgSGbrwYwA68JXWj5E84ABk
+DHw3HXxf4VjOjC1ImWNgWBwwZQXfGCAblmAyEwEAOw==
+
+------=_NextPart_000_0000_01CCE9C7.396DE990--

@@ -1,0 +1,211 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Intersection
+Date: Sat, 11 Feb 2012 16:18:44 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_001B_01CCE8D8.D35B7CB0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.360\191.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Intersection</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3DIntersection>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      =
+name=3DSECTION0001000000000000000000>Intersection</A></FONT>&nbsp;</B></T=
+R></TBODY></TABLE></CENTER></H1>
+<P>You are to write a program that has to decide whether a given line =
+segment=20
+intersects a given rectangle.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001001000000000000000>An=20
+example:</A></FONT></H2>
+<P><PRE><TT>=20
+line: 		 start point: 		 (4,9)
+<P>
+ 		 end point: 		 (11,2)
+<P>
+rectangle: 		 left-top: 		 (1,5)
+<P>
+ 		 right-bottom: 		 (7,1)
+<P>
+</TT></P></PRE>
+<P>
+<P><A name=3D32>&nbsp;</A> <IMG alt=3Dfigure27 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191i=
+mg1.gif">=20
+<BR><STRONG>Figure:</STRONG> Line segment does not intersect =
+rectangle<BR>
+<P>
+<P>The line is said to intersect the rectangle if the line and the =
+rectangle=20
+have at least one point in common. The rectangle consists of four =
+straight lines=20
+and the area in between. Although all input values are integer numbers, =
+valid=20
+intersection points do not have to lay on the integer grid.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Input</A></FONT></H2>
+<P>The input consists of <I>n</I> test cases. The first line of the =
+input file=20
+contains the number <I>n</I>. Each following line contains one test case =
+of the=20
+format:=20
+<P>
+<P><IMG alt=3Ddisplaymath45 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191i=
+mg2.gif"=20
+width=3D446 height=3D16>=20
+<P>
+<P>where (<I>xstart</I>, <I>ystart</I>) is the start and (<I>xend</I>,=20
+<I>yend</I>) the end point of the line and (<I>xleft</I>, <I>ytop</I>) =
+the top=20
+left and (<I>xright</I>, <I>ybottom</I>) the bottom right corner of the=20
+rectangle. The eight numbers are separated by a blank. The terms <IMG=20
+alt=3Dtex2html_wrap_inline55 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191i=
+mg3.gif"=20
+width=3D60 height=3D25> and <IMG alt=3Dtex2html_wrap_inline57 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191i=
+mg4.gif"=20
+width=3D97 height=3D25> do not imply any ordering of coordinates.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001003000000000000000>Output</A></FONT></H2>
+<P>For each test case in the input file, the output file should contain =
+a line=20
+consisting either of the letter "<TT>T</TT>" if the line segment =
+intersects the=20
+rectangle or the letter "<TT>F</TT>" if the line segment does not =
+intersect the=20
+rectangle.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>1
+4 9 11 2 1 5 7 1</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001005000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>F</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191img1.gif
+
+R0lGODdh2QC+APcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///ywAAAAA2QC+AAAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIEaG2ixgzatzIsaPHjyBDihxJsqTJkyhTahSosqXLlzBjypyJkiXN
+mzhz6twJ0ybPn0CDCp3pc6jRo0iTXiyqtKnTpz0BQJ1KtapIplazan2KdavXr0G7gh1LlqjUsmjT
+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
+8onF7Bz5mvnMaE6zmhUSEAA7
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191img2.gif
+
+R0lGODlhvgEQAIAAAAAAAP///yH5BAEAAAEALAAAAAC+ARAAAAL+jI+py+0Po5y02ouAxlcD603e
+x5Vmsj3haYzsC8dSitGnDZIyhO+oTuk1XC2gyOhzCBXLpRI5BDqTVNOUB61lZ9tqoOsDM66oX0fs
+PS7Ia/RX6k7LVfE2jB2dm/X4fQTXl1GnxyQUeIBnc0h489GTMqK48lVURFSIuBcJR0MCGZn3CFdZ
+2KSDJEkqOLWR6ofosjl2+nb5ZnbVKqUqSlnZCWrXktlbuzmpequMzKhyC0xq9GnpSDu0DBut6RnS
+6ayb7VudPM2EHe65fMp9DT4s+A6foXTui54O2T5u/Kxc679il7533dZpm7eN0qd0zXj8MvhsVLRy
+rMqp8weQGzv+jOYi8qLGC+KPjQBBXkyG0J0re5nkzdooCWZAKOwWPoSWMeQTmRNrSoTl0+IiPqgm
+rfwZLk9GnB+TOlUK9KjLLUJteWv65FUwlygxndQJdpbXqSLLgqHI8yHXnGxZNnTWxuJXt13LkJsp
+T5EwuGsn5qWa1BBJuWPGclyb6x5ZxfQ6+rnaNvHBr+5Q4oQ8NM2+sr967sN1zS9BR54P91tTT3Bn
+dYYC06zJmmZqpoZPo/Y7GGKT2ZjSLl19+xxetbDBVqX7Nmq8qwzBkUwZ2h7z0adbI+cn3Zr07Lbt
+ssRMjPhLhgoDvxIX3Zpv7nHJ9/I9rXn6lpfloxfNvnzy8UaML/UPJlgXWw0IDICvUSULNWats9VI
+MTE1U4Or+FdgMUDtVGBUnDAzYX+laOShJSJG8d+GDF6ooWso7sdiBZm1+MKLDQ1y3h80WrGDjDDu
+SEhlPMrh448f5mAaFkDWdUaRQi7JYjU3MuniP1A6CIKULj4ZhJMxWjlll29x6GUMYE6Z2Zh0mHmH
+jiNNWQAAOw==
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191img3.gif
+
+R0lGODlhPAAZAIAAAAAAAP///yH5BAEAAAEALAAAAAA8ABkAAAKJjI+pe+C83IMTWlVvkADVrF2g
+iHWNGWojhZ4Gl4HP+rZ1KdXcm0z+ZrI1esESxtPKAXVBYQzlNLqmy5sViVRiidvrpxlJCqnkmRcK
+xpG53OLGGlvz0MNuvYnWAnfh/OhPYxGYckSoMmZ4MphYxYiDyAjjKDVZaXmJmam5ydnp+QkaKjpK
+WmoaUAAAOw==
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.360/191img4.gif
+
+R0lGODlhYQAZAIAAAAAAAP///yH5BAEAAAEALAAAAABhABkAAALChBGpy+0PYzQynEqryonrjyHh
+k3mSZ4LqyqSW+IIozNbr1XBIqh++v5h1RDjSMEg7wii9H3NJXLZaUUvsRYQAS1dsF0eDHr1X4aa0
+A4sd6mFvXF7H4WikffzuTJJ0uV+Kt2bWR3c2QeJnSKhHlsektFgHmcMXU/UFVbUTCZhlNcf49UnJ
+tgk655k2U0TW+qOIWdmFhAbUFyVro7trxOv7W3MJPEyM2FqMjMyazNzs/AwdLT1NXW19jZ2tvc3d
+7f1dXAAAOw==
+
+------=_NextPart_000_001B_01CCE8D8.D35B7CB0--

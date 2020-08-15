@@ -1,0 +1,198 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Squares
+Date: Sat, 25 Feb 2012 23:22:51 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCF414.64B94B10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCF414.64B94B10
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: =?gb2312?B?ZmlsZTovL0M6XMziv+Jc1NrP38bAsuLPtc2z18rBz7yw09C52Mzi?=
+	=?gb2312?B?veJcQWxnb3JpdGhtaXN0XEFkIEhvY1xVVkFcVVZhIDIwMVxTcXVhcmVzLmg=?=
+	=?gb2312?B?dG0=?=
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0031)http://acm.uva.es/p/v2/201.html =
+--><!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Squares</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3DSquares>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET=20
+href=3D"Squares_files/htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17744"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      =
+name=3DSECTION0001000000000000000000>Squares</A></FONT>&nbsp;</B></TD></T=
+R></TBODY></TABLE></CENTER></H1>
+<P>A children's board game consists of a square array of dots that =
+contains=20
+lines connecting some of the pairs of adjacent dots. One part of the =
+game=20
+requires that the players count the number of squares of certain sizes =
+that are=20
+formed by these lines. For example, in the figure shown below, there are =
+3=20
+squares-2 of size 1 and 1 of size 2. (The ``size" of a square is the =
+number of=20
+lines segments required to form a side.)=20
+<P>
+<CENTER><IMG alt=3Dtex2html_wrap_inline240 align=3Dbottom=20
+src=3D"file:///C:/=CC=E2=BF=E2/=D4=DA=CF=DF=C6=C0=B2=E2=CF=B5=CD=B3=D7=CA=
+=C1=CF=BC=B0=D3=D0=B9=D8=CC=E2=BD=E2/Algorithmist/Ad%20Hoc/UVA/UVa%20201/=
+Squares_files/201img1.gif">=20
+</CENTER>
+<P>Your problem is to write a program that automates the process of =
+counting all=20
+the possible squares.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input file represents a series of game boards. Each board =
+consists of a=20
+description of a square array of <I>n<SUP>2</SUP></I> dots (where <I>2 =
+&lt;=3D n=20
+&lt;=3D 9</I>) and some interconnecting horizontal and vertical lines. A =
+record=20
+for a single board with <I>n<SUP>2</SUP></I> dots and <I>m</I> =
+interconnecting=20
+lines is formatted as follows:=20
+<P><PRE><TT>=20
+	Line 1: 	<TT>n</TT> 	the number of dots in a single row or column of =
+the array
+<P>
+	Line 2: 	<TT>m</TT> 	the number of interconnecting lines
+<P>
+	Each of the next m lines are of one of two types:
+<P>
+		<TT>H i j</TT>  indicates a horizontal line in row <I>i</I> which =
+connects
+<P>
+			the dot in column <I>j</I> to the one to its right in column <I>j</I> =
++ 1
+<P>
+	   or
+<P>
+		<TT>V i j</TT>  indicates a vertical line in column <I>i</I> which =
+connects
+<P>
+			the dot in row <I>j</I> to the one below in row <I>j</I> + 1=20
+</TT></P></PRE>
+<P>Information for each line begins in column 1. The end of input is =
+indicated=20
+by end-of-file. The first record of the sample input below represents =
+the board=20
+of the square above.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>For each record, label the corresponding output with ``<TT>Problem =
+#1</TT>",=20
+``<TT>Problem #2</TT>", and so forth. Output for a record consists of =
+the number=20
+of squares of each size on the board, from the smallest to the largest. =
+lf no=20
+squares of any size exist, your program should print an appropriate =
+message=20
+indicating so. Separate output for successive input records by a line of =
+
+asterisks between two blank lines, like in the sample below.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>4
+16
+H 1 1
+H 1 3
+H 2 1
+H 2 2
+H 2 3
+H 3 2
+H 4 2
+H 4 3
+V 1 1
+V 2 1
+V 2 2
+V 2 3
+V 3 2
+V 4 1
+V 4 2
+V 4 3
+2
+3
+H 1 1
+H 2 1
+V 2 1</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>Problem #1
+
+2 square (s) of size 1
+1 square (s) of size 2
+
+**********************************
+
+Problem #2
+
+No completed squares can be found.
+</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CCF414.64B94B10
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: =?gb2312?B?ZmlsZTovLy9DOi/M4r/iL9Taz9/GwLLiz7XNs9fKwc+8sNPQudjM4g==?=
+	=?gb2312?B?veIvQWxnb3JpdGhtaXN0L0FkJTIwSG9jL1VWQS9VVmElMjAyMDEvUw==?=
+	=?gb2312?B?cXVhcmVzX2ZpbGVzLzIwMWltZzEuZ2lm?=
+
+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
+ADs=
+
+------=_NextPart_000_0000_01CCF414.64B94B10--

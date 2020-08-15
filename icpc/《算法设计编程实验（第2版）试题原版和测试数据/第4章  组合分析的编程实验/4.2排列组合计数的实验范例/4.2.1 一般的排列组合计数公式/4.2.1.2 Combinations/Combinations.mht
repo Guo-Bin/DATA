@@ -1,0 +1,145 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Combinations
+Date: Mon, 13 Feb 2012 11:02:45 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCEA3F.03961B30"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCEA3F.03961B30
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.388\369.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Combinations</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3DCombinations>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      =
+name=3DSECTION0001000000000000000000>Combinations</A></FONT>&nbsp;</B></T=
+R></TBODY></TABLE></CENTER></H1>
+<P>Computing the exact number of ways that <I>N</I> things can be taken =
+<I>M</I>=20
+at a time can be a great challenge when <I>N</I> and/or <I>M</I> become =
+very=20
+large. Challenges are the stuff of contests. Therefore, you are to make =
+just=20
+such a computation given the following:=20
+<P>
+<P>
+<P><B>GIVEN:</B>=20
+<P><IMG alt=3Ddisplaymath41 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.388/369i=
+mg1.gif"=20
+width=3D481 height=3D16>=20
+<P>
+<P>Compute the <B>EXACT</B> value of:=20
+<P>
+<P><IMG alt=3Ddisplaymath43 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.388/369i=
+mg2.gif"=20
+width=3D329 height=3D41>=20
+<P>
+<P>You may assume that the final value of <I>C</I> will fit in a 32-bit =
+Pascal=20
+LongInt or a C long.=20
+<P>
+<P>For the record, the exact value of 100! is:=20
+<P><PRE>     =
+93,326,215,443,944,152,681,699,238,856,266,700,490,715,968,264,381,621,
+        =
+468,592,963,895,217,599,993,229,915,608,941,463,976,156,518,286,253,
+        =
+697,920,827,223,758,251,185,210,916,864,000,000,000,000,000,000,000,000</=
+PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001001000000000000000>Input =
+and=20
+Output</A></FONT></H2>
+<P>The input to this program will be one or more lines each containing =
+zero or=20
+more leading spaces, a value for <I>N</I>, one or more spaces, and a =
+value for=20
+<I>M</I>. The last line of the input file will contain a dummy <I>N</I>, =
+
+<I>M</I> pair with both values equal to zero. Your program should =
+terminate when=20
+this line is read.=20
+<P>
+<P>The output from this program should be in the form:=20
+<P>
+<P>
+<P><I>N</I> <TT>things taken</TT> <I>M</I> <TT>at a time is</TT> =
+<I>C</I>=20
+<TT>exactly.</TT>=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>     100  6
+      20  5
+      18  6
+       0  0</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>100 things taken 6 at a time is 1192052400 exactly.
+20 things taken 5 at a time is 15504 exactly.
+18 things taken 6 at a time is 18564 exactly.
+<P>
+
+
+</P></PRE></BODY></HTML>
+
+------=_NextPart_000_0000_01CCEA3F.03961B30
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.388/369img1.gif
+
+R0lGODlh4QEQAIAAAAAAAP///yH5BAEAAAEALAAAAADhARAAAAL+jI+ZcKwPFZjO0BqzfFRODYbi
+aH3kuTRodHHdCmGNibzwjc9yrrUezfOVgKTLLmOLAY9I4nD3WTKcvCqIav1hXczZ75TUQaeYaDeL
+rp3TpW9xO6zh1txrYDkKcxYVEw3OZgWIRsdHN+UWoreh5nXXVxiYM0h4l3g1SCZ3E+loZxNJadnY
+9ugpGSha1Wmq2Grx2hPK5/jHioqiuhqrqTgLOpen6vCH2SljWxqLewnrZMa8aZzHu1wnggyprEv4
+bG3KPVmdObw913tN3bq2iERbmhztAUvqpy0PztTO8oqudJut1j18td7F+4YKnb902OCJU6ZGlz1E
+LPbFeLduIMH+jPWIaWT28ZHEXh6bcAsIL6Q8ex09heNEEqKWN3FuNal4rNEhiRhZytwoUhq0UwSx
+WEyx7mezHj1LKi2KJyWplQ4RRlTXxuZUcq500Ozq0qlVXB2i5psKUiVafuCeKmm4VezLIEPpcSRK
+NqtbF2CDnsPLcN7aaUzjbtNKV++os4BTqb1aMc7ewHsM90M8qSQxgYMlTWyM82bnIqMp2wVt0p3l
+eHNXsNwsdXKWMqGMWgYDB+Xd3dFe2z3YGsztN/oEw/RLeibqwlqSSbmMGbcRMtOfHBVEXbhyj0KS
+N9f23FZ04kZElrceHNsL7tcrG6JNdzxQ9WOgzL8vHX/vZ9429Pv/D2CARQlIYIECymdgggq+Nx2C
+YjQI0oISondeGg12l8qEGuJ04YYe5vJhiCLCNWKJVRQAADs=
+
+------=_NextPart_000_0000_01CCEA3F.03961B30
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.388/369img2.gif
+
+R0lGODlhSQEpAIAAAAAAAP///yH5BAEAAAEALAAAAABJASkAAAL+jI+py+0Po5y02ouz3gHwD4bi
+SJbmKQKqd6zsisbyTNf2LcEtouP+DwwKfx4Vj2ccKpfMprNRTHYSrKf1is2aXtWqwasNi8dk6vel
+AJfX7HYwCVOr3fS6feQ1yu/8vv+SJ/U3SFi4INgxZ7jIWCf3qNgoyRRX9OeClIY4yTnUc9YZKvr0
+CTp6iko0t5na6oqnGPk6S2vB6uCSe1vLe1oKoavbO9y6mxKMnKy8zNzs/Az9S0wWO219nUkVyYzd
+3bgp6y2OqmP8ES606oM+Tmp+ri2IyTEfzxV/Lo0p3e7K+smOAjhE8t5NGNjFYL9O/xIdCWEJX7Yz
+AYFNkZio4kK1SQ17aLQoz6G2h2bSPIhyJORGWtVEXgSBcsdAkhNNQXE5ReXKVy3h4HEZc+QOBl0i
+BA36ZeesVVwiwox5TxPNke/0oMH5UmkqdS2c2gt2U2RUoUlxsYs6tqzWrYeQfLToMG3NkwbvyV3L
+U+rcDXCk3FJolS7Frnh57SELj7BNsvoS4ppIUGHhQQULQixH8ZffmXszlxU2eLIoyemMthWt9O06
+1ajxkibSOnYOLa9lT2ZNA/eJAgA7
+
+------=_NextPart_000_0000_01CCEA3F.03961B30--

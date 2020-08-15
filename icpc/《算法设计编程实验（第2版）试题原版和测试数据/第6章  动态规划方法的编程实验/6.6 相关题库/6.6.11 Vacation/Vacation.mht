@@ -1,0 +1,130 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Vacation
+Date: Mon, 7 Nov 2011 15:50:15 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.396\10192.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Vacation</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Problem E:=20
+  Vacation</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>The=20
+Problem</A></FONT></H2>
+<P>You are planning to take some rest and to go out on vacation, but you =
+really=20
+don't know which cities you should visit. So, you ask your parents for =
+help.=20
+Your mother says <I>"My son, you MUST visit Paris, Madrid, Lisboa and =
+London.=20
+But it's only fun in this order."</I> Then your father says: <I>"Son, if =
+you're=20
+planning to travel, go first to Paris, then to Lisboa, then to London =
+and then,=20
+at last, go to Madrid. I know what I'm talking about."</I>=20
+<P>Now you're a bit confused, as you didn't expected this situation. =
+You're=20
+afraid that you'll hurt your mother if you follow your father's =
+suggestion. But=20
+you're also afraid to hurt your father if you follow you mother's =
+suggestion.=20
+But it can get worse, because you can hurt both of them if you simply =
+ignore=20
+their suggestions!=20
+<P>Thus, you decide that you'll try to follow their suggestions in the =
+better=20
+way that you can. So, you realize that the "Paris-Lisboa-London" order =
+is the=20
+one which better satisfies both your mother and your father. Afterwards =
+you can=20
+say that you could not visit Madrid, even though you would've liked it =
+very=20
+much.=20
+<P>If your father have suggested the "London-Paris-Lisboa-Madrid" order, =
+then=20
+you would have two orders, "Paris-Lisboa" and "Paris-Madrid", that would =
+better=20
+satisfy both of your parent's suggestions. In this case, you could only =
+visit 2=20
+cities.=20
+<P>You want to avoid problems like this one in the future. And what if =
+their=20
+travel suggestions were bigger? Probably you would not find the better =
+way very=20
+easy. So, you decided to write a program to help you in this task. =
+You'll=20
+represent each city by one character, using uppercase letters, lowercase =
+
+letters, digits and the space. Thus, you can have at most 63 different =
+cities to=20
+visit. But it's possible that you'll visit some city more than once.=20
+<P>If you represent Paris with "a", Madrid with "b", Lisboa with "c" and =
+London=20
+with "d", then your mother's suggestion would be "abcd" and you father's =
+
+suggestion would be "acdb" (or "dacb", in the second example).=20
+<P>The program will read two travel sequences and it must answer how =
+many cities=20
+you can travel to such that you'll satisfy both of your parents and it's =
+
+maximum.=20
+<P></U></U>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>The=20
+Input</A></FONT></H2>
+<P>The input will consist on an arbitrary number of city sequence pairs. =
+The end=20
+of input occurs when the first sequence starts with an "#"character =
+(without the=20
+quotes). Your program should not process this case. Each travel sequence =
+will be=20
+on a line alone and will be formed by legal characters (as defined =
+above). All=20
+travel sequences will appear in a single line and will have at most 100 =
+cities.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>The=20
+Output</A></FONT></H2>
+<P>For each sequence pair, you must print the following message in a =
+line alone:=20
+<PRE>Case #d: you can visit at most K cities.
+</PRE>Where d stands for the test case number (starting from 1) and K is =
+the=20
+maximum number of cities you can visit such that you'll satisfy both you =
+
+father's suggestion and you mother's suggestion.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001005000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>abcd
+acdb
+abcd
+dacb
+#
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001006000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>Case #1: you can visit at most 3 cities.
+Case #2: you can visit at most 2 cities.
+</PRE>
+<HR>
+<B>&copy; 2001 Universidade do Brasil (UFRJ). Internal Contest Warmup =
+2001.=20
+</B></BODY></HTML>

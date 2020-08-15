@@ -1,0 +1,72 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Question 1: Is Bigger Smarter?
+Date: Mon, 7 Nov 2011 15:55:54 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.463\10131.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Question 1: Is Bigger Smarter?</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY>
+<H1>Question 1: Is Bigger Smarter?</H1>
+<H2>The Problem</H2>
+<P>Some people think that the bigger an elephant is, the smarter it is. =
+To=20
+disprove this, you want to take the data on a collection of elephants =
+and put as=20
+large a subset of this data as possible into a sequence so that the =
+weights are=20
+increasing, but the IQ's are decreasing. </P>
+<P>The input will consist of data for a bunch of elephants, one elephant =
+per=20
+line, terminated by the end-of-file. The data for a particular elephant =
+will=20
+consist of a pair of integers: the first representing its size in =
+kilograms and=20
+the second representing its IQ in hundredths of IQ points. Both integers =
+are=20
+between 1 and 10000. The data will contain information for at most 1000=20
+elephants. Two elephants may have the same weight, the same IQ, or even =
+the same=20
+weight and IQ. </P>
+<P>Say that the numbers on the i-th data line are <TT>W[i]</TT> and=20
+<TT>S[i]</TT>. Your program should output a sequence of lines of data; =
+the first=20
+line should contain a number <TT>n</TT>; the remaining <TT>n</TT> lines =
+should=20
+each contain a single positive integer (each one representing an =
+elephant). If=20
+these <TT>n</TT> integers are <TT>a[1]</TT>, <TT>a[2]</TT>,..., =
+<TT>a[n]</TT>=20
+then it must be the case that <PRE>   W[a[1]] &lt; W[a[2]] &lt; ... &lt; =
+W[a[n]]
+</PRE>and <PRE>   S[a[1]] &gt; S[a[2]] &gt; ... &gt; S[a[n]]
+</PRE>In order for the answer to be correct, <TT>n</TT> should be as =
+large as=20
+possible. All inequalities are strict: weights must be strictly =
+increasing, and=20
+IQs must be strictly decreasing. There may be many correct outputs for a =
+given=20
+input, your program only needs to find one.=20
+<P></P>
+<H2>Sample Input</H2><PRE>6008 1300
+6000 2100
+500 2000
+1000 4000
+1100 3000
+6000 2000
+8000 1400
+6000 1200
+2000 1900
+</PRE>
+<H2>Sample Output</H2><PRE>4
+4
+5
+9
+7
+</PRE></BODY></HTML>

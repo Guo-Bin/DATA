@@ -1,0 +1,128 @@
+From: =?iso-8859-1?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Biorhythms
+Date: Sun, 12 Feb 2012 21:11:51 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.669\756.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Biorhythms</TITLE>
+<META name=3Ddescription content=3DBiorhythms>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>=20
+  Biorhythms</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Some people believe that there are three cycles in a person's life =
+that start=20
+the day he or she is born. These three cycles are the physical, =
+emotional, and=20
+intellectual cycles, and they have periods of lengths 23, 28, and 33 =
+days,=20
+respectively. There is one peak in each period of a cycle. At the peak =
+of a=20
+cycle, a person performs at his or her best in the corresponding field=20
+(physical, emotional or mental). For example, if it is the mental curve, =
+thought=20
+processes will be sharper and concentration will be easier.=20
+<P>
+<P><BR>Since the three cycles have different periods, the peaks of the =
+three=20
+cycles generally occur at different times. We would like to determine =
+when a=20
+triple peak occurs (the peaks of all three cycles occur in the same day) =
+for any=20
+person. For each cycle, you will be given the number of days from the =
+beginning=20
+of the current year at which one of its peaks (not necessarily the =
+first)=20
+occurs. You will also be given a date expressed as the number of days =
+from the=20
+beginning of the current year. You task is to determine the number of =
+days from=20
+the given date to the next triple peak. The given date is not counted. =
+For=20
+example, if the given date is 10 and the next triple peak occurs on day =
+12, the=20
+answer is 2, not 3. If a triple peak occurs on the given date, you =
+should give=20
+the number of days to the next occurrence of a triple peak.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>You =
+will be given=20
+a number of cases. The input for each case consists of one line of four =
+integers=20
+<I>p</I>, <I>e</I>, <I>i</I>, and <I>d</I>. The values <I>p</I>, =
+<I>e</I>, and=20
+<I>i</I> are the number of days from the beginning of the current year =
+at which=20
+the physical, emotional, and intellectual cycles peak, respectively. The =
+value=20
+<I>d</I> is the given date and may be smaller than any of <I>p</I>, =
+<I>e</I>, or=20
+<I>i</I>. All values are non-negative and at most 365, and you may =
+assume that a=20
+triple peak will occur within 21252 days of the given date. The end of =
+input is=20
+indicated by a line in which <!-- MATH: $p =3D e =3D i =3D d =3D -1$ =
+--><I>p</I> =3D=20
+<I>e</I> =3D <I>i</I> =3D <I>d</I> =3D -1.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each test=20
+case, print the case number followed by a message indicating the number =
+of days=20
+to the next triple peak, in the form:=20
+<P><PRE>Case 1: the next triple peak occurs in 1234 days.
+</PRE>
+<P>Use the plural form ``<TT>days</TT>'' even if the answer is 1.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>0 0 0 0
+0 0 0 100
+5 20 34 325
+4 5 6 7
+283 102 23 320
+203 301 203 40
+-1 -1 -1 -1
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>Case 1: the next triple peak occurs in =
+21252 days.
+Case 2: the next triple peak occurs in 21152 days.
+Case 3: the next triple peak occurs in 19575 days.
+Case 4: the next triple peak occurs in 16994 days.
+Case 5: the next triple peak occurs in 8910 days.
+Case 6: the next triple peak occurs in 10789 days.
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>2000-02-09</I> =
+</ADDRESS></BODY></HTML>

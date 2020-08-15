@@ -1,0 +1,360 @@
+From: =?iso-8859-1?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem D - Wavio Sequence
+Date: Mon, 7 Nov 2011 15:56:51 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.550\10534.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem D - Wavio =
+Sequence</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./d_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./d_files/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>SHAHRIAR MANZOOR</o:Author>
+  <o:LastAuthor>Shahriar Manzoor</o:LastAuthor>
+  <o:Revision>20</o:Revision>
+  <o:TotalTime>133</o:TotalTime>
+  <o:LastPrinted>2003-07-26T00:16:00Z</o:LastPrinted>
+  <o:Created>2003-04-09T12:45:00Z</o:Created>
+  <o:LastSaved>2003-07-26T00:18:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>211</o:Words>
+  <o:Characters>1203</o:Characters>
+  <o:Company>BUET &amp; SOFTNET</o:Company>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1477</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <w:GrammarState>Clean</w:GrammarState>
+ </w:WordDocument>
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Arial Unicode MS;
+}
+@font-face {
+	font-family: @Arial Unicode MS;
+}
+@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.0in 1.0in 1.0in; =
+mso-header-margin: 35.3pt; mso-footer-margin: 35.3pt; mso-paper-source: =
+0; }
+SPAN.GRAME {
+	mso-gram-e: yes
+}
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"
+}
+H1 {
+	PAGE-BREAK-AFTER: avoid; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 16pt; FONT-WEIGHT: bold; mso-bidi-font-size: 18.0pt; =
+mso-pagination: widow-orphan; mso-style-next: Normal; mso-outline-level: =
+1; tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt =
+366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt; =
+mso-font-kerning: 0pt
+}
+P.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+LI.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+DIV.MsoCaption {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+FONT-WEIGHT: bold; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-style-next: Normal
+}
+P.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+LI.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+DIV.MsoBodyText {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+MARGIN-LEFT: 0in; FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: =
+widow-orphan; mso-fareast-font-family: "Times New Roman"; =
+mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; =
+mso-ansi-language: EN
+}
+P.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+LI.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+DIV.MsoBodyText2 {
+	TEXT-ALIGN: justify; FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; =
+FONT-SIZE: 12pt; MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+P {
+	FONT-FAMILY: "Times New Roman"; MARGIN-LEFT: 0in; FONT-SIZE: 12pt; =
+MARGIN-RIGHT: 0in; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto
+}
+PRE {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Courier New"; =
+tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt =
+412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt
+}
+SPAN.StyleArial16pt {
+	FONT-WEIGHT: bold; mso-style-name: "Style Arial 16 pt"; =
+mso-ansi-font-size: 16.0pt; mso-ascii-font-family: Arial; =
+mso-hansi-font-family: Arial; mso-bidi-font-family: Arial
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]-->
+<META name=3Ddescription content=3DExponentiation>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US link=3Dblue =
+bgColor=3Dwhite vLink=3Dblue>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 28pt; mso-bidi-font-size: =
+12.0pt">Problem=20
+D</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial"><BR></SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 20pt; mso-bidi-font-size: =
+24.0pt">Wavio=20
+Sequence </SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 20pt; mso-bidi-font-size: =
+12.0pt"><BR></SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Input:=20
+</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; mso-bidi-font-weight: =
+bold">Standard=20
+Input<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Output:=20
+</SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; mso-bidi-font-weight: =
+bold">Standard=20
+Output <o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"FONT-FAMILY: =
+Arial">Time=20
+Limit: </SPAN></B><SPAN style=3D"FONT-FAMILY: Arial; =
+mso-bidi-font-weight: bold">2=20
+Seconds<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><SPAN=20
+style=3D"FONT-FAMILY: Arial; mso-bidi-font-weight: =
+bold">&nbsp;<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto"=20
+class=3DMsoNormal>Wavio is a sequence of integers. It has some =
+interesting=20
+properties. <SPAN style=3D"FONT-FAMILY: 'Arial Unicode =
+MS'"><o:p></o:p></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"mso-hansi-font-family: =
+Symbol">=B7</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN>Wavio is of odd length i.e. =
+<B>L =3D 2*n +=20
+1</B>. </P>
+<P class=3DMsoNormal><SPAN style=3D"mso-hansi-font-family: =
+Symbol">=B7</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN>The first <B>(n+1)</B> =
+integers of Wavio=20
+sequence makes a strictly increasing sequence. </P>
+<P class=3DMsoNormal><SPAN style=3D"mso-hansi-font-family: =
+Symbol">=B7</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN>The last <B>(n+1)</B> integers =
+of Wavio=20
+sequence makes a strictly decreasing sequence. </P>
+<P class=3DMsoNormal><SPAN style=3D"mso-hansi-font-family: =
+Symbol">=B7</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN>No two adjacent integers are =
+same in a=20
+Wavio sequence. </P>
+<P class=3DMsoBodyText2>For example <B>1, 2, 3, 4, 5, 4, 3, 2, 0</B> is =
+an Wavio=20
+sequence of length <B>9</B>. But <B>1, 2, 3, 4, 5, 4, 3, 2, 2</B> <SP>is =
+not a=20
+valid wavio sequence. In this problem, you will be given a sequence of =
+integers.=20
+You have to find out the length of the longest Wavio sequence which is a =
+
+subsequence of the given sequence. Consider, the given sequence as :</P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B>1 2 =
+3 2 1 2 3 4 3=20
+2 1 5 4 1 2 3 2 2 1</B>. </P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><BR>Here the longest =
+Wavio=20
+sequence is : <B>1 2 3 4 5 4 3 2 1</B>. So, the output will be =
+<B>9</B>.<SPAN=20
+style=3D"COLOR: black"><o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>&nbsp;</P>
+<P class=3DMsoNormal><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Input<o:p></o:p></SPAN></SPAN></P>
+<P style=3D"MARGIN: 0in 0in 0pt" class=3DMsoBodyText2>The input file =
+contains less=20
+than <B>75</B> test cases. The description of each test case is given =
+below:=20
+Input is terminated by end of file.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>Each set starts with =
+a postive=20
+integer, <B>N(1&lt;=3DN&lt;=3D10000)</B>. In next few lines there will =
+be <B>N</B>=20
+integers. </P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P class=3DMsoNormal><SPAN class=3DStyleArial16pt><SPAN=20
+style=3D"FONT-FAMILY: Arial; FONT-SIZE: 16pt; mso-bidi-font-size: =
+12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Output<o:p></o:p></SPAN></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; mso-margin-top-alt: auto; =
+mso-margin-bottom-alt: auto"=20
+class=3DMsoNormal>For each set of input print the length of longest =
+wavio sequence=20
+in a line. <SPAN style=3D"FONT-FAMILY: 'Arial Unicode =
+MS'"><o:p></o:p></SPAN></P>
+<H1><SPAN style=3D"FONT-FAMILY: Arial; COLOR: black">Sample Input<SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>Output for Sample Input<o:p></o:p></SPAN></H1>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-COLLAPSE: collapse; BACKGROUND: #cccccc; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; mso-border-alt: solid windowtext .5pt; =
+mso-padding-alt: 0in 5.4pt 0in 5.4pt"=20
+border=3D1 cellSpacing=3D0 cellPadding=3D0 bgColor=3D#cccccc>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: =
+windowtext 0.5pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: =
+257.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; =
+BORDER-RIGHT: windowtext 0.5pt solid; PADDING-TOP: 0in"=20
+    vAlign=3Dtop width=3D343><PRE><B><SPAN style=3D"FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">10<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 11pt; mso-bidi-font-size: 10.0pt">1 2 3 4 5 4 3 2 1 =
+10<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">19<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 11pt; mso-bidi-font-size: 10.0pt">1 2 3 2 1 2 3 4 3 =
+2 1 5 4 1 2 3 2 2 1<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 11pt; mso-bidi-font-size: =
+10.0pt">5<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: =
+11pt; mso-bidi-font-size: 10.0pt">1 2 3 4 =
+5</SPAN></B></PRE><PRE><B><SPAN style=3D"mso-bidi-font-size: =
+12.0pt">&nbsp;<o:p></o:p></SPAN></B></PRE></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 204.85pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: =
+windowtext 0.5pt solid; PADDING-TOP: 0in; mso-border-left-alt: solid =
+windowtext .5pt"=20
+    vAlign=3Dtop width=3D273><PRE><B><SPAN style=3D"FONT-SIZE: 11pt; =
+mso-bidi-font-size: 10.0pt">9<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN =
+style=3D"FONT-SIZE: 11pt; mso-bidi-font-size: =
+10.0pt">9<o:p></o:p></SPAN></B></PRE><PRE><B><SPAN style=3D"FONT-SIZE: =
+11pt; mso-bidi-font-size: 10.0pt">1</SPAN><o:p></o:p></B></PRE>
+      <P=20
+      style=3D"tab-stops: 45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt =
+320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt =
+732.8pt"=20
+      class=3DMsoNormal><B><SPAN=20
+      style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 11pt; =
+mso-bidi-font-size: =
+12.0pt">&nbsp;<o:p></o:p></SPAN></B></P></TD></TR></TBODY></TABLE>
+<DIV style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter>
+<HR align=3Dcenter SIZE=3D2 width=3D"100%">
+</DIV>
+<P class=3DMsoCaption>Problemsetter: Md. Kamruzzaman, <SPAN=20
+style=3D"mso-bidi-font-size: 10.0pt">Member of Elite Problemsetters' =
+Panel</SPAN>=20
+</P></DIV></BODY></HTML>

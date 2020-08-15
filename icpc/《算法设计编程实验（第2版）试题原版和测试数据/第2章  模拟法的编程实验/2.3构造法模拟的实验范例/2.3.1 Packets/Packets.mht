@@ -1,0 +1,180 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Packets
+Date: Tue, 14 Feb 2012 13:53:29 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCEB20.07E15330"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.617\311.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Packets</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3DPackets>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      =
+name=3DSECTION0001000000000000000000>Packets</A></FONT>&nbsp;</B></TR></T=
+BODY></TABLE></CENTER></H1>
+<P>A factory produces products packed in square packets of the same =
+height=20
+<I>h</I> and of the sizes <IMG alt=3Dtex2html_wrap_inline27 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg1.gif"=20
+width=3D37 height=3D24> , <IMG alt=3Dtex2html_wrap_inline29 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg2.gif"=20
+width=3D37 height=3D24> , <IMG alt=3Dtex2html_wrap_inline31 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg3.gif"=20
+width=3D37 height=3D24> , <IMG alt=3Dtex2html_wrap_inline33 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg4.gif"=20
+width=3D38 height=3D24> , <IMG alt=3Dtex2html_wrap_inline35 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg5.gif"=20
+width=3D37 height=3D24> , <IMG alt=3Dtex2html_wrap_inline37 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg6.gif"=20
+width=3D37 height=3D24> . These products are always delivered to =
+customers in the=20
+square parcels of the same height <I>h</I> as the products have and of =
+the size=20
+<IMG alt=3Dtex2html_wrap_inline37 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg6.gif"=20
+width=3D37 height=3D24> . Because of the expenses it is the interest of =
+the factory=20
+as well as of the customer to minimize the number of parcels necessary =
+to=20
+deliver the ordered products from the factory to the customer. A good =
+program=20
+solving the problem of finding the minimal number of parcels necessary =
+to=20
+deliver the given products according to an order would save a lot of =
+money. You=20
+are asked to make such a program.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>The input file consists of several lines specifying orders. Each line =
+
+specifies one order. Orders are described by six integers separated by =
+one space=20
+representing successively the number of packets of individual size from =
+the=20
+smallest size <IMG alt=3Dtex2html_wrap_inline27 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg1.gif"=20
+width=3D37 height=3D24> to the biggest size <IMG =
+alt=3Dtex2html_wrap_inline37=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311i=
+mg6.gif"=20
+width=3D37 height=3D24> . The end of the input file is indicated by the =
+line=20
+containing six zeros.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>The output file contains one line for each line in the input file. =
+This line=20
+contains the minimal number of parcels into which the order from the=20
+corresponding line of the input file can be packed. There is no line in =
+the=20
+output file corresponding to the last ``null'' line of the input file.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>0 0 4 0 0 1
+7 5 1 0 0 0
+0 0 0 0 0 0</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>2
+1</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img1.gif
+
+R0lGODlhJQAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAlABgAAAJHjGGpy30JInLUyalw3Us/6n0W
+E2ZeVIVlB3Gqi6DbywXyTNaSns/xmumBMLcR5FIq2lZIIEtYi0qn1Kr1is1qt9yu9wsOiwsAOw==
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img2.gif
+
+R0lGODlhJQAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAlABgAAAJRTICmy+0ITDrRWTtTlfv6s0Db
+xHSKyZ2Q+phkOLroSX8pe2lz8775Xur4MEOecPSjeEgRIRH3gImKPuoUWIrattyu9wsOi8fksvmM
+TqvX7HEBADs=
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img3.gif
+
+R0lGODlhJQAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAlABgAAAJTTICmy+0ITDrRWTvTpLevDVVc
+I36PuI1kqWJl+ijsKYedNn82A6+e/srVhBIgioi7gCA1V5MmYbZ0vFzmiIy5iL+u9wsOi8fksvmM
+TqvX7LY7UAAAOw==
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img4.gif
+
+R0lGODlhJgAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAmABgAAAJQjA2ny63JoJtUHmCpvhnn13xc
+F4hIZ5bqhWhSur4QXCbYdK86fVZs7fFUcqGgEDSsbXRIB5GIWxiL0tR0yfxht9yu9wsOi8fksvmM
+TqvX5QIAOw==
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img5.gif
+
+R0lGODlhJQAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAlABgAAAJTDIKHy+2sTAI0vvsqTbh3y3lg
+6IxjCW4ZapxL5E4tqWZHvcpQrHtTjUPxgJVXbBPcGS3JXlOyvD2DTaSqiDm5sL6u9wsOi8fksvmM
+TqvX7LYbUwAAOw==
+
+------=_NextPart_000_0000_01CCEB20.07E15330
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.617/311img6.gif
+
+R0lGODlhJQAYAIAAAAAAAP///yH5BAEAAAEALAAAAAAlABgAAAJUjAGmy+2BFErx2TYhlen6w1VX
+x5CLeJgPqjlsxpaSBVNkzLXrnaUenkuJgMIRb6g62WhH3i6IcUaAr6QPaQVhmNmP9wsOi8fksvmM
+TqvX7Lb7bSgAADs=
+
+------=_NextPart_000_0000_01CCEB20.07E15330--

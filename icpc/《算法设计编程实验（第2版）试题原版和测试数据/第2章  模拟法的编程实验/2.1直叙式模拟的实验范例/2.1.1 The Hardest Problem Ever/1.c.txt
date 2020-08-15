@@ -1,0 +1,58 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+void
+main (void)
+{
+    char *eofifnull;
+    char InString[202];
+    char OutString[202];
+    int i;
+
+    while(1)
+    {
+        /* Get the "START" */
+        eofifnull = gets(InString);
+        if (eofifnull == NULL ||
+            strncmp(InString,"START",5)) 
+        {
+            break;
+        }
+
+        /* Check for the ENDOFINPUT marker */
+        if (strncmp(InString,"ENDOFINPUT",10) == 0)
+        {
+            break;
+        }
+
+        /* Get the string */
+        gets(InString);
+
+        /* Create the output string */
+        memset(OutString,'\0',202);
+        for (i=0; i<strlen(InString); i++)
+        {
+            if (isalpha(InString[i]))
+            {
+                if (InString[i] <= 'E')
+                {
+                    OutString[i] = InString[i] + ('V' - 'A');
+                }
+                else
+                {
+                    OutString[i] = InString[i] - ('F' - 'A');
+                }
+            }
+            else
+            {
+                OutString[i] = InString[i];
+            }
+        } 
+
+        /* Print the output */
+        printf("%s\n",OutString);
+
+        /* Get the "END" */
+        eofifnull = gets(InString);
+    }
+}

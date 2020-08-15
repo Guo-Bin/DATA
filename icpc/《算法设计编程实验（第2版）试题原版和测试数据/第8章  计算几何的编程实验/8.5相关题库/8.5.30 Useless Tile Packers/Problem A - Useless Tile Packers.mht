@@ -1,0 +1,288 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Problem A - Useless Tile Packers
+Date: Sat, 28 Jan 2012 20:38:23 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CCDDFC.C7A5A300"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CCDDFC.C7A5A300
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.710\10065.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Problem A - Useless =
+Tile Packers</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720">
+<META name=3DOriginator content=3D"Microsoft Word 9"><LINK =
+rel=3DFile-List=20
+href=3D"./p0_files/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"./p0_files/editdata.mso"><LINK rel=3DOLE-Object-Data=20
+href=3D"./p0_files/oledata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Rezaul Alam Chowdhury</o:Author>=0A=
+  <o:LastAuthor>Administrator</o:LastAuthor>=0A=
+  <o:Revision>2</o:Revision>=0A=
+  <o:TotalTime>63</o:TotalTime>=0A=
+  <o:LastPrinted>1999-05-07T21:27:00Z</o:LastPrinted>=0A=
+  <o:Created>2001-01-11T11:41:00Z</o:Created>=0A=
+  <o:LastSaved>2001-01-11T11:41:00Z</o:LastSaved>=0A=
+  <o:Pages>2</o:Pages>=0A=
+  <o:Words>230</o:Words>=0A=
+  <o:Characters>1311</o:Characters>=0A=
+  <o:Company>CSE, BUET</o:Company>=0A=
+  <o:Lines>10</o:Lines>=0A=
+  <o:Paragraphs>2</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>1610</o:CharactersWithSpaces>=0A=
+  <o:Version>9.2720</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <w:WordDocument>=0A=
+  =
+<w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEve=
+ry>=0A=
+  =
+<w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>=0A=
+  <w:UseMarginsForDrawingGridOrigin/>=0A=
+  <w:Compatibility>=0A=
+   <w:FootnoteLayoutLikeWW8/>=0A=
+   <w:ShapeLayoutLikeWW8/>=0A=
+   <w:AlignTablesRowByRow/>=0A=
+   <w:ForgetLastTabAlignment/>=0A=
+   <w:LayoutRawTableWidth/>=0A=
+   <w:LayoutTableRowsApart/>=0A=
+  </w:Compatibility>=0A=
+ </w:WordDocument>=0A=
+</xml><![endif]-->
+<STYLE>@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in =
+1.25in; mso-header-margin: .5in; mso-footer-margin: .5in; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; COLOR: black; =
+FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: widow-orphan; =
+mso-bidi-font-size: 10.0pt; mso-fareast-font-family: "Times New Roman"
+}
+EM {
+	mso-bidi-font-style: normal
+}
+P.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt =
+95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt =
+479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+LI.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt =
+95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt =
+479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+DIV.Preformatted {
+	MARGIN: 0in 0in 0pt; LAYOUT-GRID-MODE: line; FONT-FAMILY: "Courier =
+New"; FONT-SIZE: 10pt; mso-pagination: none; mso-fareast-font-family: =
+"Times New Roman"; mso-style-name: Preformatted; tab-stops: 0in 47.95pt =
+95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt =
+479.5pt; mso-bidi-font-family: "Times New Roman"
+}
+DIV.Section1 {
+	page: Section1
+}
+</STYLE>
+</HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US>
+<DIV class=3DSection1>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Problem=20
+A</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D6>Useless Tile=20
+Packers</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal">Input: </B>standard input<B=20
+style=3D"mso-bidi-font-weight: normal"><o:p></o:p></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal">Output: </B>standard output</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>Yes, as you have =
+apprehended the=20
+<I style=3D"mso-bidi-font-style: normal">Useless Tile Packers</I> (UTP) =
+pack=20
+tiles. The tiles are of uniform thickness and have simple polygonal =
+shape. For=20
+each tile a container is custom-built. The floor of the container is a =
+convex=20
+polygon and under this constraint it has the minimum possible space =
+inside to=20
+hold the tile it is built for. But this strategy leads to wasted space =
+inside=20
+the container. </P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+&nbsp;&nbsp;<IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.710/p100=
+65.gif"=20
+width=3D308 height=3D170>=20
+<P style=3D"TEXT-ALIGN: justify; TEXT-INDENT: 0.5in" =
+class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify; TEXT-INDENT: 0.5in" =
+class=3DMsoNormal>The UTP=20
+authorities are interested to know the percentage of wasted space for a =
+given=20
+tile.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT =
+size=3D5>Input</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>The input file =
+consists of=20
+several data blocks. Each data block describes one tile. </P>
+<P style=3D"TEXT-ALIGN: justify; TEXT-INDENT: 0.5in" =
+class=3DMsoNormal>The first=20
+line of a data block contains an integer <EM>N</EM> (3 &lt;=3D N &lt;=3D =
+100)=20
+indicating the number of corner points of the tile. Each of the next <I=20
+style=3D"mso-bidi-font-style: normal">N</I> lines contains two integers =
+giving the=20
+(<I style=3D"mso-bidi-font-style: normal">x</I>, <I=20
+style=3D"mso-bidi-font-style: normal">y</I>) co-ordinates of a corner =
+point=20
+(determined using a suitable origin and orientation of the axes) where 0 =
+&lt;=3D=20
+x, </I>, <I style=3D"mso-bidi-font-style: normal">y &lt;=3D 1000. =
+</I>Starting from=20
+the first point given in the input the corner points occur in the same =
+order on=20
+the boundary of the tile as they appear in the input. No three =
+consecutive=20
+points are co-linear.</P>
+<P style=3D"TEXT-ALIGN: justify; TEXT-INDENT: 0.5in" =
+class=3DMsoNormal>The input=20
+file terminates with a value of 0 for <I=20
+style=3D"mso-bidi-font-style: normal">N</I>.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT =
+size=3D5>Output</FONT></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal>For each tile in the =
+input output=20
+the percentage of wasted space rounded to two digits after the decimal =
+point.=20
+Each output must be on a separate line. Print a blank line after each =
+output=20
+block.</P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Sample=20
+Input</FONT></SPAN></B></P><FONT size=3D3 face=3DCourier>5<BR>0 0<BR>2 =
+0<BR>2 2<BR>1=20
+1<BR>0 2<BR>5<BR>0 0<BR>0 2<BR>1 3<BR>2 2<BR>2 0<BR>0<BR></FONT>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; FONT-SIZE: 14pt; =
+mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New =
+Roman'"><![if =
+!supportEmptyParas]><![endif]>&nbsp;<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify" class=3DMsoNormal><B=20
+style=3D"mso-bidi-font-weight: normal"><FONT size=3D5>Sample=20
+Output</FONT></SPAN></B></P><FONT size=3D3 face=3DCourier>Tile =
+#1<BR>Wasted Space =3D=20
+25.00 %<BR><BR>Tile #2<BR>Wasted Space =3D 0.00 =
+%<BR><BR></FONT></DIV><FONT size=3D3=20
+face=3D"Times New =
+Roman">__________________________________________________________________=
+______________<BR>Rezaul=20
+Alam Chowdhury </FONT></BODY></HTML>
+
+------=_NextPart_000_0000_01CCDDFC.C7A5A300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.710/p10065.gif
+
+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
+NrMRBGMBAAA7
+
+------=_NextPart_000_0000_01CCDDFC.C7A5A300--

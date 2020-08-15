@@ -1,0 +1,104 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Dollars
+Date: Sun, 6 Nov 2011 22:54:30 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC9CD7.0AF2AE80"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CC9CD7.0AF2AE80
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.876\147.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Dollars</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3DDollars>
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      =
+name=3DSECTION0001000000000000000000>Dollars</A></FONT>&nbsp;</B></TR></T=
+BODY></TABLE></CENTER></H1>
+<P>New Zealand currency consists of $100, $50, $20, $10, and $5 notes =
+and $2,=20
+$1, 50c, 20c, 10c and 5c coins. Write a program that will determine, for =
+any=20
+given amount, in how many ways that amount may be made up. Changing the =
+order of=20
+listing does not increase the count. Thus 20c may be made up in 4 ways: =
+1 <IMG=20
+alt=3Dtex2html_wrap_inline25 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.876/147i=
+mg1.gif"=20
+width=3D9 height=3D18> 20c, 2 <IMG alt=3Dtex2html_wrap_inline25 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.876/147i=
+mg1.gif"=20
+width=3D9 height=3D18> 10c, 10c+2 <IMG alt=3Dtex2html_wrap_inline25 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.876/147i=
+mg1.gif"=20
+width=3D9 height=3D18> 5c, and 4 <IMG alt=3Dtex2html_wrap_inline25 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.876/147i=
+mg1.gif"=20
+width=3D9 height=3D18> 5c.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A></FONT></H2>
+<P>Input will consist of a series of real numbers no greater than $50.00 =
+each on=20
+a separate line. Each amount will be valid, that is will be a multiple =
+of 5c.=20
+The file will be terminated by a line containing zero (0.00).=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A></FONT></H2>
+<P>Output will consist of a line for each of the amounts in the input, =
+each line=20
+consisting of the amount of money (with two decimal places and right =
+justified=20
+in a field of width 5), followed by the number of ways in which that =
+amount may=20
+be made up, right justified in a field of width 12.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+input</A></FONT></H2>
+<P><PRE>0.20
+  2.00
+0.00</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+output</A></FONT></H2>
+<P><PRE> 0.20           4
+ 2.00         293</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CC9CD7.0AF2AE80
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.876/147img1.gif
+
+R0lGODlhCQASAIAAAAAAAP///yH5BAEAAAEALAAAAAAJABIAAAIaRI4Bm2qK3mGs1bTkNLdz7YBT
+Q5bmiaZqUgAAOw==
+
+------=_NextPart_000_0000_01CC9CD7.0AF2AE80--

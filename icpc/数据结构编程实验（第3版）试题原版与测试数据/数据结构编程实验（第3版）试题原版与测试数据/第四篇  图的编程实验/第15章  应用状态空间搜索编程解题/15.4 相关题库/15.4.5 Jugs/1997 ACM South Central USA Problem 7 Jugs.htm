@@ -1,0 +1,277 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0073)http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_SouthCen/1997/Jugs.html -->
+<HTML><HEAD><TITLE>1997 ACM South Central USA Problem 7: Jugs</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2920.0" name=GENERATOR>
+<META 
+content="Mozilla/4.03b8 [en] (X11; I; FreeBSD 2.2.1-RELEASE i386) [Netscape]" 
+name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<CENTER><B><FONT size=+2>1997 ACM South Central USA</FONT></B></CENTER>
+<CENTER><B><FONT size=+2>Programming Contest</FONT></B></CENTER>
+<P><B><FONT size=+2>&nbsp;</FONT></B> 
+<CENTER><B><FONT size=+2>Problem #7: Jugs</FONT></B></CENTER>
+<CENTER><B><FONT size=+2>&nbsp;</FONT></B></CENTER>
+<CENTER><B><A 
+href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_SouthCen/1997/Jugs.html#Solution">Source 
+File</A>: jugs.{pas,cpp,c,ss}</B></CENTER>
+<CENTER><B><A 
+href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_SouthCen/1997/Jugs.html#Input">Input 
+File</A>: jugs.dat</B></CENTER>
+<CENTER><B><A 
+href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_SouthCen/1997/Jugs.html#Output">Output 
+File</A>: jugs.out</B></CENTER>
+<CENTER><B><A 
+href="http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_SouthCen/1997/Jugs.html#Comment">Comments</A></B></CENTER>
+<P>In the movie "Die Hard 3", Bruce Willis and Samuel L. Jackson were confronted 
+with the following puzzle. They were given a 3-gallon jug and a 5-gallon jug and 
+were asked to fill the 5-gallon jug with exactly 4 gallons. This problem 
+generalizes that puzzle. 
+<P>You have two jugs, A and B, and an infinite supply of water. There are three 
+types of actions that you can use: (1) you can fill a jug, (2) you can empty a 
+jug, and (3) you can pour from one jug to the other. Pouring from one jug to the 
+other stops when the first jug is empty or the second jug is full, whichever 
+comes first. For example, if A has 5 gallons and B has 6 gallons and a capacity 
+of 8, then pouring from A to B leaves B full and 3 gallons in A. 
+<P>A problem is given by a triple (Ca,Cb,N), where Ca and Cb are the capacities 
+of the jugs A and B, respectively, and N is the goal. A solution is a sequence 
+of steps that leaves exactly N gallons in jug B. The possible steps are 
+<P>fill A <BR>fill B <BR>empty A <BR>empty B <BR>pour A B <BR>pour B A 
+<BR>success 
+<P>where "pour A B" means "pour the contents of jug A into jug B", and "success" 
+means that the goal has been accomplished. 
+<P>You may assume that the input you are given does have a solution. 
+<P><B>Input Format</B> 
+<P>Input to your program consists of a series of input lines each defining one 
+puzzle. Input for each puzzle is a single line of three positive integers: Ca, 
+Cb, and N. Ca and Cb are the capacities of jugs A and B, and N is the goal. You 
+can assume 0 &lt; Ca &lt;= Cb and N &lt;= Cb &lt;=1000 and that A and B are 
+relatively prime to one another. 
+<P><B>Required Output Format</B> 
+<P>Output from your program will consist of a series of instructions from the 
+list of the potential output lines which will result in either of the jugs 
+containing exactly N gallons of water. The last line of output for each puzzle 
+should be the line "success". Output lines start in column 1 and there should be 
+no empty lines nor any trailing spaces. 
+<P><B>Sample Input</B> 
+<P><TT>3 5 4</TT> <BR><TT>5 7 3</TT> 
+<P><B>Sample Output</B> 
+<P><TT>fill B</TT> <BR><TT>pour B A</TT> <BR><TT>empty A</TT> <BR><TT>pour B 
+A</TT> <BR><TT>fill B</TT> <BR><TT>pour B A</TT> <BR><TT>success</TT> 
+<BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill A</TT> <BR><TT>pour A 
+B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> <BR><TT>success</TT> 
+<BR><TT>&nbsp;</TT> <BR><A name=Input></A><B>Judge's Input</B> 
+<P><TT>3 5 4</TT> <BR><TT>5 7 3</TT> <BR><TT>11 13 9</TT> <BR><TT>27 59 17</TT> 
+<BR><TT>19 37 1</TT> <BR><TT>67 91 19</TT> <BR><TT>1 1 1</TT> 
+<P><A name=Output></A><B>Judge's Output</B> 
+<P><TT>fill B</TT> <BR><TT>pour B A</TT> <BR><TT>empty A</TT> <BR><TT>pour B 
+A</TT> <BR><TT>fill B</TT> <BR><TT>pour B A</TT> <BR><TT>success</TT> 
+<BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill A</TT> <BR><TT>pour A 
+B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> <BR><TT>success</TT> 
+<BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill A</TT> <BR><TT>pour A 
+B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> <BR><TT>success</TT> 
+<BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill A</TT> <BR><TT>pour A 
+B</TT> <BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>empty B</TT> 
+<BR><TT>pour A B</TT> <BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill 
+A</TT> <BR><TT>pour A B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> 
+<BR><TT>success</TT> <BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill 
+A</TT> <BR><TT>pour A B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> 
+<BR><TT>success</TT> <BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>fill 
+A</TT> <BR><TT>pour A B</TT> <BR><TT>empty B</TT> <BR><TT>pour A B</TT> 
+<BR><TT>fill A</TT> <BR><TT>pour A B</TT> <BR><TT>empty B</TT> <BR><TT>pour A 
+B</TT> <BR><TT>success</TT> <BR><TT>fill B</TT> <BR><TT>success</TT> 
+<P><A name=Solution></A><B>Judge's Solution</B> 
+<P><TT>#include &lt;stdio.h&gt;</TT> <BR><TT>#include 
+&lt;stdlib.h&gt;</TT><TT></TT> 
+<P><TT>#define min(a,b) (((a)&lt;(b)) ? (a) : (b) )</TT><TT></TT> 
+<P><TT>typedef struct queueItem</TT> <BR><TT>{</TT> <BR><TT>&nbsp; unsigned long 
+element;</TT> <BR><TT>&nbsp; struct queueItem *next;</TT> <BR><TT>} 
+queueItem;</TT><TT></TT> 
+<P><TT>typedef struct Queue</TT> <BR><TT>{</TT> <BR><TT>&nbsp; queueItem *first, 
+*last;</TT> <BR><TT>} Queue;</TT><TT></TT> 
+<P><TT>void queueinit(Queue* q)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; queueItem 
+*dummy = (queueItem*) malloc(sizeof(*dummy));</TT> <BR><TT>&nbsp; q-&gt;first = 
+q-&gt;last = dummy;</TT> <BR><TT>&nbsp; dummy-&gt;next = dummy;</TT> 
+<BR><TT>}</TT><TT></TT> 
+<P><TT>void enqueue(Queue* q, unsigned long elem)</TT> <BR><TT>{</TT> 
+<BR><TT>&nbsp; queueItem *nu = (queueItem*) malloc(sizeof(*nu));</TT> 
+<BR><TT>&nbsp; nu-&gt;element = elem;</TT> <BR><TT>&nbsp; nu-&gt;next = 
+q-&gt;last-&gt;next;</TT> <BR><TT>&nbsp; q-&gt;last = q-&gt;last-&gt;next = 
+nu;</TT> <BR><TT>}</TT><TT></TT> 
+<P><TT>unsigned long dequeue(Queue* q)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; 
+queueItem *old = q-&gt;first-&gt;next;</TT> <BR><TT>&nbsp; unsigned long elem = 
+old-&gt;element;</TT> <BR><TT>&nbsp; q-&gt;first-&gt;next = old-&gt;next;</TT> 
+<BR><TT>&nbsp; if (q-&gt;last == old)</TT> <BR><TT>&nbsp;&nbsp;&nbsp; {</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; q-&gt;last = q-&gt;first;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; q-&gt;first-&gt;next = q-&gt;first;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; }</TT> <BR><TT>&nbsp; free((char*) old);</TT> 
+<BR><TT>&nbsp; return elem;</TT> <BR><TT>}</TT><TT></TT> 
+<P><TT>void queueelim(Queue* q)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; queueItem* 
+curr = q-&gt;first-&gt;next;</TT> <BR><TT>&nbsp; while (curr != 
+q-&gt;first)</TT> <BR><TT>&nbsp;&nbsp;&nbsp; {</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; queueItem* old = curr;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; curr = curr-&gt;next;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; free((char*) old);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; }</TT> <BR><TT>&nbsp; free((char*) curr);</TT> 
+<BR><TT>}</TT><TT></TT> 
+<P><TT>#define FILL_A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</TT> <BR><TT>#define 
+FILL_B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</TT> <BR><TT>#define 
+EMPTY_A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</TT> <BR><TT>#define 
+EMPTY_B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</TT> <BR><TT>#define 
+POUR_A_B&nbsp;&nbsp;&nbsp;&nbsp; 4</TT> <BR><TT>#define 
+POUR_B_A&nbsp;&nbsp;&nbsp;&nbsp; 5</TT><TT></TT> 
+<P><TT>#define UNVISITED (unsigned long)(-1)</TT><TT></TT> 
+<P><TT>unsigned long *initialize(unsigned a, unsigned b)</TT> <BR><TT>{</TT> 
+<BR><TT>&nbsp; unsigned long sz = (a+1)*(b+1);</TT> <BR><TT>&nbsp; unsigned 
+long* p = (unsigned long*) malloc(sz*sizeof(*p));</TT> <BR><TT>&nbsp; while 
+(sz--)</TT> <BR><TT>&nbsp;&nbsp;&nbsp; p[sz] = UNVISITED;</TT> <BR><TT>&nbsp; 
+return p;</TT> <BR><TT>}</TT><TT></TT> 
+<P><TT>int compute_soln(unsigned a, unsigned b, unsigned n, unsigned long 
+*parent)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; Queue q;</TT> <BR><TT>&nbsp; 
+unsigned long stat;</TT> <BR><TT>&nbsp; if (n == 0)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; return 0;</TT><TT></TT> 
+<P><TT>&nbsp; queueinit(&amp;q);</TT> <BR><TT>&nbsp; enqueue(&amp;q,0);</TT> 
+<BR><TT>&nbsp; parent[0] = 0;</TT> <BR><TT>&nbsp; while (1)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; {</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned long jugStat = dequeue(&amp;q);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int action;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (action = FILL_A; action &lt;= 
+POUR_B_A; ++action)</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unsigned 
+long cb = jugStat % (b+1);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unsigned long ca 
+= jugStat / (b+1);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; switch 
+(action)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+FILL_A:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ca = a;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+FILL_B:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+cb = b;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+EMPTY_A:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ca = 0;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+EMPTY_B:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+cb = 0;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+POUR_A_B:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned sum = ca + cb;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+cb = min(sum,b);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ca = sum - cb;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+} break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; case 
+POUR_B_A:</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned sum = ca + cb;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ca = min(sum,a);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+cb = sum - ca;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+} break;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+}</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stat = ca 
+* (b+1) + cb;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (parent[stat] 
+== UNVISITED)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+parent[stat] = jugStat;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+if (stat%(b+1) == n)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+queueelim(&amp;q);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+return stat;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+}</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+enqueue(&amp;q, stat);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+}</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; }</TT> <BR><TT>}</TT><TT></TT> 
+<P><TT>void print_soln(FILE *outfp, unsigned long stat,</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned a, unsigned b,</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned long *parent)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; if (stat == 0)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; return;</TT> <BR><TT>&nbsp; print_soln(outfp, 
+parent[stat], a, b, parent);</TT><TT></TT> 
+<P><TT>&nbsp; {</TT> <BR><TT>&nbsp;&nbsp;&nbsp; unsigned long jugStat = 
+parent[stat];</TT> <BR><TT>&nbsp;&nbsp;&nbsp; unsigned long cb = jugStat % 
+(b+1);</TT> <BR><TT>&nbsp;&nbsp;&nbsp; unsigned long ca = jugStat / (b+1);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; unsigned long nb = stat % (b+1);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; unsigned long na = stat / (b+1);</TT><TT></TT> 
+<P><TT>&nbsp;&nbsp;&nbsp; if (na + nb == ca + cb)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (na &gt; ca)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"pour B A\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"pour A B\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; else if (na != ca)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (na == 0)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"empty A\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"fill A\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; else if (nb != cb)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (nb == 0)</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"empty B\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, 
+"fill B\n");</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</TT> <BR><TT>&nbsp; 
+}</TT> <BR><TT>}</TT><TT></TT> 
+<P><TT>int main(void)</TT> <BR><TT>{</TT> <BR><TT>&nbsp; FILE *infp = 
+fopen("jugs.dat", "r");</TT> <BR><TT>&nbsp; FILE *outfp= fopen("jugs.out", 
+"w");</TT> <BR><TT>&nbsp;</TT> <BR><TT>&nbsp; while (!feof(infp))</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; {</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+unsigned long* parent;</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unsigned long 
+stat;</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unsigned a,b,n;</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fscanf(infp, "%d %d %d\n", &amp;a, 
+&amp;b, &amp;n);</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parent = 
+initialize(a,b);</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stat = 
+compute_soln(a,b,n,parent);</TT> <BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+print_soln(outfp, stat, a, b, parent);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fprintf(outfp, "success\n");</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; free((char*) parent);</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; }</TT> <BR><TT>&nbsp; fclose(infp);</TT> 
+<BR><TT>&nbsp; fclose(outfp);</TT> <BR><TT>&nbsp; return(0);</TT> <BR><TT>}</TT> 
+
+<P><A name=Comment></A><B>Comment</B> 
+<P>The solution above views the set of jug content pairs as vertices in a graph, 
+with an edge from one pair/vertex to another if and only if one of the pouring 
+acts gets you from one configuration to the other.&nbsp; In that perspective, 
+the algorithm above is just a breadth-first search of the graph.&nbsp; A 
+depth-first search is fine too, and perhaps simpler with recursion, but this 
+breadth-first solution gives the shortest sequence of jug operations to achieve 
+a result. <BR>&nbsp; </P></BODY></HTML>

@@ -1,0 +1,98 @@
+From: =?windows-1251?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: =?windows-1251?B?x+Dk4PfoIPLw5fL85ePuIPfl7O/o7u3g8uAg0/Dg6+AgLSAo7ODw8iAx?=
+	=?windows-1251?B?OTk5IOPu5OAp?=
+Date: Sat, 11 Feb 2012 19:57:34 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\??\ACM????\???\1999\Urals 1999 C.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=3D(0042)http://contest.ur.ru/ural99/problems/c.htm =
+--><HTML><HEAD><TITLE>=C7=E0=E4=E0=F7=E8 =F2=F0=E5=F2=FC=E5=E3=EE =
+=F7=E5=EC=EF=E8=EE=ED=E0=F2=E0 =D3=F0=E0=EB=E0 - (=EC=E0=F0=F2 1999 =
+=E3=EE=E4=E0)</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1251" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY aLink=3D#ff0000 link=3D#2c29ff bgColor=3D#ffffff text=3D#000000=20
+vLink=3D#001b9b><B><FONT size=3D4 face=3DTahoma>
+<P align=3Djustify>Problem C. Titanic.</P></B></FONT><I>
+<P align=3Djustify>Time limit: 5 sec per test.</P></I>
+<P align=3Djustify>It is a historical fact that during the legendary =
+voyage of=20
+"Titanic" the wireless telegraph machine had delivered 6 warnings about =
+the=20
+danger of icebergs. Each of the telegraph messages described the point =
+where an=20
+iceberg had been noticed. The first five warnings were transferred to =
+the=20
+captain of the ship. The sixth one came late at night and a telegraph =
+operator=20
+did not notice that the coordinates mentioned were very close to the =
+current=20
+ship's position.=20
+<P align=3Djustify>Write a program that will warn the operator about the =
+danger of=20
+icebergs!=20
+<P>The input messages are of the following format: <FONT size=3D3=20
+face=3D"Courier New">
+<P>Message #&lt;n&gt;.<BR>Received at &lt;HH&gt;:&lt;MM&gt;:&lt;SS&gt;.=20
+<BR>Current ship's coordinates are <BR>&lt;X1&gt;^&lt;X2&gt;'&lt;X3&gt;" =
+
+&lt;NL/SL&gt; <BR>and &lt;Y1&gt;^&lt;Y2&gt;'&lt;Y3&gt;" =
+&lt;EL/WL&gt;.<BR>An=20
+iceberg was noticed at <BR>&lt;A1&gt;^&lt;A2&gt;'&lt;A3&gt;" =
+&lt;NL/SL&gt;=20
+<BR>and &lt;B1&gt;^&lt;B2&gt;'&lt;B3&gt;" &lt;EL/WL&gt;. </P>
+<P>=3D=3D=3D </P></FONT><FONT size=3D3>
+<P align=3Djustify>Here <N>is a positive integer, <HH>:<MM>:<SS> is the =
+time of=20
+the message reception, <X1>^<X2>'<X3>" <NL SL>and <Y1>^<Y2>'<Y3>" <EL =
+WL>means=20
+<B>"X1 degrees X2 minutes X3 seconds of North (South) longitude and Y1 =
+degrees=20
+Y2 minutes Y3 seconds of East (West) latitude."</B> Your program should =
+print to=20
+the output file message in the following format: <FONT size=3D3=20
+face=3D"Courier New">
+<P>The distance to the iceberg: &lt;s&gt; miles. </P></FONT><FONT =
+size=3D3>
+<P align=3Djustify>Where <S>should be the distance between the ship and =
+the=20
+iceberg, (that is the length of the shortest path on the sphere between =
+the ship=20
+and the iceberg). This distance should be printed up to (and correct to) =
+two=20
+decimal digits. If this distance is less than (but not equal to!) 100 =
+miles the=20
+program should print one more line with the text: <FONT size=3D3=20
+face=3D"Courier New">
+<P>DANGER!</P></FONT><FONT size=3D3>
+<P align=3Djustify>For simplicity of calculations assume that the Earth =
+is an=20
+ideal sphere with the diameter of 6875 miles completely covered with =
+water. Also=20
+you can be sure that lines in the input file break exactly as it is =
+shown in the=20
+input samples. The ranges of the ship and the iceberg coordinates are =
+the same=20
+as the usual range for geographical coordinates, i.e. from 0 to 90 =
+degrees=20
+inclusively for NL/SL and from 0 to 180 degrees inclusively for EL/WL.=20
+<P>Input sample.</P></B><FONT size=3D3 face=3D"Courier New">
+<P>Message #513.<BR>Received at 22:30:11. <BR>Current ship=92s =
+coordinates are=20
+<BR>41^46'00" NL <BR>and 50^14'00" WL.<BR>An iceberg was noticed =
+at<BR>41^14'11"=20
+NL <BR>and 51^09'00" WL.<BR>=3D=3D=3D </P></FONT><B>
+<P>Output sample. </P></B><FONT size=3D3 face=3D"Courier New">
+<P>The distance to the iceberg: 52.04 miles. <BR>DANGER! </P></FONT>
+<CENTER><FONT size=3D-3><A =
+href=3D"http://contest.ur.ru/ural99/problems.html"=20
+target=3D_self>[=C7=E0=E4=E0=F7=E8]</A> <A=20
+href=3D"http://contest.ur.ru/ural99/eng/problems.html" =
+target=3D_self>[Other=20
+problems]</A> </FONT></CENTER></FONT></S></FONT></FONT></BODY></HTML>

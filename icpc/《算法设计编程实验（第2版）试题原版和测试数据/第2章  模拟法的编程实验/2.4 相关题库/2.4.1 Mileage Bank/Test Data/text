@@ -1,0 +1,94 @@
+Mileage program of ACM (Airline of Charming Merlion) is really nice for the travelers 
+flying frequently. Once you complete a flight with ACM, you can earn ACMPerk miles 
+in your ACM Mileage Bank depended on mileage you actual fly. In addition, you 
+can use the ACMPerk mileage in your Mileage Bank to exchange free flight ticket 
+of ACM in future. 
+<p>The following table helps you calculate how many ACMPerk miles you can earn 
+  when you fly on ACM.</p>
+<table width="100%" border="1">
+  <tr> 
+    <td width="29%"> 
+      <div align="center">When you fly ACM</div>
+    </td>
+    <td width="20%"> 
+      <div align="center">Class Code</div>
+    </td>
+    <td width="51%"> 
+      <div align="center">You'll earn</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="29%"> 
+      <div align="center">First Class</div>
+    </td>
+    <td width="20%"> 
+      <div align="center">F</div>
+    </td>
+    <td width="51%"> 
+      <div align="center">Actual mileage + 100% mileage Bonus</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="29%"> 
+      <div align="center">Business Class</div>
+    </td>
+    <td width="20%"> 
+      <div align="center">B</div>
+    </td>
+    <td width="51%"> 
+      <div align="center">Actual mileage + 50% mileage Bonus</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="29%"> 
+      <div align="center">Economy Class<br>
+        1-500 miles<br>
+        500+ miles </div>
+    </td>
+    <td width="20%"> 
+      <div align="center">Y</div>
+    </td>
+    <td width="51%"> 
+      <div align="center"><br>
+        500 miles<br>
+        Actual mileage </div>
+    </td>
+  </tr>
+</table>
+<p>It's shown that your ACMPerk mileage consists of two parts. One is your actual 
+  flight mileage (the minimum ACMPerk mileage for Economy Class for one flight 
+  is 500 miles), the other is the mileage bonus (its accuracy is up to 1 mile) 
+  when you fly in Business Class and First Class. For example, you can earn 1329 
+  ACMPerk miles, 1994 ACMPerk miles and 2658 ACMPerk miles for Y, B or F class 
+  respectively for the fly from Beijing to Tokyo (the actual mileage between Beijing 
+  and Tokyo is 1329 miles). When you fly from Shanghai to Wuhan, you can earn 
+  ACMPerk 500 miles for economy class and ACMPerk 650 miles for business class 
+  (the actual mileage between Shanghai and Wuhan is 433 miles).</p>
+<p> Your task is to help ACM build a program for automatic calculation of ACMPerk 
+  mileage.</p>
+<p><br>
+  <b> Input</b><br>
+  <br>
+  The input file contains several data cases. Each case has many flight records, 
+  each per line. The flight record is in the following format: <br>
+  <br>
+  OriginalCity DistanceCity ActualMiles ClassCode<br>
+  <br>
+  Each case ends with a line of one zero. <br>
+  <br>
+  A line of one # presents the end of the input file.<br>
+</p>
+<p><br>
+  <b>Output</b><br>
+  <br>
+  Output the summary of ACMPerk mileages for each test case, one per line.</p>
+<p><br>
+  <b>Sample Input</b></p>
+<p>Beijing Tokyo 1329 F<br>
+  Shanghai Wuhan 433 Y<br>
+  0<br>
+  #</p>
+<p><br>
+  <b>Sample Output</b></p>
+<p>3158<br>
+</p>

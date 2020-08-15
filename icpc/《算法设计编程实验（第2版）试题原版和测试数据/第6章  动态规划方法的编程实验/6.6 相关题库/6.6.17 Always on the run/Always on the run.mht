@@ -1,0 +1,272 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Always on the run
+Date: Mon, 7 Nov 2011 08:47:14 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC9D29.D91D5560"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX01.522\590.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Always on the run</TITLE>
+<META name=3Ddescription content=3D"Always on the run">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Always on the=20
+  run</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Screeching tires. Searching lights. Wailing sirens. Police cars =
+everywhere.=20
+Trisha Quickfinger did it again! Stealing the `Mona Lisa' had been more=20
+difficult than planned, but being the world's best art thief means =
+expecting the=20
+unexpected. So here she is, the wrapped frame tucked firmly under her =
+arm,=20
+running to catch the northbound metro to Charles-de-Gaulle airport.=20
+<P>But even more important than actually stealing the painting is to =
+shake off=20
+the police that will soon be following her. Trisha's plan is simple: for =
+several=20
+days she will be flying from one city to another, making one flight per =
+day.=20
+When she is reasonably sure that the police has lost her trail, she will =
+fly to=20
+Atlanta and meet her `customer' (known only as Mr. P.) to deliver the =
+painting.=20
+<P>Her plan is complicated by the fact that nowadays, even when you are =
+stealing=20
+expensive art, you have to watch your spending budget. Trisha therefore =
+wants to=20
+spend the least money possible on her escape flights. This is not easy, =
+since=20
+airlines prices and flight availability vary from day to day. The price =
+and=20
+availability of an airline connection depends on the two cities involved =
+and the=20
+day of travel. Every pair of cities has a `flight schedule' which =
+repeats every=20
+few days. The length of the period may be different for each pair of =
+cities and=20
+for each direction.=20
+<P>Although Trisha is a good at stealing paintings, she easily gets =
+confused=20
+when booking airline flights. This is where you come in.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input file=20
+contains the descriptions of several scenarios in which Trisha tries to =
+escape.=20
+Every description starts with a line containing two integers <I>n</I> =
+and=20
+<I>k</I>. <I>n</I> is the number of cities through which Trisha's escape =
+may=20
+take her, and <I>k</I> is the number of flights she will take. The =
+cities are=20
+numbered <!-- MATH: $1, 2, \dots, n$ --><IMG border=3D0 alt=3D"$1, 2, =
+\dots, n$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg1.gif"=20
+width=3D79 height=3D30>, where 1 is Paris, her starting point, and =
+<I>n</I> is=20
+Atlanta, her final destination. The numbers will satisfy <!-- MATH: $2 =
+\le=9F n \le=9F 10$ --><IMG border=3D0 alt=3D"$2 \le=9F n \le=9F 10$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg2.gif"=20
+width=3D88 height=3D30> and <!-- MATH: $1 \le=9F k \le=9F 1000$ --><IMG =
+border=3D0=20
+alt=3D"$1 \le=9F k \le=9F 1000$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg3.gif"=20
+width=3D104 height=3D32>.=20
+<P>Next you are given <I>n</I>(<I>n</I> - 1) flight schedules, one per =
+line,=20
+describing the connection between every possible pair of cities. The =
+first=20
+<I>n</I> - 1 flight schedules correspond to the flights from city 1 to =
+all other=20
+cities ( <!-- MATH: $2, 3, \dots, n$ --><IMG border=3D0 alt=3D"$2, 3, =
+\dots, n$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg4.gif"=20
+width=3D79 height=3D30>), the next <I>n</I> - 1 lines to those from city =
+2 to all=20
+others ( <!-- MATH: $1, 3, 4, \dots, n$ --><IMG border=3D0=20
+alt=3D"$1, 3, 4, \dots, n$" align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg5.gif"=20
+width=3D95 height=3D30>), and so on.=20
+<P>The description of the flight schedule itself starts with an integer=20
+<I>d</I>, the length of the period in days, with <!-- MATH: $1 \le=9F d =
+\le=9F 30$ --><IMG border=3D0 alt=3D"$1 \le=9F d \le=9F 30$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg6.gif"=20
+width=3D86 height=3D32>. Following this are <I>d</I> non-negative =
+integers,=20
+representing the cost of the flight between the two cities on days <!-- =
+MATH: $1, 2, \dots, d$ --><IMG border=3D0 alt=3D"$1, 2, \dots, d$" =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590i=
+mg7.gif"=20
+width=3D77 height=3D32>. A cost of 0 means that there is no flight =
+between the two=20
+cities on that day.=20
+<P>So, for example, the flight schedule ``<TT>3 75 0 80</TT>'' means =
+that on the=20
+first day the flight costs 75, on the second day there is no flight, on =
+the=20
+third day it costs 80, and then the cycle repeats: on the fourth day the =
+flight=20
+costs 75, there is no flight on the fifth day, etc.=20
+<P>The input is terminated by a scenario having <I>n</I> =3D <I>k</I> =
+=3D 0.=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>For =
+each=20
+scenario in the input, first output the number of the scenario, as shown =
+in the=20
+sample output. If it is possible for Trisha to travel <I>k</I> days, =
+starting in=20
+city 1, each day flying to a different city than the day before, and =
+finally=20
+(after <I>k</I> days) arriving in city <I>n</I>, then print ``<TT>The =
+best=20
+flight costs </TT><I>x</I>.'', where <I>x</I> is the least amount that =
+the=20
+<I>k</I> flights can cost.=20
+<P>If it is not possible to travel in such a way, print ``<TT>No flight=20
+possible.</TT>''.=20
+<P>Print a blank line after each scenario.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>3 6
+2 130 150
+3 75 0 80
+7 120 110 0 100 110 120 0
+4 60 70 60 50
+3 0 135 140
+2 70 80
+2 3
+2 0 70
+1 80
+0 0
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>Scenario #1
+The best flight costs 460.
+
+Scenario #2
+No flight possible.
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>1998-03-10</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img1.gif
+
+R0lGODlhTwAeAIAAAAAAAP///yH5BAEAAAEALAAAAABPAB4AQAKGjI+py+0PFwDxTFrzu3hqX4Ha
+ho3miaYGB4GiCpORWMZh6dX2zvf+DwzOdBIcUXh6yZAN2pHjUkKjtUvCisBapMYjQ+kAw8TMsvmM
+Tvu8V636w97K3xly1qi2uhX2Yl5r13dHt4L3VcUFVYios+fIJRfH9/EjaWKZVUm4ydnp+QkaKjqq
+UAAAOw==
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img2.gif
+
+R0lGODlhWAAeAIAAAAAAAP///yH5BAEAAAEALAAAAABYAB4AQAKojI+py+0PYwJ00RovMHheeXRd
+MILmiabqyrYMVkKxS27WF9ozZ5MZrhBteg3NYySkKZfMpvMJjTqSxx0LOCVqiUFu1/vqWbEy8fam
+AU9vOXUxbKwN3dK6/Y7P6/f8rLUv4zFmJkFGY+iBQJXIU4QoKOdHx1ijOLnz+EX4hbJYGVb41zjq
+OJlziioY9wOWZMpDh7QJeCfKmpZ5i/tK2+v7CxwsPExc3FsAADs=
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img3.gif
+
+R0lGODlhaAAgAIAAAAAAAP///yH5BAEAAAEALAAAAABoACAAQALRjI+py+0Po0wAvFplDphhq4Gc
+OJbHh2zTyrbhop6kS9f27eFUrJ87j5LxFENYcWe6HImiWMbZkfWm1Kr1is1qt6ulccZkRRtQafLZ
+BJu/4s1wPFGVoWWP2gFPgSx3Npkkt5d21qf0cWhzqMjF2Oj4CBkpOUlZaXlZE9RV6PVnVxdo4CaI
+V6hnKrqJmsShlyoF2LekGfHEKpoHEQobW2dkGLKaW7pWQhfrGSy7d/tl6jvKWyw0jJeDu5ryGdUR
+yCf4jSk+Tl5ufo6err7O3u6+XgAAOw==
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img4.gif
+
+R0lGODlhTwAeAIAAAAAAAP///yH5BAEAAAEALAAAAABPAB4AQAKPjI+py+0PG5hvgohzsHf3TEWh
+Vn3kiaaqZ4xL6K6y9JnJGM8Qftn6DwwKh8Sig0dr5YypJcPCfNZ8Hk4HerBObVglN9ZVZp1SDLlJ
+jarX7LYbyNmF36Jpsko32+V06PyVdnNGFCdWVoEwSLgnaOWVeAUD5jJXOTm2QeKzFKjS2QQy9JlH
+Wmp6ipqqusqaUAAAOw==
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img5.gif
+
+R0lGODlhXwAeAIAAAAAAAP///yH5BAEAAAEALAAAAABfAB4AQAKojI+py+0PowNA0vowlTxejVkh
+tHlj15Toyrbu+pGg+NZ0FqrTaZvHxusJh8Si8YhMCnWM0iUTYCpb0l3QkLtOVdWPk+nN8rxYsO6J
+QP/Ma62i2nSn5TD69I7P6/f8oz1208cBN1dGpyboMygHZFf0hPjmGEVIWcYHaBlHUrgQVonEpXXG
+RglyJXqCGMlaajkZ5Rk0CWvx2EFrVJvI2+v7CxwsPExcfFQAADs=
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img6.gif
+
+R0lGODlhVgAgAIAAAAAAAP///yH5BAEAAAEALAAAAABWACAAQAKrjI+py+0PYwAAUiovZlqavX2V
+R5ZmEiLpybau9TpXPM2qzY3WioJ6g+PcakOa8YhMKpfMZtETlP2APJFoFKoSqVPpoRqN2FJarbSb
+Dee627HO/NDI4fF5x4nP6/f8vv8PGJh0V0JnlcHm84XFdihm+LTmVYMVadkDeQimxrV46di583VW
+iEHWmHmV+FbReFPG6sgzZ7IqV7hAe7Ul2Ov7CxwsPExcbHyMbFQAADs=
+
+------=_NextPart_000_0000_01CC9D29.D91D5560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX01.522/590img7.gif
+
+R0lGODlhTQAgAIAAAAAAAP///yH5BAEAAAEALAAAAABNACAAQAKLjI+py+0PEwBwHhuznlwHunkZ
+KJbmiX4RR6Zup2BV63qwXOf6zvf+L8IxZEKgo/ihPZBGA1HpbMEuLMw0SbtiJbgnM2bzQZvksvmM
+TqvX7NmXGm0jkO+4XU4fD+s/65gPt0bUADiI9qQyVxWVVQVypRUpJLk4ohdzaQK4kqnYsykXKjpK
+Wmp6ippSAAA7
+
+------=_NextPart_000_0000_01CC9D29.D91D5560--

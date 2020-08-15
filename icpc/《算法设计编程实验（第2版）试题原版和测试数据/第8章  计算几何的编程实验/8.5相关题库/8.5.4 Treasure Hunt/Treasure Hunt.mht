@@ -1,0 +1,208 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Treasure Hunt
+Date: Sat, 11 Feb 2012 16:16:34 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0014_01CCE8D8.85DD13E0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0014_01CCE8D8.85DD13E0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.840\754.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)=0A=
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of =
+Leeds=0A=
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan=0A=
+* with significant contributions from:=0A=
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others =
+--><HTML><HEAD><TITLE>Treasure Hunt</TITLE>
+<META name=3Ddescription content=3D"Treasure Hunt">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3DSTYLESHEET href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000> Treasure=20
+  Hunt</A>&nbsp;</FONT></B></TR></TBODY></TABLE></CENTER></H1>
+<P>Archeologists from the Antiquities and Curios Museum (ACM) have flown =
+to=20
+Egypt to examine the great pyramid of Key-Ops. Using state-of-the-art =
+technology=20
+they are able to determine that the lower floor of the pyramid is =
+constructed=20
+from a series of straightline walls, which intersect to form numerous =
+enclosed=20
+chambers. Currently, no doors exist to allow access to any chamber. This =
+
+state-of-the-art technology has also pinpointed the location of the =
+treasure=20
+room. What these dedicated (and greedy) archeologists want to do is =
+blast doors=20
+through the walls to get to the treasure room. However, to minimize the =
+damage=20
+to the artwork in the intervening chambers (and stay under their =
+government=20
+grant for dynamite) they want to blast through the minimum number of =
+doors. For=20
+structural integrity purposes, doors should only be blasted at the =
+midpoint of=20
+the wall of the room being entered. You are to write a program which =
+determines=20
+this minimum number of doors.=20
+<P>
+<P><BR>An example is shown below:=20
+<P>
+<DIV align=3Dcenter><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.840/p754=
+.gif">=20
+</DIV>
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Input</A>&nbsp;</FONT> </H2>The =
+input will=20
+consist of one case. The first line will be an integer <I>n</I> ( <!-- =
+MATH: $0 \le=9F n \le=9F 30$ --><IMG border=3D0 alt=3D"$0 \le=9F n =
+\le=9F 30$"=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.840/754i=
+mg1.gif"=20
+width=3D88 height=3D30>) specifying number of interior walls, followed =
+by <I>n</I>=20
+lines containing integer endpoints of each wall=20
+<!-- MATH: $x_1 y_1 x_2 y_2$ --><I>x</I><SUB>1</SUB> =
+<I>y</I><SUB>1</SUB>=20
+<I>x</I><SUB>2</SUB> <I>y</I><SUB>2</SUB>. The 4 enclosing walls of the =
+pyramid=20
+have fixed endpoints at (0,0), (0,100), (100,100) and (100,0) and are=20
+<EM>not</EM> included in the list of walls. The interior walls always =
+span from=20
+one exterior wall to another exterior wall and are arranged such that no =
+more=20
+than two walls intersect at any point. You may assume that no two given =
+walls=20
+coincide. After the listing of the interior walls there will be one =
+final line=20
+containing the floating point coordinates of the treasure in the =
+treasure room=20
+(guaranteed not to lie on a wall).=20
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001002000000000000000>Output</A>&nbsp;</FONT> </H2>Print =
+a single=20
+line listing the minimum number of doors which need to be created, in =
+the format=20
+shown below.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>Sample =
+
+Input</A>&nbsp;</FONT> </H2><PRE>7
+20 0 37 100
+40 0 76 100
+85 0 0 75
+100 90 0 90
+0 71 100 61
+0 14 100 38
+100 47 47 100
+54.5 55.4
+</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>Sample =
+
+Output</A>&nbsp;</FONT> </H2><PRE>Number of doors =3D 2
+</PRE>
+<P>
+<P><BR>
+<HR>
+
+<ADDRESS><I>Miguel A. Revilla</I> <BR><I>2000-02-09</I> =
+</ADDRESS></BODY></HTML>
+
+------=_NextPart_000_0014_01CCE8D8.85DD13E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.840/p754.gif
+
+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
+SIooFxVdZyoZwxKDMIXxcCQFAAA7
+
+------=_NextPart_000_0014_01CCE8D8.85DD13E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.840/754img1.gif
+
+R0lGODlhWAAeAOMAAAAAAJmZmXd3d1VVVe7u7jMzM8zMzBEREaqqqoiIiGZmZv///0RERN3d3SIi
+Iru7uyH5BAEAAAsALAAAAABYAB4AQAT+cMlJq7046827AM/EANbDMEa3NALiKM0iKJeJqgvxKEws
+gyISjtJ4GI/I4aWIbCqf0Kh0ukAUCIsAA7dz+KiV7nciEEgKBZ8Vq10CEpMDbRMo3DAPgE/gWMDp
+diklAFsLeQMrb3FzYI2Oj5CRkpOUQwYACBMFiBkmBX+QnqAXApwfIZeZZ5wUp0EYCZtjGAYEBWYS
+DqMVsQOzGx8BPyESI0sODwQKuDiCFg7MAwIMWM0XCQMIAXITDcjKzJXi4+Tl5ufo6Y0PZQnV1pTO
+FQgzCWPsAu4YB8yYHAYDDqiCBFAgBgAHYrhawG+CvwoBgBTrc8EKA2EcyhhokKDMOwuDFjGqQCMh
+IrEFDCi2kohSCIVtAn5haPGh2rQLMGVi0IGg4bBXEFmm1MDnToYGEvOcnOnAKE4febaYFKGSAjQJ
+BFhucOGLVAERAgCq4DqLgMEFCh5ezaGVAoEAYR81+JjMEYEECeTlgKtXybQTgAPrVPE3sGB1iBMr
+Xsy4sePHkCOTiwAAOw==
+
+------=_NextPart_000_0014_01CCE8D8.85DD13E0--

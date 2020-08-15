@@ -1,0 +1,294 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Circle Through Three Points
+Date: Sat, 11 Feb 2012 19:53:49 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_002D_01CCE8F6.DF61A8E0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.851\190.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Circle Through Three Points</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Circle Through Three Points">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17720"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Circle Through Three=20
+      Points</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>Your team is to write a program that, given the Cartesian coordinates =
+of=20
+three points on a plane, will find the equation of the circle through =
+them all.=20
+The three points will not be on a straight line.=20
+<P>The solution is to be printed as an equation of the form=20
+<P>
+<P><IMG alt=3Dequation20 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg1.gif"=20
+width=3D500 height=3D20>=20
+<P>
+<P>and an equation of the form=20
+<P>
+<P><IMG alt=3Dequation25 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg2.gif"=20
+width=3D500 height=3D20>=20
+<P>
+<P>Each line of input to your program will contain the <I>x</I> and =
+<I>y</I>=20
+coordinates of three points, in the order <IMG =
+alt=3Dtex2html_wrap_inline46=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg3.gif"=20
+width=3D19 height=3D25> , <IMG alt=3Dtex2html_wrap_inline48 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg4.gif"=20
+width=3D18 height=3D26> , <IMG alt=3Dtex2html_wrap_inline50 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg5.gif"=20
+width=3D19 height=3D25> , <IMG alt=3Dtex2html_wrap_inline52 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg6.gif"=20
+width=3D18 height=3D26> , <IMG alt=3Dtex2html_wrap_inline54 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg7.gif"=20
+width=3D20 height=3D25> , <IMG alt=3Dtex2html_wrap_inline56 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg8.gif"=20
+width=3D19 height=3D26> . These coordinates will be real numbers =
+separated from each=20
+other by one or more spaces.=20
+<P><IMG=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190i=
+mg9.gif">=20
+
+<P>Your program must print the required equations on two lines using the =
+format=20
+given in the sample below. Your computed values for <I>h</I>, <I>k</I>,=20
+<I>r</I>, <I>c</I>, <I>d</I>, and <I>e</I> in Equations 1 and 2 above =
+are to be=20
+printed with three digits after the decimal point. Plus and minus signs =
+in the=20
+equations should be changed as needed to avoid multiple signs before a =
+number.=20
+Plus, minus, and equal signs must be separated from the adjacent =
+characters by a=20
+single space on each side. No other spaces are to appear in the =
+equations. Print=20
+a single blank line after each equation pair.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001001000000000000000>Sample =
+
+input</A></FONT></H2>
+<P><PRE>7.0 -5.0 -1.0 1.0 0.0 -6.0
+1.0 7.0 8.0 6.0 7.0 -2.0</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>Sample =
+
+output</A></FONT></H2>
+<P><PRE>(x - 3.000)^2 + (y + 2.000)^2 =3D 5.000^2
+x^2 + y^2 - 6.000x + 4.000y - 12.000 =3D 0
+
+(x - 3.921)^2 + (y - 2.447)^2 =3D 5.409^2
+x^2 + y^2 - 7.842x - 4.895y - 7.895 =3D 0</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img1.gif
+
+R0lGODlh9AEUAIAAAAAAAP///yH5BAEAAAEALAAAAAD0ARQAAAL+jI+py+3fgASw2ovZpDnvDobi
+SJbmiabqyrac1MbQy7kGLOf6zvf+P6r5hLcbkXTUEWkyJvAJjUqnlyTC2sGeJgpcV+tpeg9jMnh7
+pqrX7HbouEw/yix6gG5/y0X2cl715yY4SDjo9ZEQOLMXlORHAZamaNInBMMIclm4ydkp1ffVqJQ3
+9jJXMYlEWmPaVOQJGysL6LiQqmELiamhG2rE5SDpe1eC8/h7i2qEvDvr/Cxr5dj8enXXq9pqlqls
+bVwMeX21t1FeeUkNrb7OKZ3Ll7icHOG0ndVtVs9nbEluXv5FH7uBBJ25G3bvXa5/pOw5nMMQWLxE
+AiOukpYOVcaqghw7PjlIEZ4tFIficJvR5WEmbCFjbPQIM6arkQjDeNO2L9+4k6cmihOlaacFi3he
+yjyKtBiumhjifFMlT6jNntaq5QyqMsW8pFy7IlnacuU4gFB/SW2qkaLEnNdMujDqNa7csMz6sY1C
+TRJGJXP7+i2UbCNcPW+G7twq9q/ixVTkIKb7YzA9Mm35Mr6MeYgwpR8lR9A5KrPo0S4XbfnYwzM+
+0qxbfw12oAAAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img2.gif
+
+R0lGODlh9AEUAIAAAAAAAP///yH5BAEAAAEALAAAAAD0ARQAAAL+jI+pCA0Lo3RP2ouz3rz7D4bi
+SJbmiaaqUjVr0FbvTNf2jef6ztvx++sJh8Si8YikySBLk0vZTE6e0mm0is1qjU0H4xqiAsHbg7gM
+e5zR7LZ7RH2K1yAX2XC/2C15J6efFAf4RlhIOPdlNojRwheG5+izQaclaHiJiTkns/mnxkkRyceJ
+Fzqh0UnJkGGaZua0OKqYSVuL1gWaiOqqGtH3CfnH+APcC6MXBHwM15hA8UxpaTtNfXTXyVrqKjwa
+NIkcQ5w3npvmXUfqDP28IF39Dp9DdmbcHrvOznLui++lzjSvH7102rZ96WfPH7NZ8Ro6XAFmTT0W
+j/Qw/Car3a6hKQWDGUSHwt3DkSTr2DuZTY4HQOUwclylUhTAUjE/fuglkI7Ikjx7yuy4ZCLNZtxE
+xXqV8ZipX7L2eDw602OYlj6rWkW6CqtNK61ccoW67OtQhb66tconAu1CoVfbvtuklm2Je2DBrlxY
+Sa7bvbXY2q3IUa/WGXbt/OWLOHFIVoeBmGv4qbHiyZQ7TJQMUfAbspU7e1bxC/Pn0aRL4xh3oAAA
+Ow==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img3.gif
+
+R0lGODlhEwAZAIAAAAAAAP///yH5BAEAAAEALAAAAAATABkAAAIvjB8AyG3qYoKyqVXRolnzik1d
+KGbk55Dlc21WuMVcO3cMCq4jbff+DwwKh8TirwAAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img4.gif
+
+R0lGODlhEgAaAIAAAAAAAP///yH5BAEAAAEALAAAAAASABoAAAIyjB8AyJ3rnIKRzWofbndT5SEg
+RmlVaaYJ90FT+y7uZoCjJ6NRTIv9esP9hsSi8YhMOgoAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img5.gif
+
+R0lGODlhEwAZAIAAAAAAAP///yH5BAEAAAEALAAAAAATABkAAAI1TICZxs3YoIvAyWlurnhT3ilL
+t4FjCHqkdqQWe4ltGrezeGYkult2/5ABh8Si8YhMKpdMRgEAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img6.gif
+
+R0lGODlhEgAaAIAAAAAAAP///yH5BAEAAAEALAAAAAASABoAAAI4TICZxm3YoGOSgmldnXvho2xc
+5WGiGF3pVz5qB2dgqDyH/a2oee1jm6MEI6ChzIhMKpfMpvMZKAAAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img7.gif
+
+R0lGODlhFAAZAIAAAAAAAP///yH5BAEAAAEALAAAAAAUABkAAAI1jA0ZCueXmlMP0inrylhvzz2X
+V0UkGJ4TeI4IFzEp/EnmV2p3mba4aokBh8Si8YhMKpdMYgEAOw==
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img8.gif
+
+R0lGODlhEwAaAIAAAAAAAP///yH5BAEAAAEALAAAAAATABoAAAI5jA0ZCueoXHxrHisbxZAiX4Fg
+ookPZ35eubHdC1+ZSsaNxtZtmHboSnL1hKIbcXTsKZfMpvMJjR4KADs=
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.851/190img9.gif
+
+R0lGODdh0QHgAfEAAP///wAAAP///wAAACwAAAAA0QHgAQAC/oSPqcvtD6OctNqLs968+w+G4kiW
+5omm6sq27gvH8kzX9o3n+s73/g8MCofEovGITCqXzKbzCY1Kp9Sq9YrNarfcrvfLEIjH5LL5jE6r
+1+y2+w2Py+f0uv2Oz+v3/D5a4xcoOEhYaHiImKi4GAfI+AgZKYkYUGk5iZlJ6KjZ6fnpGTBWCVpq
+ysZ5qrrKeicqRtoq+5k6a3tr+xqLy/tY2wscjEl6KWw8+HusvCz4KrDLHF2XLF1tDecMfb2tRs39
+DU6sDU4u4F2Onq5ufb7u/g4/2x5PX28vOX+vv8/fl98PMKBAVBkGGjyIMM2/hAwbvlvoMOKbcRJZ
+Qax4zJLG/o0cO1LExhGjrIsiVXnUuOdkMTQnS64i6XJYSE0eYdWMaQomzkgdO91suROUzqCFet5S
++ZEopKFKU6LMqLKpJqZS6TyVhnRl1UVUt7a5eg3oKK1eNxUsy2cjupssyaLd0xUt2LVkiLlR+zZP
+3K1JyTkz8/du4Lxy9hKdu25wGcVs3BJuYzimY3eM69pB/PjP2cxtK6vzDOvyZM5kIovsm/huHtSZ
+TTvEHA/0Yj2jH7tGWBse69lpc3u9PXD3O9ltAwlXChzgccqumhEnmlyfb3rP1VSfs9xl9HrZh9Mu
+el3kdt3hdac1NF385p3dzZ+nVJ7h+MTxvb8/1D7h/LX1/u336Y8dgALt90160g0ioBz5DbieRAvG
+RkiCAe5EYDUPkoceJAYyiEFFEjJHiSQfwlPhMhe6F6KII65TojEnopjIilZV1CIwL8KoiIwTOlQj
+LjfimCNNP4LT41E6fsaTkEdeU+QsS6bzpGA+6dfgPkP6N0mUcVzJTpX3aFkOmBN9IqYwTZqyYUBc
+NhdKmb2cCYqbBaIZZ0BwniGnZZKdkqdq/dyJ5yJrgshnKWl+A2igKe7JSp9j3pOookWxJ4ujj9YT
+KWD4UdqKpX5i6mUoEXpqYS4mkdpJppL2FhSq2K3iKiaq4rlirNHYumWj8czK0mq4KjPoprD+ylWo
+dF52/piLxNLKorHHvtoqVJWqw6t10HIK7LToVGstNsneqi053Hb71bfghouos7A2tqyLYTkprrom
+sWsuVvASKe+8abTr7jb8rspkvvpqWq81/wJczbhfBXZwL8GSaeo2Cvv5MKF+5VJxJBNLWXA4a7Tb
+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
+WpCFupSPOqtv6gb7lavCWZUPxl29KqqcuV2wGqudmqtLIl3CyqyixaBDiays+iSwlazVGl27Za3S
+mlbP2miXOqwld2LteIyn+q05Z1zcilWkOqtRAljqSq5eZay0iZHlOlTOaqsmiavvqlToequhSK+f
+ua33iq+y6q77KrADG62ZClQB9a9H+asLG6+f+pPeCrH82qYTq7AVe7AIi7F7Wibj0bBvdqjaFLGT
+upAZq7HiOngjC6f2ZFG+ql4hW3ELZbFgeokyq3zwWrPmeJJ9eks7e7GO/uizNLux3ZimQ0u0Krt5
+D8uyP1u0Rsu0lOpBJQutvXi0BgS06yi1W4u1TyuOUZuvXau0ckiwYSu2gVmEHVu2ZzuaPKi2Ccu2
+eeq2/nq1reS1/0i3YDu1WXuRb+u3Tju2QvW3fnhGVKunMTuvJvSyJruRNKm4hnu4woWzM7hJkMux
+Wzm4cbub6ka4mau55FiCnXuzQrG4htq4oztDlhu5xpi3npAos+h2reu6pduvqCi6qcu3k8i6Qku6
+qnuKmIu4OUG7QWu7wSu8vsuo6piQpwA/zTW5r1YK4OO8zhsy2CO519sK1ru8u/sSw3u557i93Yu8
+ndhHz3uP4pu7bae8/uurCrZjvr9bvL0zvit7uuyLvnebgPXLlPLgvfALvsDLv/O7tPE7jJQjwAPM
+jPvrOv2bvP+rv7XDwA0MhQUsOBEswRvojXlzwNCbwHSUOmQDs03xvlWLu/jrfUjkwVmzwWKIwp5o
+NCssuDTYwiqcvvHHfi78wjVsw3LRwTRswu72gD2sDCAsps8nwzn8wzN7xOwHu4QauLPpZ0usMhYc
+w1FMGI5ExIyLajecLjCMNiM8wnG6wF6chlacffFCxmW8PzxcDllcu0Bzxm1MxZRbfGu8LXNMx/K3
+gnKcxpxbx4bWLH3Mbx3DPQ+Bx2qsx39MLYcMSfT6r/Xlxl97GpgG/iqCnLPCl372EMkXTIWPVsk6
+THSgdhpNnEyMLHO4Rnp5t8nkq4QRQYCrzMqW58p2Yso6VpNGScqVC8oFGru0aBCwHDYCGZK5LCu1
+XFmy3MkIAczOkczJRsxTYcxjNTpqYpTLzIHTjM08Es2d4ni798zRu81CxA/ebKfW/IQOxW4YYc7w
+4VKI883MG84Yg17+RiHxbCQYhyFBsc5aqGJ+2RT7PMiP6XBSAdD6J9BN9rwFnSWD2WRvodAycXIN
+nRcPvdARfU5hbA72XJwFdysYzaIa3WGmFp2kQdEVtzwnPaLqYclC885F7EYePaZoG2X0E2CFVNLc
+XDg5ndLIAdKU/rHTaYsmLb3IK+12fsfNMXXTWjSL/4Kh8pTUubbUb/XTaPHUFNpy5jbVttHTzhxs
+KZfVJL3VRa1gAGRaXFjVF/3V8oo6ad1HZ+2XTY23bgjXWerW4DfXxDtRdw2ndf0lawiUWdGrC5rE
+Hhuegf2ji2rYcZ3YTizTi82zjg2YbQvZjz3ZoErU81rZxPbEme3SnD0GfJ3Inn3YSiraeF3aGX3Z
+cHvauxrW4bjaSdoAr226qw3anizbWzrYiQ3TXbzL63rb0ZfaPfvbuL3Zq73b3FDb5DPclt3b2rrc
+Ddnc+vrcMS3Zz33cEtPaPDXdtVrcp33dARPcnvvcyZ3J262WgdFdsOZdBuQ9yeotp+hNse693tkN
+wPLN3qIs3zEZ3rKb3/eNyvmN2vAtqd/dJWBg4AeO4Amu4AvO4A3u4A8O4REu4RNO4RVu4ReO4Rmu
+4RvO4R3u4R8O4iEu4iNO4iVu4ieO4imu4ivO4i3u4i8O4zEu4zNO4zVu4zeO4zmu4yNeAAA7
+
+------=_NextPart_000_002D_01CCE8F6.DF61A8E0--

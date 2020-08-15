@@ -1,0 +1,369 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA4ILGjtOY=?=
+Subject: Stacking Boxes
+Date: Sun, 6 Nov 2011 23:00:25 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CC9CD7.DE8B6200"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\WU YONGHUI\AppData\Local\Temp\Rar$EX00.260\103.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--Converted with LaTeX2HTML 96.1 (Feb 5, 1996) by Nikos Drakos =
+(nikos@cbl.leeds.ac.uk), CBLU, University of Leeds =
+--><HTML><HEAD><TITLE>Stacking Boxes</TITLE>
+<META content=3D"text/html; charset=3Dgb2312" http-equiv=3DContent-Type>
+<META name=3Ddescription content=3D"Stacking Boxes">
+<META name=3Dkeywords content=3Dhtmlatex>
+<META name=3Dresource-type content=3Ddocument>
+<META name=3Ddistribution content=3Dglobal><LINK rel=3DSTYLESHEET =
+href=3D"htmlatex.css">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7601.17699"></HEAD>
+<BODY lang=3DEN bgColor=3D#ffffff>
+<H1><BR clear=3Dall>
+<CENTER>
+<TABLE bgColor=3D#0060f0>
+  <TBODY>
+  <TR>
+    <TD><B><FONT color=3D#c0ffff size=3D5>&nbsp;<A=20
+      name=3DSECTION0001000000000000000000>Stacking=20
+  Boxes</A></FONT>&nbsp;</B></TR></TBODY></TABLE></CENTER></H1>
+<P>
+<H2><FONT color=3D#0070e8><A=20
+name=3DSECTION0001001000000000000000>Background</A></FONT></H2>
+<P>Some concepts in Mathematics and Computer Science are simple in one =
+or two=20
+dimensions but become more complex when extended to arbitrary =
+dimensions.=20
+Consider solving differential equations in several dimensions and =
+analyzing the=20
+topology of an <I>n</I>-dimensional hypercube. The former is much more=20
+complicated than its one dimensional relative while the latter bears a=20
+remarkable resemblance to its ``lower-class'' cousin.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001002000000000000000>The=20
+Problem</A></FONT></H2>
+<P>Consider an <I>n</I>-dimensional ``box'' given by its dimensions. In =
+two=20
+dimensions the box (2,3) might represent a box with length 2 units and =
+width 3=20
+units. In three dimensions the box (4,8,9) can represent a box <IMG=20
+alt=3Dtex2html_wrap_inline40 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg1.gif"=20
+width=3D68 height=3D24> (length, width, and height). In 6 dimensions it =
+is, perhaps,=20
+unclear what the box (4,5,6,7,8,9) represents; but we can analyze =
+properties of=20
+the box such as the sum of its dimensions.=20
+<P>In this problem you will analyze a property of a group of=20
+<I>n</I>-dimensional boxes. You are to determine the longest <EM>nesting =
+
+string</EM> of boxes, that is a sequence of boxes <IMG=20
+alt=3Dtex2html_wrap_inline44 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg2.gif"=20
+width=3D91 height=3D25> such that each box <IMG =
+alt=3Dtex2html_wrap_inline46=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg3.gif"=20
+width=3D11 height=3D25> nests in box <IMG alt=3Dtex2html_wrap_inline48 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg4.gif"=20
+width=3D28 height=3D26> ( <IMG alt=3Dtex2html_wrap_inline50 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg5.gif"=20
+width=3D75 height=3D27> .=20
+<P>A box D =3D ( <IMG alt=3Dtex2html_wrap_inline52 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg6.gif"=20
+width=3D96 height=3D25> ) nests in a box E =3D ( <IMG =
+alt=3Dtex2html_wrap_inline54=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg7.gif"=20
+width=3D93 height=3D17> ) if there is some rearrangement of the <IMG=20
+alt=3Dtex2html_wrap_inline56 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg8.gif"=20
+width=3D13 height=3D25> such that when rearranged each dimension is less =
+than the=20
+corresponding dimension in box E. This loosely corresponds to turning =
+box D to=20
+see if it will fit in box E. However, since any rearrangement suffices, =
+box D=20
+can be contorted, not just turned (see examples below).=20
+<P>For example, the box D =3D (2,6) nests in the box E =3D (7,3) since D =
+can be=20
+rearranged as (6,2) so that each dimension is less than the =
+corresponding=20
+dimension in E. The box D =3D (9,5,7,3) does NOT nest in the box E =3D =
+(2,10,6,8)=20
+since no rearrangement of D results in a box that satisfies the nesting=20
+property, but F =3D (9,5,7,1) does nest in box E since F can be =
+rearranged as=20
+(1,9,5,7) which nests in E.=20
+<P>Formally, we define nesting as follows: box D =3D ( <IMG=20
+alt=3Dtex2html_wrap_inline52 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg6.gif"=20
+width=3D96 height=3D25> ) <EM>nests</EM> in box E =3D ( <IMG=20
+alt=3Dtex2html_wrap_inline54 align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg7.gif"=20
+width=3D93 height=3D17> ) if there is a permutation <IMG =
+alt=3Dtex2html_wrap_inline62=20
+align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg9.gif"=20
+width=3D8 height=3D8> of <IMG alt=3Dtex2html_wrap_inline64 =
+align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg10.gif"=20
+width=3D44 height=3D12> such that ( <IMG alt=3Dtex2html_wrap_inline66 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg11.gif"=20
+width=3D151 height=3D26> ) ``fits'' in ( <IMG =
+alt=3Dtex2html_wrap_inline54=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg7.gif"=20
+width=3D93 height=3D17> ) i.e., if <IMG alt=3Dtex2html_wrap_inline70 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg12.gif"=20
+width=3D68 height=3D26> for all <IMG alt=3Dtex2html_wrap_inline72 =
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg13.gif"=20
+width=3D70 height=3D25> .=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001003000000000000000>The=20
+Input</A></FONT></H2>
+<P>The input consists of a series of box sequences. Each box sequence =
+begins=20
+with a line consisting of the the number of boxes <I>k</I> in the =
+sequence=20
+followed by the dimensionality of the boxes, <I>n</I> (on the same =
+line.)=20
+<P>This line is followed by <I>k</I> lines, one line per box with the =
+<I>n</I>=20
+measurements of each box on one line separated by one or more spaces. =
+The <IMG=20
+alt=3Dtex2html_wrap_inline82 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg14.gif"=20
+width=3D18 height=3D15> line in the sequence ( <IMG =
+alt=3Dtex2html_wrap_inline84=20
+align=3Dmiddle=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg15.gif"=20
+width=3D69 height=3D26> ) gives the measurements for the <IMG=20
+alt=3Dtex2html_wrap_inline82 align=3Dbottom=20
+src=3D"file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103i=
+mg14.gif"=20
+width=3D18 height=3D15> box.=20
+<P>There may be several box sequences in the input file. Your program =
+should=20
+process all of them and determine, for each sequence, which of the =
+<I>k</I>=20
+boxes determine the longest nesting string and the length of that =
+nesting string=20
+(the number of boxes in the string).=20
+<P>In this problem the maximum dimensionality is 10 and the minimum=20
+dimensionality is 1. The maximum number of boxes in a sequence is 30.=20
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001004000000000000000>The=20
+Output</A></FONT></H2>
+<P>For each box sequence in the input file, output the length of the =
+longest=20
+nesting string on one line followed on the next line by a list of the =
+boxes that=20
+comprise this string in order. The ``smallest'' or ``innermost'' box of =
+the=20
+nesting string should be listed first, the next box (if there is one) =
+should be=20
+listed second, etc.=20
+<P>The boxes should be numbered according to the order in which they =
+appeared in=20
+the input file (first box is box 1, etc.).=20
+<P>If there is more than one longest nesting string then any one of them =
+can be=20
+output.=20
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001005000000000000000>Sample =
+
+Input</A></FONT></H2>
+<P><PRE>5 2
+3 7
+8 10
+5 2
+9 11
+21 18
+8 6
+5 2 20 1 30 10
+23 15 7 9 11 3
+40 50 34 24 14 4
+9 10 11 12 13 14
+31 4 18 8 27 17
+44 32 13 19 41 19
+1 2 3 4 5 6
+80 37 47 18 21 9</PRE>
+<P>
+<H2><FONT color=3D#0070e8><A name=3DSECTION0001006000000000000000>Sample =
+
+Output</A></FONT></H2>
+<P><PRE>5
+3 1 2 4 5
+4
+7 2 5 6</PRE>
+<P></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img1.gif
+
+R0lGODlhRAAYAIAAAAAAAP///yH5BAEAAAEALAAAAABEABgAAAKIjA2ny42QnJQwLjtzgE/rumGh
+9ykc6ZybqTIi0qgt7KaWvNrXG0b8PDvIfDSKcFLhHYuxW+KkFD6jvaB0RHHmtkgqJ9n9TJPkrpeV
+pbpE6m+UrbNeO6YwvTbf5df36o/917eHxSdnhNek9JOG0uj4CBkpOUlZaXmJmam5ydnp+QkaKjpK
+WhpaAAA7
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img2.gif
+
+R0lGODlhWwAZAIAAAAAAAP///yH5BAEAAAEALAAAAABbABkAAAKnhBGpy3vYopx0vmoqzbp7zW3Q
+54zkSYaWearoi7ER4nq0DOfKvfJpVtPBDoFgEWJcJZLC33IU4kRxDCmS2Gxdd1CuF/PdZj/Q7u5Z
+BqGXzzF5zS7Kj6V6tV0Vl1hYrqmmJ/fQhwfnJzPF50J49LdIyDiDaEPj4HYGEpl3ZxM3d0nVgCTS
+F5pXeukJRpeiYzqUGis7S1tre4ubq7vL2+v7CxwsPEwMUwAAOw==
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img3.gif
+
+R0lGODlhCwAZAIAAAAAAAP///yH5BAEAAAEALAAAAAALABkAAAIlhBGpaevtFIwBTdluRRvDeWAP
+81mkeHDVSnWtSWntTNf2jed4AQA7
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img4.gif
+
+R0lGODlhHAAaAIAAAAAAAP///yH5BAEAAAEALAAAAAAcABoAAAJIhBGpy73mokxw2oeuRlXHE3Qe
+U3XilpmZcoYpuzptSZVx3dAunN+7awrBDiCcREVUTTgkXwvTaxY9zxHUis1qt9yu9wsOixUFADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img5.gif
+
+R0lGODlhSwAbAIAAAAAAAP///yH5BAEAAAEALAAAAABLABsAAAKSjI+py+2fgJKwIkCtw/lgw3UV
+t4na8k2d2ZDni7IpaM1w2dpXxkZ6XvvtQKJZj3icBIS7JHG5XPFyzFjVBXHZjA9stuf9gqcj55MR
+Bgq5weTHXfVI3j7PK/00x6P84jxkdoGGp8KUErZ3oxgVqLT4CKnSBkgYedJomTmoyQmD2QkaKjpK
+Wmp6ipqqusra6vpKWgAAOw==
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img6.gif
+
+R0lGODlhYAAZAIAAAAAAAP///yH5BAEAAAEALAAAAABgABkAAAKojA15y70JnJy0OmhRzFPxD16b
+NYaPiYYl5aVB68YiiaXQKss3u8Gf58vZerhDK0gzFoWg4/I1WiEZR+WUKal2iNSnUmMEYzNAb9mZ
+hCq44/RuzV0/SkH4qyue42rWL16ucbbjF9h1Qxflw9enx2j1dhdZUfcTQdcmOdlDJtWEENbm9WfJ
+wyeqpzV2+rX4o4O5iik7S1tre4ubq7vL2+v7CxwsPExcTFsAADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img7.gif
+
+R0lGODlhXQARAIAAAAAAAP///yH5BAEAAAEALAAAAABdABEAAAKEjAGmy33popy0IXoDrCxvDoaL
+J2Wa+CgfypbbOiKmBjuyebe6mrt2bYFBZjsRMXKkcY5DYBEjTHhevE5UZU1ZV7JtLIh9TLvVGLdX
+pp3XXt6aNITaQJePc3cv55mh+OE5tyQlhYR2Ikh2CDhCN5gXqPPIIrlYaXmJmam5ydnp+QkaulkA
+ADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img8.gif
+
+R0lGODlhDQAZAIAAAAAAAP///yH5BAEAAAEALAAAAAANABkAAAIqjA15u8oMHowyJDcRbRvbe2ya
+44XUdUbKan7oaVWtHItPSef6zvf+DywAADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img9.gif
+
+R0lGODlhCAAIAIAAAAAAAP///yH5BAEAAAEALAAAAAAIAAgAAAIODI6pYMwBH4xuthupxgUAOw==
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img10.gif
+
+R0lGODlhLAAMAIAAAAAAAP///yH5BAEAAAEALAAAAAAsAAwAAAI2jGGpy+0LInq02mmzPrtfv0UH
+xoGfGKClSUmTmrIXRsZy+9b1DeX239PBUkOazVVMCkkqSaAAADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img11.gif
+
+R0lGODlhlwAaAIAAAAAAAP///yH5BAEAAAEALAAAAACXABoAAAL+jA15y+3/EoC02ouRynnz73jg
+SFpi2Uwoqa6u277HKVd0jdvxK+15KvkJIb3a5iY8+oY/pcyDZCw50KmUyWpFF9aZ1mTdemdgYpcJ
+LZsDTps0dtbI3RpRPKkSs03sfDCyYxenFJXWN4YV4lc4GKSg1TNxIsjl8yjpVWRYhVgZOEn5dgip
+CXmYGblYKtrZ9xlZt8p66vr2autpW+QqG1sZUdtKO4xwIRnaOtlkHDyHuSd8Bff5y0UFPSdnSpZz
+RzaNCE5EC1rNjXGcXJyNbXTNqf3MSD79p4yeng3L7n2NTz/mDzE1a3CI0ZOIYEF/45ZR6JfwIR8Q
+85qEgRgR0EMfjNYydvQ4hCPIkSRLmjyJMqXKlSxbunwJM6bMmTUKAAA7
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img12.gif
+
+R0lGODlhRAAaAIAAAAAAAP///yH5BAEAAAEALAAAAABEABoAAAKLjA15y+0Pozxq2oslyLzj6nVg
+mIyhVaJbU5knlE4tA7rPmsUyzut4VFvZAjpVsST8wRY12NDxbBVZSmbVeqVqFVxsKmjdiRGIDdJ3
+NvfCuyiSnIWPZr8nNQ7Fw9nEuv5FFAjUR8EjSAgIpMe1VsaXCFnoFElJsVRZaWOHScLp+QkaKjpK
+Wmp6ilpZAAA7
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img13.gif
+
+R0lGODlhRgAZAIAAAAAAAP///yH5BAEAAAEALAAAAABGABkAAAJ7jGGpy52AnJwMQlqv1DjYXoEe
+J25k6YEnmrFLNH3d+tLt+MZ2g9gy1ouQYJldkfj4USxCIrIoMip1j9zsycPeqDiFNvvFhZNhzQU2
+hmZTKl+1ySxp4/L1wejK6/f8fpQJmAYWiOdneIiYqLjI2Oj4CBkpOUlZaXmJKVIAADs=
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img14.gif
+
+R0lGODlhEgAPAIAAAAAAAP///yH5BAEAAAEALAAAAAASAA8AAAIrjI8HkL3KGoqGwrpeYHrbz0ne
+tYndo3VlxGYjxsKZJZJ1ot4jXaM6lKsVAAA7
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Users/WU%20YONGHUI/AppData/Local/Temp/Rar$EX00.260/103img15.gif
+
+R0lGODlhRQAaAIAAAAAAAP///yH5BAEAAAEALAAAAABFABoAAAKAjGGpy52AnHQwnjobljCrrVmf
+93QkCVLic5qn53Ixm6XTzNjqNcrrHcBdfrJg0EIcJkPCyjJncj2P089TpyJWebCt0HrMvbAlY3fZ
+SffGX3WriXA7v5Tsdg2mvvb8vv8PGGg15+RHOCeYqLjI2Oj4CBkpOUlZaXmJmam5ydlpWQAAOw==
+
+------=_NextPart_000_0000_01CC9CD7.DE8B6200--

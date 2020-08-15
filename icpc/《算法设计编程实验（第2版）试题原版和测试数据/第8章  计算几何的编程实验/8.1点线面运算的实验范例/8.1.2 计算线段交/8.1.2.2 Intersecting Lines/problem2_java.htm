@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://www.acm.inf.ethz.ch/ProblemSetArchive/B_US_MidAtl/1996/problem2.java -->
+<HTML><HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2920.0" name=GENERATOR></HEAD>
+<BODY><XMP>// by Dan Joyce
+// solves Problem 2: Intersecting Lines
+// of 1996 Mid Atlantic Programming Contest
+
+// input is a list of pairs of coordinates that define pairs of lines 
+// output ids each pair of lines as intersecting, parallel, or equal 
+
+import java.io.*;
+import common.doinput;
+
+class problem2 {
+
+  public static void main (String [] args) throws IOException {
+
+    float slope1val = 0, slope2val = 0; 
+    int N, i;
+    int x1, y1, x2, y2, x3, y3, x4, y4;
+    boolean slope1, slope2;   // false means no slope
+    boolean eqslope;
+    String num_string;
+    float b1, b2;             // y-intercepts
+    float xval=0, yval=0;     // point of intersection
+
+    doinput myinput = new doinput();
+
+    System.out.println ("INTERSECTING LINES OUTPUT");
+
+    N = myinput.nextint();
+
+    for (i = 1; i <= N; i++) {
+
+      x1 = myinput.nextint();    
+      y1 = myinput.nextint();
+      x2 = myinput.nextint();
+      y2 = myinput.nextint();
+      x3 = myinput.nextint();
+      y3 = myinput.nextint();
+      x4 = myinput.nextint();
+      y4 = myinput.nextint();
+
+      if (x1 == x2)
+         slope1 = false;
+      else { slope1 = true;
+             slope1val = ((float)(y2-y1))/((float)(x2-x1)); }
+
+      if (x3 == x4)
+         slope2 = false;
+      else { slope2 = true;
+             slope2val = ((float)(y4-y3))/((float)(x4-x3)); }
+
+      if ((!slope1) && (!slope2))
+         eqslope = true;
+      else if ((!slope1) || (!slope2))
+              eqslope = false;
+           else if (slope1val == slope2val)
+                  eqslope = true;
+                else eqslope = false;
+
+      if (eqslope)
+        { if ((!slope1) && (x1 == x3))
+             System.out.println ("LINE");   // identical vertical lines
+          if ((!slope1) && (x1 != x3))
+             System.out.println ("NONE");   // parallel vertical lines
+
+          // next handle non vertical lines with the same slope
+          // by determining if the have the same y intercepts
+          if (slope1)  {
+            b1 = (float)(y1) - (slope1val) * (float)(x1);
+            b2 = (float)(y3) - (slope2val) * (float)(x3);
+            if (b1 == b2) 
+               System.out.println ("LINE");
+            else System.out.println ("NONE");
+            }
+        }
+      else      // not the same slope
+      {  if (!slope1)
+           { xval = x1;
+             b2 = (float)(y4) - (slope2val) * (float)(x4);
+             yval = (slope2val * xval) + b2;}
+        else { if (!slope2)
+                 { xval = x3;
+                   b1 = (float)(y1) - (slope1val) * (float)(x1);
+                   yval = (slope1val * xval) + b1;}
+               else { 
+                     b1 = (float)(y1) - (slope1val) * (float)(x1);
+                     b2 = (float)(y3) - (slope2val) * (float)(x3);
+                     xval = (b2-b1)/(slope1val-slope2val);
+                     yval = (slope1val * xval) + b1;
+                     }
+                 }
+       xval = (float) (Math.round(xval * 100) / 100.0);
+       yval = (float) (Math.round(yval * 100) / 100.0);
+       System.out.println ("POINT " + xval + " " + yval);
+       }
+     }
+    System.out.println ("END OF OUTPUT");
+  }
+}
+
+</XMP></BODY></HTML>
